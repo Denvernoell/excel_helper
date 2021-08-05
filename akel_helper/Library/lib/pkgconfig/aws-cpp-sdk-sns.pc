@@ -1,0 +1,10 @@
+includedir=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/include
+libdir=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/lib
+
+Name: aws-cpp-sdk-sns
+Description: 
+Version: 1.8.186
+Cflags: -I${includedir} 
+Libs: -L${libdir} -laws-cpp-sdk-sns 
+Libs.private: 
+Requires:  aws-cpp-sdk-core

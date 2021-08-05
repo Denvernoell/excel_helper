@@ -1,0 +1,3588 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "altair >=3.2.0",
+    "astor",
+    "base58",
+    "blinker",
+    "boto3",
+    "botocore >=1.13.44",
+    "cachetools >=4.0",
+    "click >=7.0,<8.0",
+    "gitpython",
+    "numpy",
+    "packaging",
+    "pandas >=0.21.0,<1.3.0",
+    "pillow >=6.2.0",
+    "protobuf >=3.6.0,!=3.11",
+    "pyarrow",
+    "pydeck >=0.1.dev5",
+    "python >=3.6",
+    "python-dateutil",
+    "requests",
+    "toml",
+    "tornado >=5.0",
+    "tzlocal",
+    "validators",
+    "watchdog"
+  ],
+  "extracted_package_dir": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\streamlit-0.85.1-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Scripts/streamlit.cmd",
+    "Lib/site-packages/streamlit-0.85.1.dist-info/INSTALLER",
+    "Lib/site-packages/streamlit-0.85.1.dist-info/METADATA",
+    "Lib/site-packages/streamlit-0.85.1.dist-info/RECORD",
+    "Lib/site-packages/streamlit-0.85.1.dist-info/REQUESTED",
+    "Lib/site-packages/streamlit-0.85.1.dist-info/WHEEL",
+    "Lib/site-packages/streamlit-0.85.1.dist-info/direct_url.json",
+    "Lib/site-packages/streamlit-0.85.1.dist-info/entry_points.txt",
+    "Lib/site-packages/streamlit-0.85.1.dist-info/top_level.txt",
+    "Lib/site-packages/streamlit/__init__.py",
+    "Lib/site-packages/streamlit/__main__.py",
+    "Lib/site-packages/streamlit/beta_util.py",
+    "Lib/site-packages/streamlit/bootstrap.py",
+    "Lib/site-packages/streamlit/caching.py",
+    "Lib/site-packages/streamlit/case_converters.py",
+    "Lib/site-packages/streamlit/cli.py",
+    "Lib/site-packages/streamlit/code_util.py",
+    "Lib/site-packages/streamlit/commands/__init__.py",
+    "Lib/site-packages/streamlit/commands/page_config.py",
+    "Lib/site-packages/streamlit/components/__init__.py",
+    "Lib/site-packages/streamlit/components/v1/__init__.py",
+    "Lib/site-packages/streamlit/components/v1/component_arrow.py",
+    "Lib/site-packages/streamlit/components/v1/components.py",
+    "Lib/site-packages/streamlit/config.py",
+    "Lib/site-packages/streamlit/config_option.py",
+    "Lib/site-packages/streamlit/config_util.py",
+    "Lib/site-packages/streamlit/credentials.py",
+    "Lib/site-packages/streamlit/cursor.py",
+    "Lib/site-packages/streamlit/delta_generator.py",
+    "Lib/site-packages/streamlit/development.py",
+    "Lib/site-packages/streamlit/elements/__init__.py",
+    "Lib/site-packages/streamlit/elements/alert.py",
+    "Lib/site-packages/streamlit/elements/arrow.py",
+    "Lib/site-packages/streamlit/elements/arrow_altair.py",
+    "Lib/site-packages/streamlit/elements/arrow_vega_lite.py",
+    "Lib/site-packages/streamlit/elements/balloons.py",
+    "Lib/site-packages/streamlit/elements/bokeh_chart.py",
+    "Lib/site-packages/streamlit/elements/button.py",
+    "Lib/site-packages/streamlit/elements/checkbox.py",
+    "Lib/site-packages/streamlit/elements/color_picker.py",
+    "Lib/site-packages/streamlit/elements/dataframe_selector.py",
+    "Lib/site-packages/streamlit/elements/deck_gl_json_chart.py",
+    "Lib/site-packages/streamlit/elements/doc_string.py",
+    "Lib/site-packages/streamlit/elements/empty.py",
+    "Lib/site-packages/streamlit/elements/exception.py",
+    "Lib/site-packages/streamlit/elements/file_uploader.py",
+    "Lib/site-packages/streamlit/elements/form.py",
+    "Lib/site-packages/streamlit/elements/graphviz_chart.py",
+    "Lib/site-packages/streamlit/elements/iframe.py",
+    "Lib/site-packages/streamlit/elements/image.py",
+    "Lib/site-packages/streamlit/elements/json.py",
+    "Lib/site-packages/streamlit/elements/layouts.py",
+    "Lib/site-packages/streamlit/elements/legacy_altair.py",
+    "Lib/site-packages/streamlit/elements/legacy_data_frame.py",
+    "Lib/site-packages/streamlit/elements/legacy_vega_lite.py",
+    "Lib/site-packages/streamlit/elements/lib/__init__.py",
+    "Lib/site-packages/streamlit/elements/lib/dicttools.py",
+    "Lib/site-packages/streamlit/elements/map.py",
+    "Lib/site-packages/streamlit/elements/markdown.py",
+    "Lib/site-packages/streamlit/elements/media.py",
+    "Lib/site-packages/streamlit/elements/multiselect.py",
+    "Lib/site-packages/streamlit/elements/number_input.py",
+    "Lib/site-packages/streamlit/elements/plotly_chart.py",
+    "Lib/site-packages/streamlit/elements/progress.py",
+    "Lib/site-packages/streamlit/elements/pyplot.py",
+    "Lib/site-packages/streamlit/elements/radio.py",
+    "Lib/site-packages/streamlit/elements/select_slider.py",
+    "Lib/site-packages/streamlit/elements/selectbox.py",
+    "Lib/site-packages/streamlit/elements/slider.py",
+    "Lib/site-packages/streamlit/elements/text.py",
+    "Lib/site-packages/streamlit/elements/text_widgets.py",
+    "Lib/site-packages/streamlit/elements/time_widgets.py",
+    "Lib/site-packages/streamlit/elements/utils.py",
+    "Lib/site-packages/streamlit/elements/write.py",
+    "Lib/site-packages/streamlit/env_util.py",
+    "Lib/site-packages/streamlit/error_util.py",
+    "Lib/site-packages/streamlit/errors.py",
+    "Lib/site-packages/streamlit/file_util.py",
+    "Lib/site-packages/streamlit/folder_black_list.py",
+    "Lib/site-packages/streamlit/forward_msg_cache.py",
+    "Lib/site-packages/streamlit/git_util.py",
+    "Lib/site-packages/streamlit/hashing.py",
+    "Lib/site-packages/streamlit/hello/__init__.py",
+    "Lib/site-packages/streamlit/hello/demos.py",
+    "Lib/site-packages/streamlit/hello/hello.py",
+    "Lib/site-packages/streamlit/js_number.py",
+    "Lib/site-packages/streamlit/logger.py",
+    "Lib/site-packages/streamlit/magic.py",
+    "Lib/site-packages/streamlit/media_file_manager.py",
+    "Lib/site-packages/streamlit/metrics.py",
+    "Lib/site-packages/streamlit/metrics_util.py",
+    "Lib/site-packages/streamlit/net_util.py",
+    "Lib/site-packages/streamlit/policy.py",
+    "Lib/site-packages/streamlit/proto/Alert_pb2.py",
+    "Lib/site-packages/streamlit/proto/ArrowNamedDataSet_pb2.py",
+    "Lib/site-packages/streamlit/proto/ArrowVegaLiteChart_pb2.py",
+    "Lib/site-packages/streamlit/proto/Arrow_pb2.py",
+    "Lib/site-packages/streamlit/proto/Audio_pb2.py",
+    "Lib/site-packages/streamlit/proto/BackMsg_pb2.py",
+    "Lib/site-packages/streamlit/proto/Balloons_pb2.py",
+    "Lib/site-packages/streamlit/proto/Block_pb2.py",
+    "Lib/site-packages/streamlit/proto/BokehChart_pb2.py",
+    "Lib/site-packages/streamlit/proto/Button_pb2.py",
+    "Lib/site-packages/streamlit/proto/Checkbox_pb2.py",
+    "Lib/site-packages/streamlit/proto/ClientState_pb2.py",
+    "Lib/site-packages/streamlit/proto/ColorPicker_pb2.py",
+    "Lib/site-packages/streamlit/proto/Common_pb2.py",
+    "Lib/site-packages/streamlit/proto/Components_pb2.py",
+    "Lib/site-packages/streamlit/proto/DataFrame_pb2.py",
+    "Lib/site-packages/streamlit/proto/DateInput_pb2.py",
+    "Lib/site-packages/streamlit/proto/DeckGlJsonChart_pb2.py",
+    "Lib/site-packages/streamlit/proto/Delta_pb2.py",
+    "Lib/site-packages/streamlit/proto/DocString_pb2.py",
+    "Lib/site-packages/streamlit/proto/Element_pb2.py",
+    "Lib/site-packages/streamlit/proto/Empty_pb2.py",
+    "Lib/site-packages/streamlit/proto/Exception_pb2.py",
+    "Lib/site-packages/streamlit/proto/Favicon_pb2.py",
+    "Lib/site-packages/streamlit/proto/FileUploader_pb2.py",
+    "Lib/site-packages/streamlit/proto/ForwardMsg_pb2.py",
+    "Lib/site-packages/streamlit/proto/GitInfo_pb2.py",
+    "Lib/site-packages/streamlit/proto/GraphVizChart_pb2.py",
+    "Lib/site-packages/streamlit/proto/IFrame_pb2.py",
+    "Lib/site-packages/streamlit/proto/Image_pb2.py",
+    "Lib/site-packages/streamlit/proto/Json_pb2.py",
+    "Lib/site-packages/streamlit/proto/Markdown_pb2.py",
+    "Lib/site-packages/streamlit/proto/MultiSelect_pb2.py",
+    "Lib/site-packages/streamlit/proto/NamedDataSet_pb2.py",
+    "Lib/site-packages/streamlit/proto/NewReport_pb2.py",
+    "Lib/site-packages/streamlit/proto/NumberInput_pb2.py",
+    "Lib/site-packages/streamlit/proto/PageConfig_pb2.py",
+    "Lib/site-packages/streamlit/proto/PageInfo_pb2.py",
+    "Lib/site-packages/streamlit/proto/PlotlyChart_pb2.py",
+    "Lib/site-packages/streamlit/proto/Progress_pb2.py",
+    "Lib/site-packages/streamlit/proto/Radio_pb2.py",
+    "Lib/site-packages/streamlit/proto/RootContainer_pb2.py",
+    "Lib/site-packages/streamlit/proto/Selectbox_pb2.py",
+    "Lib/site-packages/streamlit/proto/SessionEvent_pb2.py",
+    "Lib/site-packages/streamlit/proto/SessionState_pb2.py",
+    "Lib/site-packages/streamlit/proto/Slider_pb2.py",
+    "Lib/site-packages/streamlit/proto/StaticManifest_pb2.py",
+    "Lib/site-packages/streamlit/proto/TextArea_pb2.py",
+    "Lib/site-packages/streamlit/proto/TextInput_pb2.py",
+    "Lib/site-packages/streamlit/proto/Text_pb2.py",
+    "Lib/site-packages/streamlit/proto/TimeInput_pb2.py",
+    "Lib/site-packages/streamlit/proto/VegaLiteChart_pb2.py",
+    "Lib/site-packages/streamlit/proto/Video_pb2.py",
+    "Lib/site-packages/streamlit/proto/WidgetStates_pb2.py",
+    "Lib/site-packages/streamlit/proto/__init__.py",
+    "Lib/site-packages/streamlit/report.py",
+    "Lib/site-packages/streamlit/report_queue.py",
+    "Lib/site-packages/streamlit/report_session.py",
+    "Lib/site-packages/streamlit/report_thread.py",
+    "Lib/site-packages/streamlit/script_request_queue.py",
+    "Lib/site-packages/streamlit/script_runner.py",
+    "Lib/site-packages/streamlit/secrets.py",
+    "Lib/site-packages/streamlit/server/__init__.py",
+    "Lib/site-packages/streamlit/server/routes.py",
+    "Lib/site-packages/streamlit/server/server.py",
+    "Lib/site-packages/streamlit/server/server_util.py",
+    "Lib/site-packages/streamlit/server/upload_file_request_handler.py",
+    "Lib/site-packages/streamlit/source_util.py",
+    "Lib/site-packages/streamlit/state/__init__.py",
+    "Lib/site-packages/streamlit/state/session_state.py",
+    "Lib/site-packages/streamlit/state/widgets.py",
+    "Lib/site-packages/streamlit/static/asset-manifest.json",
+    "Lib/site-packages/streamlit/static/assets/streamlit.css",
+    "Lib/site-packages/streamlit/static/favicon.png",
+    "Lib/site-packages/streamlit/static/index.html",
+    "Lib/site-packages/streamlit/static/static/css/6.099fba4a.chunk.css",
+    "Lib/site-packages/streamlit/static/static/css/7.41c38bce.chunk.css",
+    "Lib/site-packages/streamlit/static/static/css/main.96896fe2.chunk.css",
+    "Lib/site-packages/streamlit/static/static/js/0.43cfaf97.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/1.9ac4ac20.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/1.9ac4ac20.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/10.e7b9ec46.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/11.4b228120.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/12.548b3499.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/12.548b3499.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/13.a83f2b1a.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/14.23fd153a.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/14.23fd153a.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/15.7ecd76b9.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/15.7ecd76b9.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/16.fe599da9.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/16.fe599da9.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/17.f67674d2.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/18.2727a480.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/19.f8940475.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/19.f8940475.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/2.b62f8fde.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/20.7c636273.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/20.7c636273.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/21.727ff15e.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/21.727ff15e.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/22.409b16c8.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/22.409b16c8.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/23.48af0a8a.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/24.f001956b.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/25.c39f8283.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/26.f61d1698.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/26.f61d1698.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/27.add8f3dd.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/27.add8f3dd.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/28.5d111ce1.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/28.5d111ce1.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/29.f050d40b.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/29.f050d40b.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/3.d9d357d0.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/3.d9d357d0.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/30.e0e37323.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/30.e0e37323.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/31.d2c8ea0e.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/31.d2c8ea0e.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/32.cba865ea.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/32.cba865ea.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/33.8e808b64.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/33.8e808b64.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/34.4f91131c.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/34.4f91131c.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/35.91e0b731.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/36.0dff06e9.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/37.1c54f7c6.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/38.c4662576.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/39.3105eabb.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/40.ae4d837a.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/41.f1656a2e.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/6.bf207d16.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/6.bf207d16.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/7.2911d042.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/7.2911d042.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/8.3b7c5d32.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/8.3b7c5d32.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/9.27f7429c.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/main.0a886398.chunk.js",
+    "Lib/site-packages/streamlit/static/static/js/main.0a886398.chunk.js.LICENSE.txt",
+    "Lib/site-packages/streamlit/static/static/js/runtime-main.40cac32e.js",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexMono-Regular.bee53c8c.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSans-Bold.5a0eb98b.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSans-BoldItalic.d5548132.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSans-Italic.5c9d4db4.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSans-Light.0a619f93.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSans-LightItalic.3a1f5a16.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSans-Medium.c401b936.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSans-MediumItalic.3046879d.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSans-Regular.71a4981f.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSerif-Bold.58c7f8d5.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSerif-BoldItalic.346afa5a.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSerif-Italic.bc84e537.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSerif-Light.2e84bbf0.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSerif-LightItalic.1979fd74.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSerif-Medium.283fca3d.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSerif-MediumItalic.fe93e7da.ttf",
+    "Lib/site-packages/streamlit/static/static/media/IBMPlexSerif-Regular.9e4f976f.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.b1489df1.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.d4531cf7.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.f80d9eaf.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.0c96bc8f.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.7ce7636b.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.f046a374.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.35f3c951.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.4519ba4c.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.4a559f36.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.069514d4.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.2ea3916b.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.5b8749ee.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.0d90113d.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.2c629b06.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.96556db6.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-Bold.07e762d0.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-Bold.20b90c20.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-Bold.a9cdbc85.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.7649d52f.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.b345de5b.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.bc8d96e9.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-Italic.44a32ae6.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-Italic.ab751a9e.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-Italic.e3954fe9.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-Regular.13b3f852.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-Regular.9e75cd60.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Main-Regular.af7fc7b3.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.4d6241be.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.94810ff6.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.d5d35e84.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Math-Italic.11278d36.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Math-Italic.cae7ea26.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Math-Italic.ffda8803.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.2946bdb5.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.5a20a475.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.f0ad0abc.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.c7feacd5.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.c834ba6d.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.e5fc2aef.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.5af9e1cf.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.5bf28900.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.a4fd0563.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Script-Regular.a1c15978.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Script-Regular.cd3b0634.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Script-Regular.dd0db7ae.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.1876361f.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.bbd9552c.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.c4ae0d25.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.635e9324.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.d1e8ff17.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.f516b73c.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.1ef7adae.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.5d632274.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.f32a9fde.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.1d132596.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.4f012d6a.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.f668d566.woff",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.4f31d033.woff2",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.b1d1af1a.ttf",
+    "Lib/site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.d3c8e68f.woff",
+    "Lib/site-packages/streamlit/static/vendor/viz/viz-1.8.0.min.js",
+    "Lib/site-packages/streamlit/static/vendor/viz/viz.js-LICENSE.txt",
+    "Lib/site-packages/streamlit/storage/__init__.py",
+    "Lib/site-packages/streamlit/storage/abstract_storage.py",
+    "Lib/site-packages/streamlit/storage/file_storage.py",
+    "Lib/site-packages/streamlit/storage/s3_storage.py",
+    "Lib/site-packages/streamlit/string_util.py",
+    "Lib/site-packages/streamlit/temporary_directory.py",
+    "Lib/site-packages/streamlit/type_util.py",
+    "Lib/site-packages/streamlit/uploaded_file_manager.py",
+    "Lib/site-packages/streamlit/url_util.py",
+    "Lib/site-packages/streamlit/util.py",
+    "Lib/site-packages/streamlit/version.py",
+    "Lib/site-packages/streamlit/watcher/__init__.py",
+    "Lib/site-packages/streamlit/watcher/event_based_file_watcher.py",
+    "Lib/site-packages/streamlit/watcher/file_watcher.py",
+    "Lib/site-packages/streamlit/watcher/local_sources_watcher.py",
+    "Lib/site-packages/streamlit/watcher/polling_file_watcher.py",
+    "Lib/site-packages/streamlit/watcher/util.py",
+    ".nonadmin",
+    "Lib/site-packages/streamlit/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/__main__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/beta_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/bootstrap.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/caching.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/case_converters.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/cli.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/code_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/commands/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/commands/__pycache__/page_config.cpython-39.pyc",
+    "Lib/site-packages/streamlit/components/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/components/v1/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/components/v1/__pycache__/component_arrow.cpython-39.pyc",
+    "Lib/site-packages/streamlit/components/v1/__pycache__/components.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/config.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/config_option.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/config_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/credentials.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/cursor.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/delta_generator.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/development.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/alert.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/arrow.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/arrow_altair.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/arrow_vega_lite.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/balloons.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/bokeh_chart.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/button.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/checkbox.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/color_picker.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/dataframe_selector.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/deck_gl_json_chart.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/doc_string.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/empty.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/exception.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/file_uploader.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/form.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/graphviz_chart.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/iframe.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/image.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/json.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/layouts.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/legacy_altair.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/legacy_data_frame.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/legacy_vega_lite.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/lib/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/lib/__pycache__/dicttools.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/map.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/markdown.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/media.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/multiselect.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/number_input.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/plotly_chart.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/progress.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/pyplot.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/radio.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/select_slider.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/selectbox.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/slider.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/text.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/text_widgets.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/time_widgets.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/streamlit/elements/__pycache__/write.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/env_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/error_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/errors.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/file_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/folder_black_list.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/forward_msg_cache.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/git_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/hashing.cpython-39.pyc",
+    "Lib/site-packages/streamlit/hello/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/hello/__pycache__/demos.cpython-39.pyc",
+    "Lib/site-packages/streamlit/hello/__pycache__/hello.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/js_number.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/logger.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/magic.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/media_file_manager.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/metrics.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/metrics_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/net_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/policy.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Alert_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/ArrowNamedDataSet_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/ArrowVegaLiteChart_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Arrow_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Audio_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/BackMsg_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Balloons_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Block_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/BokehChart_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Button_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Checkbox_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/ClientState_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/ColorPicker_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Common_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Components_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/DataFrame_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/DateInput_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/DeckGlJsonChart_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Delta_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/DocString_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Element_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Empty_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Exception_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Favicon_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/FileUploader_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/ForwardMsg_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/GitInfo_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/GraphVizChart_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/IFrame_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Image_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Json_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Markdown_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/MultiSelect_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/NamedDataSet_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/NewReport_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/NumberInput_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/PageConfig_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/PageInfo_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/PlotlyChart_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Progress_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Radio_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/RootContainer_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Selectbox_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/SessionEvent_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/SessionState_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Slider_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/StaticManifest_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/TextArea_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/TextInput_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Text_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/TimeInput_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/VegaLiteChart_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/Video_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/WidgetStates_pb2.cpython-39.pyc",
+    "Lib/site-packages/streamlit/proto/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/report.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/report_queue.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/report_session.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/report_thread.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/script_request_queue.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/script_runner.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/secrets.cpython-39.pyc",
+    "Lib/site-packages/streamlit/server/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/server/__pycache__/routes.cpython-39.pyc",
+    "Lib/site-packages/streamlit/server/__pycache__/server.cpython-39.pyc",
+    "Lib/site-packages/streamlit/server/__pycache__/server_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/server/__pycache__/upload_file_request_handler.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/source_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/state/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/state/__pycache__/session_state.cpython-39.pyc",
+    "Lib/site-packages/streamlit/state/__pycache__/widgets.cpython-39.pyc",
+    "Lib/site-packages/streamlit/storage/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/storage/__pycache__/abstract_storage.cpython-39.pyc",
+    "Lib/site-packages/streamlit/storage/__pycache__/file_storage.cpython-39.pyc",
+    "Lib/site-packages/streamlit/storage/__pycache__/s3_storage.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/string_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/temporary_directory.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/type_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/uploaded_file_manager.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/url_util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/util.cpython-39.pyc",
+    "Lib/site-packages/streamlit/__pycache__/version.cpython-39.pyc",
+    "Lib/site-packages/streamlit/watcher/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/streamlit/watcher/__pycache__/event_based_file_watcher.cpython-39.pyc",
+    "Lib/site-packages/streamlit/watcher/__pycache__/file_watcher.cpython-39.pyc",
+    "Lib/site-packages/streamlit/watcher/__pycache__/local_sources_watcher.cpython-39.pyc",
+    "Lib/site-packages/streamlit/watcher/__pycache__/polling_file_watcher.cpython-39.pyc",
+    "Lib/site-packages/streamlit/watcher/__pycache__/util.cpython-39.pyc",
+    "Scripts/streamlit-script.py",
+    "Scripts/streamlit.exe"
+  ],
+  "fn": "streamlit-0.85.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\streamlit-0.85.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "eea28728b9d11bbd6716fbfd3822bfb0",
+  "name": "streamlit",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\streamlit-0.85.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/streamlit.cmd",
+        "path_type": "hardlink",
+        "sha256": "09c3c17f7b6b44269f17ca2e9db53a3b023e3a7f2c90f356cdcb2b56d880f7d6",
+        "sha256_in_prefix": "09c3c17f7b6b44269f17ca2e9db53a3b023e3a7f2c90f356cdcb2b56d880f7d6",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/streamlit-0.85.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/streamlit-0.85.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "65dda354fff417a54406ff2994b3afc261da30e24b361e3fdb1ec99b9935cae3",
+        "sha256_in_prefix": "65dda354fff417a54406ff2994b3afc261da30e24b361e3fdb1ec99b9935cae3",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "site-packages/streamlit-0.85.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "bd6f9a55c18d2dbd191b29e7aaa2a3951dd7abfe3a21aaed0cafd0d6bb7149d2",
+        "sha256_in_prefix": "bd6f9a55c18d2dbd191b29e7aaa2a3951dd7abfe3a21aaed0cafd0d6bb7149d2",
+        "size_in_bytes": 43254
+      },
+      {
+        "_path": "site-packages/streamlit-0.85.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/streamlit-0.85.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/streamlit-0.85.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b7383a1c55e16069ef977c9ee9267cf536df47f1d40f23cade0643e969584548",
+        "sha256_in_prefix": "b7383a1c55e16069ef977c9ee9267cf536df47f1d40f23cade0643e969584548",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/streamlit-0.85.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "5326df5d3d4b552827c16a86f51db3798a355d172a67a2fee647522d46fe1891",
+        "sha256_in_prefix": "5326df5d3d4b552827c16a86f51db3798a355d172a67a2fee647522d46fe1891",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/streamlit-0.85.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "57716129b9bb1b62e7474b384b2b5abeb8c83cd221bdcb001977d81c0c2d433c",
+        "sha256_in_prefix": "57716129b9bb1b62e7474b384b2b5abeb8c83cd221bdcb001977d81c0c2d433c",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/streamlit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "476f6dc75cd5ee54105f38e17f36e47f9149e2a22583a1c3427ab3e8c518880e",
+        "sha256_in_prefix": "476f6dc75cd5ee54105f38e17f36e47f9149e2a22583a1c3427ab3e8c518880e",
+        "size_in_bytes": 16691
+      },
+      {
+        "_path": "site-packages/streamlit/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "b76094f907d516ed7ba3fb68054a1bf2536a980d5d89a5b95e6fc632f4ff4f45",
+        "sha256_in_prefix": "b76094f907d516ed7ba3fb68054a1bf2536a980d5d89a5b95e6fc632f4ff4f45",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "site-packages/streamlit/beta_util.py",
+        "path_type": "hardlink",
+        "sha256": "7dc0d9b84bb965567416089e1578228aca3c6a7052b3db4f2b174425152be9ce",
+        "sha256_in_prefix": "7dc0d9b84bb965567416089e1578228aca3c6a7052b3db4f2b174425152be9ce",
+        "size_in_bytes": 4134
+      },
+      {
+        "_path": "site-packages/streamlit/bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "b3da2c75528f4a1dd75ed1b5d61fe02bd2c8a63c1a73943d1079bee818441c9b",
+        "sha256_in_prefix": "b3da2c75528f4a1dd75ed1b5d61fe02bd2c8a63c1a73943d1079bee818441c9b",
+        "size_in_bytes": 12616
+      },
+      {
+        "_path": "site-packages/streamlit/caching.py",
+        "path_type": "hardlink",
+        "sha256": "9d75e863d0808fbd2f34a950ab53b49800e4483a6fef9ca4cd54096bca360ff1",
+        "sha256_in_prefix": "9d75e863d0808fbd2f34a950ab53b49800e4483a6fef9ca4cd54096bca360ff1",
+        "size_in_bytes": 24072
+      },
+      {
+        "_path": "site-packages/streamlit/case_converters.py",
+        "path_type": "hardlink",
+        "sha256": "65840dea771d83d9e4b430d88c7794df6e90f0a687d69ae7e2dba3ed85bd659b",
+        "sha256_in_prefix": "65840dea771d83d9e4b430d88c7794df6e90f0a687d69ae7e2dba3ed85bd659b",
+        "size_in_bytes": 2229
+      },
+      {
+        "_path": "site-packages/streamlit/cli.py",
+        "path_type": "hardlink",
+        "sha256": "ecfe38d2ab04fa8026948b1540e38377362f4c8352e089807e5c6df092898b78",
+        "sha256_in_prefix": "ecfe38d2ab04fa8026948b1540e38377362f4c8352e089807e5c6df092898b78",
+        "size_in_bytes": 8103
+      },
+      {
+        "_path": "site-packages/streamlit/code_util.py",
+        "path_type": "hardlink",
+        "sha256": "a67f6e0c7e6a2b8124a42ca629c828eeb8cb34565ea8bf20e6ad65400596d02b",
+        "sha256_in_prefix": "a67f6e0c7e6a2b8124a42ca629c828eeb8cb34565ea8bf20e6ad65400596d02b",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "site-packages/streamlit/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/commands/page_config.py",
+        "path_type": "hardlink",
+        "sha256": "86b8f13e7e608a311021f38d04115c7ace4fd7cd3e28d852a5017c427d94c122",
+        "sha256_in_prefix": "86b8f13e7e608a311021f38d04115c7ace4fd7cd3e28d852a5017c427d94c122",
+        "size_in_bytes": 6757
+      },
+      {
+        "_path": "site-packages/streamlit/components/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/components/v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "177a27a97b5ab01edcc8d1689e2b6eb698e9c941122a104ecced88817c845984",
+        "sha256_in_prefix": "177a27a97b5ab01edcc8d1689e2b6eb698e9c941122a104ecced88817c845984",
+        "size_in_bytes": 979
+      },
+      {
+        "_path": "site-packages/streamlit/components/v1/component_arrow.py",
+        "path_type": "hardlink",
+        "sha256": "f8d8d9b5fd34f7adf57b654232715fc708bb5927c76bd9504641686aac19315d",
+        "sha256_in_prefix": "f8d8d9b5fd34f7adf57b654232715fc708bb5927c76bd9504641686aac19315d",
+        "size_in_bytes": 10869
+      },
+      {
+        "_path": "site-packages/streamlit/components/v1/components.py",
+        "path_type": "hardlink",
+        "sha256": "f310be762312ac6e31290b7b70c5d3b40071ad2f7b1f09e9994db881a21cf0c2",
+        "sha256_in_prefix": "f310be762312ac6e31290b7b70c5d3b40071ad2f7b1f09e9994db881a21cf0c2",
+        "size_in_bytes": 15564
+      },
+      {
+        "_path": "site-packages/streamlit/config.py",
+        "path_type": "hardlink",
+        "sha256": "3fc5bddfbc1010b6f837f4743f6aaecc29ea6034bca2929547ef05fdb33990b8",
+        "sha256_in_prefix": "3fc5bddfbc1010b6f837f4743f6aaecc29ea6034bca2929547ef05fdb33990b8",
+        "size_in_bytes": 36379
+      },
+      {
+        "_path": "site-packages/streamlit/config_option.py",
+        "path_type": "hardlink",
+        "sha256": "fece81d0f28ac0ae8c461a85dfeb278ad666b21631bb2405f677cffb880d073c",
+        "sha256_in_prefix": "fece81d0f28ac0ae8c461a85dfeb278ad666b21631bb2405f677cffb880d073c",
+        "size_in_bytes": 10503
+      },
+      {
+        "_path": "site-packages/streamlit/config_util.py",
+        "path_type": "hardlink",
+        "sha256": "031b150ecf93d9faab1b6e264f2ffaacbcea00de7508554794a16276bfec31c8",
+        "sha256_in_prefix": "031b150ecf93d9faab1b6e264f2ffaacbcea00de7508554794a16276bfec31c8",
+        "size_in_bytes": 3798
+      },
+      {
+        "_path": "site-packages/streamlit/credentials.py",
+        "path_type": "hardlink",
+        "sha256": "de76a178efb9aacebc827aa8d1656f1408dd5c433ec2e50ae74f0eebf22dde4a",
+        "sha256_in_prefix": "de76a178efb9aacebc827aa8d1656f1408dd5c433ec2e50ae74f0eebf22dde4a",
+        "size_in_bytes": 8645
+      },
+      {
+        "_path": "site-packages/streamlit/cursor.py",
+        "path_type": "hardlink",
+        "sha256": "0107c6216670d778ba90918b7d3df49c7ade814a83893c95c5b28ec326d64e7b",
+        "sha256_in_prefix": "0107c6216670d778ba90918b7d3df49c7ade814a83893c95c5b28ec326d64e7b",
+        "size_in_bytes": 5944
+      },
+      {
+        "_path": "site-packages/streamlit/delta_generator.py",
+        "path_type": "hardlink",
+        "sha256": "1fceacb459bc7632ffffa44e218c908f4b05d4d81d2ed653feb6e79f8cba19b6",
+        "sha256_in_prefix": "1fceacb459bc7632ffffa44e218c908f4b05d4d81d2ed653feb6e79f8cba19b6",
+        "size_in_bytes": 28375
+      },
+      {
+        "_path": "site-packages/streamlit/development.py",
+        "path_type": "hardlink",
+        "sha256": "87a28994b6e92d4d98a2da305a9081597f1399de7d158eee788091d5c60993eb",
+        "sha256_in_prefix": "87a28994b6e92d4d98a2da305a9081597f1399de7d158eee788091d5c60993eb",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "site-packages/streamlit/elements/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/elements/alert.py",
+        "path_type": "hardlink",
+        "sha256": "c0ef2d53abc98b924c7d8dfa271143e28370f4c7149acc7c8902d480af924143",
+        "sha256_in_prefix": "c0ef2d53abc98b924c7d8dfa271143e28370f4c7149acc7c8902d480af924143",
+        "size_in_bytes": 2681
+      },
+      {
+        "_path": "site-packages/streamlit/elements/arrow.py",
+        "path_type": "hardlink",
+        "sha256": "7a565d9709bbe6e7b9cecd1f64e0c311d2e2c8a0b3b489f28ad9dc08f8571c95",
+        "sha256_in_prefix": "7a565d9709bbe6e7b9cecd1f64e0c311d2e2c8a0b3b489f28ad9dc08f8571c95",
+        "size_in_bytes": 12700
+      },
+      {
+        "_path": "site-packages/streamlit/elements/arrow_altair.py",
+        "path_type": "hardlink",
+        "sha256": "726a84ec55bf63105f1375171f67666c1affc54575953469f0a2fa2e3c95d0ba",
+        "sha256_in_prefix": "726a84ec55bf63105f1375171f67666c1affc54575953469f0a2fa2e3c95d0ba",
+        "size_in_bytes": 12186
+      },
+      {
+        "_path": "site-packages/streamlit/elements/arrow_vega_lite.py",
+        "path_type": "hardlink",
+        "sha256": "23a4af41e175ae8f147e3b097bfe6bd90b870c5f84202001edd07f6fc1c8fae2",
+        "sha256_in_prefix": "23a4af41e175ae8f147e3b097bfe6bd90b870c5f84202001edd07f6fc1c8fae2",
+        "size_in_bytes": 6381
+      },
+      {
+        "_path": "site-packages/streamlit/elements/balloons.py",
+        "path_type": "hardlink",
+        "sha256": "12b2a52b6f4a9aba0ce5692d7a5e2ae8bba40b3469df0be974eb3c0f1ec3aafc",
+        "sha256_in_prefix": "12b2a52b6f4a9aba0ce5692d7a5e2ae8bba40b3469df0be974eb3c0f1ec3aafc",
+        "size_in_bytes": 1237
+      },
+      {
+        "_path": "site-packages/streamlit/elements/bokeh_chart.py",
+        "path_type": "hardlink",
+        "sha256": "8062e0c70f3ad6ef33a501c51b973963d4955489bf22e0617983e04287874a21",
+        "sha256_in_prefix": "8062e0c70f3ad6ef33a501c51b973963d4955489bf22e0617983e04287874a21",
+        "size_in_bytes": 2779
+      },
+      {
+        "_path": "site-packages/streamlit/elements/button.py",
+        "path_type": "hardlink",
+        "sha256": "f97b68ed8e741b4085ca01b52bfa24ec8465db5d3aaaf85731a6c9975ed9d86f",
+        "sha256_in_prefix": "f97b68ed8e741b4085ca01b52bfa24ec8465db5d3aaaf85731a6c9975ed9d86f",
+        "size_in_bytes": 4971
+      },
+      {
+        "_path": "site-packages/streamlit/elements/checkbox.py",
+        "path_type": "hardlink",
+        "sha256": "5114850139bdf9426a540d3901b220198a1ee7425a1618c5d27187b2df9409e9",
+        "sha256_in_prefix": "5114850139bdf9426a540d3901b220198a1ee7425a1618c5d27187b2df9409e9",
+        "size_in_bytes": 3550
+      },
+      {
+        "_path": "site-packages/streamlit/elements/color_picker.py",
+        "path_type": "hardlink",
+        "sha256": "25f403d6a20d36142612851c7dae586dfa6cfae6953e7e05c36fe2d4edc49c28",
+        "sha256_in_prefix": "25f403d6a20d36142612851c7dae586dfa6cfae6953e7e05c36fe2d4edc49c28",
+        "size_in_bytes": 4423
+      },
+      {
+        "_path": "site-packages/streamlit/elements/dataframe_selector.py",
+        "path_type": "hardlink",
+        "sha256": "cbd8b4b5c1aa1db2973c8d3f5c3be85cdef895c00d9ba265e1ab7a315ac6901a",
+        "sha256_in_prefix": "cbd8b4b5c1aa1db2973c8d3f5c3be85cdef895c00d9ba265e1ab7a315ac6901a",
+        "size_in_bytes": 16356
+      },
+      {
+        "_path": "site-packages/streamlit/elements/deck_gl_json_chart.py",
+        "path_type": "hardlink",
+        "sha256": "254705a65fab14f0ad1f0d3ada0e708444e183f926d07b514123b09caf936eaa",
+        "sha256_in_prefix": "254705a65fab14f0ad1f0d3ada0e708444e183f926d07b514123b09caf936eaa",
+        "size_in_bytes": 4189
+      },
+      {
+        "_path": "site-packages/streamlit/elements/doc_string.py",
+        "path_type": "hardlink",
+        "sha256": "0f20f3065e80315c3354008256688ac7500f44469783c0d0378ae373957dc124",
+        "sha256_in_prefix": "0f20f3065e80315c3354008256688ac7500f44469783c0d0378ae373957dc124",
+        "size_in_bytes": 4559
+      },
+      {
+        "_path": "site-packages/streamlit/elements/empty.py",
+        "path_type": "hardlink",
+        "sha256": "1e8a50928c6fb243bc5f35fd40b82a9b1099e4c802125588c5a9ffdbadf4f4f1",
+        "sha256_in_prefix": "1e8a50928c6fb243bc5f35fd40b82a9b1099e4c802125588c5a9ffdbadf4f4f1",
+        "size_in_bytes": 2451
+      },
+      {
+        "_path": "site-packages/streamlit/elements/exception.py",
+        "path_type": "hardlink",
+        "sha256": "41df334e2041f170981cdce8609667e4d30d14cd0d5244138ab51d5dfcdece19",
+        "sha256_in_prefix": "41df334e2041f170981cdce8609667e4d30d14cd0d5244138ab51d5dfcdece19",
+        "size_in_bytes": 7099
+      },
+      {
+        "_path": "site-packages/streamlit/elements/file_uploader.py",
+        "path_type": "hardlink",
+        "sha256": "41a46faea8ab08f2aee3c7a290f03822b378e7027ea8eda92f34edfa2f8699b0",
+        "sha256_in_prefix": "41a46faea8ab08f2aee3c7a290f03822b378e7027ea8eda92f34edfa2f8699b0",
+        "size_in_bytes": 8982
+      },
+      {
+        "_path": "site-packages/streamlit/elements/form.py",
+        "path_type": "hardlink",
+        "sha256": "e669f74f6961c798728a51d1b0f06af6bd2d4747be7836af8b195a32edd9575f",
+        "sha256_in_prefix": "e669f74f6961c798728a51d1b0f06af6bd2d4747be7836af8b195a32edd9575f",
+        "size_in_bytes": 8747
+      },
+      {
+        "_path": "site-packages/streamlit/elements/graphviz_chart.py",
+        "path_type": "hardlink",
+        "sha256": "023985955a9179321c35b5832358b0ee87b564e4412d61c9f3bca9ab3d9430ca",
+        "sha256_in_prefix": "023985955a9179321c35b5832358b0ee87b564e4412d61c9f3bca9ab3d9430ca",
+        "size_in_bytes": 3820
+      },
+      {
+        "_path": "site-packages/streamlit/elements/iframe.py",
+        "path_type": "hardlink",
+        "sha256": "5d91007dcd8542ea3d157dbc7d2d8541ecee4b9f2e69876bcddc9df6de31276c",
+        "sha256_in_prefix": "5d91007dcd8542ea3d157dbc7d2d8541ecee4b9f2e69876bcddc9df6de31276c",
+        "size_in_bytes": 4093
+      },
+      {
+        "_path": "site-packages/streamlit/elements/image.py",
+        "path_type": "hardlink",
+        "sha256": "90914313f80c0d3b6885e68089ee50533cef1de69faed66e164ad82946b19c44",
+        "sha256_in_prefix": "90914313f80c0d3b6885e68089ee50533cef1de69faed66e164ad82946b19c44",
+        "size_in_bytes": 12612
+      },
+      {
+        "_path": "site-packages/streamlit/elements/json.py",
+        "path_type": "hardlink",
+        "sha256": "bc9758a7ed75206ba7b7e91f85d28ecdcf9622efaa2e23f2d50f22a23f11dd58",
+        "sha256_in_prefix": "bc9758a7ed75206ba7b7e91f85d28ecdcf9622efaa2e23f2d50f22a23f11dd58",
+        "size_in_bytes": 2454
+      },
+      {
+        "_path": "site-packages/streamlit/elements/layouts.py",
+        "path_type": "hardlink",
+        "sha256": "e8434bbd5f0b991c9e0e03a440d820337b0715d5c2f368b6d7fd2ad4568e61f9",
+        "sha256_in_prefix": "e8434bbd5f0b991c9e0e03a440d820337b0715d5c2f368b6d7fd2ad4568e61f9",
+        "size_in_bytes": 8109
+      },
+      {
+        "_path": "site-packages/streamlit/elements/legacy_altair.py",
+        "path_type": "hardlink",
+        "sha256": "779a7af92986532982967d6b108035be21cff8d6d76db83eec130b3b8b43831f",
+        "sha256_in_prefix": "779a7af92986532982967d6b108035be21cff8d6d76db83eec130b3b8b43831f",
+        "size_in_bytes": 12021
+      },
+      {
+        "_path": "site-packages/streamlit/elements/legacy_data_frame.py",
+        "path_type": "hardlink",
+        "sha256": "b97048a959b316d600fb573bcbe50084b730aed8fa404a8b02842fc0038cd3dd",
+        "sha256_in_prefix": "b97048a959b316d600fb573bcbe50084b730aed8fa404a8b02842fc0038cd3dd",
+        "size_in_bytes": 22264
+      },
+      {
+        "_path": "site-packages/streamlit/elements/legacy_vega_lite.py",
+        "path_type": "hardlink",
+        "sha256": "76bc860c165c9aaaf432de1671a4a16fbb38834ab1551450770f48e566e50279",
+        "sha256_in_prefix": "76bc860c165c9aaaf432de1671a4a16fbb38834ab1551450770f48e566e50279",
+        "size_in_bytes": 6293
+      },
+      {
+        "_path": "site-packages/streamlit/elements/lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/elements/lib/dicttools.py",
+        "path_type": "hardlink",
+        "sha256": "fdfcf42ac1e4d5044062da774634437e801ddc9ef64f363700504c720a157b1c",
+        "sha256_in_prefix": "fdfcf42ac1e4d5044062da774634437e801ddc9ef64f363700504c720a157b1c",
+        "size_in_bytes": 3350
+      },
+      {
+        "_path": "site-packages/streamlit/elements/map.py",
+        "path_type": "hardlink",
+        "sha256": "f946bdaf28be5d3e7cc71d26972f9e46e00adfb0fc5e796c1847832652562fe9",
+        "sha256_in_prefix": "f946bdaf28be5d3e7cc71d26972f9e46e00adfb0fc5e796c1847832652562fe9",
+        "size_in_bytes": 6181
+      },
+      {
+        "_path": "site-packages/streamlit/elements/markdown.py",
+        "path_type": "hardlink",
+        "sha256": "be0e2cf3d83977fa4e1ac1d8f191e095e9187f280b21831fdf3675b9fc923587",
+        "sha256_in_prefix": "be0e2cf3d83977fa4e1ac1d8f191e095e9187f280b21831fdf3675b9fc923587",
+        "size_in_bytes": 8825
+      },
+      {
+        "_path": "site-packages/streamlit/elements/media.py",
+        "path_type": "hardlink",
+        "sha256": "059fac14389d2cb5bcf00fbaccc218cd4b23b505240f16e08f482e94806ec172",
+        "sha256_in_prefix": "059fac14389d2cb5bcf00fbaccc218cd4b23b505240f16e08f482e94806ec172",
+        "size_in_bytes": 8879
+      },
+      {
+        "_path": "site-packages/streamlit/elements/multiselect.py",
+        "path_type": "hardlink",
+        "sha256": "e57d36f655ce42d3f940a38b25a595885be5f0ea3382224a82a372f8d36a035c",
+        "sha256_in_prefix": "e57d36f655ce42d3f940a38b25a595885be5f0ea3382224a82a372f8d36a035c",
+        "size_in_bytes": 6581
+      },
+      {
+        "_path": "site-packages/streamlit/elements/number_input.py",
+        "path_type": "hardlink",
+        "sha256": "d32942de84587450b57e6364c41186a5259f5a8bef196f2f9127b57f333ff149",
+        "sha256_in_prefix": "d32942de84587450b57e6364c41186a5259f5a8bef196f2f9127b57f333ff149",
+        "size_in_bytes": 9208
+      },
+      {
+        "_path": "site-packages/streamlit/elements/plotly_chart.py",
+        "path_type": "hardlink",
+        "sha256": "0575b9b34c56108196bdb54369a8729519c4d76de7b8707a08d0c99c28fd4d71",
+        "sha256_in_prefix": "0575b9b34c56108196bdb54369a8729519c4d76de7b8707a08d0c99c28fd4d71",
+        "size_in_bytes": 6637
+      },
+      {
+        "_path": "site-packages/streamlit/elements/progress.py",
+        "path_type": "hardlink",
+        "sha256": "76a35134e17fa5d8703de3e617317651fe5c252ada5dd58c6ea030c1e7a379f6",
+        "sha256_in_prefix": "76a35134e17fa5d8703de3e617317651fe5c252ada5dd58c6ea030c1e7a379f6",
+        "size_in_bytes": 2386
+      },
+      {
+        "_path": "site-packages/streamlit/elements/pyplot.py",
+        "path_type": "hardlink",
+        "sha256": "02afce3ab84b8180b4e461fdcf2ac89dbf45fdd1305d83415b93fdd2b5f4d056",
+        "sha256_in_prefix": "02afce3ab84b8180b4e461fdcf2ac89dbf45fdd1305d83415b93fdd2b5f4d056",
+        "size_in_bytes": 5648
+      },
+      {
+        "_path": "site-packages/streamlit/elements/radio.py",
+        "path_type": "hardlink",
+        "sha256": "3b6ca048c117961d9a991f691cbcab509dc8d2e5690bf760c0727e41126aa3df",
+        "sha256_in_prefix": "3b6ca048c117961d9a991f691cbcab509dc8d2e5690bf760c0727e41126aa3df",
+        "size_in_bytes": 4998
+      },
+      {
+        "_path": "site-packages/streamlit/elements/select_slider.py",
+        "path_type": "hardlink",
+        "sha256": "d92e31007a3f4f739f26edee93d25a90904432500aacf40e6583c02cfe6b8530",
+        "sha256_in_prefix": "d92e31007a3f4f739f26edee93d25a90904432500aacf40e6583c02cfe6b8530",
+        "size_in_bytes": 7182
+      },
+      {
+        "_path": "site-packages/streamlit/elements/selectbox.py",
+        "path_type": "hardlink",
+        "sha256": "e0531daf069b976a0e44da35eca74c56ace40731bb493abe515e492e39aac633",
+        "sha256_in_prefix": "e0531daf069b976a0e44da35eca74c56ace40731bb493abe515e492e39aac633",
+        "size_in_bytes": 4905
+      },
+      {
+        "_path": "site-packages/streamlit/elements/slider.py",
+        "path_type": "hardlink",
+        "sha256": "0e1bf0cf07bda6d26833047d90524be540ac061da15ee2dbe2000e830eac035e",
+        "sha256_in_prefix": "0e1bf0cf07bda6d26833047d90524be540ac061da15ee2dbe2000e830eac035e",
+        "size_in_bytes": 18003
+      },
+      {
+        "_path": "site-packages/streamlit/elements/text.py",
+        "path_type": "hardlink",
+        "sha256": "13cafdd4d2c1a894814edbaf16297ee7477fcfb07e16044d76462a210f64b63a",
+        "sha256_in_prefix": "13cafdd4d2c1a894814edbaf16297ee7477fcfb07e16044d76462a210f64b63a",
+        "size_in_bytes": 1437
+      },
+      {
+        "_path": "site-packages/streamlit/elements/text_widgets.py",
+        "path_type": "hardlink",
+        "sha256": "315d3b961164add35e4e33311fc72cae700ea3e4b4ff574ac7ed54d7c23040d1",
+        "sha256_in_prefix": "315d3b961164add35e4e33311fc72cae700ea3e4b4ff574ac7ed54d7c23040d1",
+        "size_in_bytes": 8524
+      },
+      {
+        "_path": "site-packages/streamlit/elements/time_widgets.py",
+        "path_type": "hardlink",
+        "sha256": "a1bdcc17dc8fa77f0f3ed4456a236d350b6fbdeff86acbfa84f39e65e46416de",
+        "sha256_in_prefix": "a1bdcc17dc8fa77f0f3ed4456a236d350b6fbdeff86acbfa84f39e65e46416de",
+        "size_in_bytes": 9762
+      },
+      {
+        "_path": "site-packages/streamlit/elements/utils.py",
+        "path_type": "hardlink",
+        "sha256": "44f4f880974ba202fd73a9c5be3a6af77a4c9ad120752bd2b64569ab95313dd5",
+        "sha256_in_prefix": "44f4f880974ba202fd73a9c5be3a6af77a4c9ad120752bd2b64569ab95313dd5",
+        "size_in_bytes": 2685
+      },
+      {
+        "_path": "site-packages/streamlit/elements/write.py",
+        "path_type": "hardlink",
+        "sha256": "e2dbed66fb0ad043c73b0d8bb7f65e0ea5c9bb051af7fa746ee753875c4f8e8c",
+        "sha256_in_prefix": "e2dbed66fb0ad043c73b0d8bb7f65e0ea5c9bb051af7fa746ee753875c4f8e8c",
+        "size_in_bytes": 9068
+      },
+      {
+        "_path": "site-packages/streamlit/env_util.py",
+        "path_type": "hardlink",
+        "sha256": "b02686f10e9cceac9e99fa06f61a9dbc3469f7a399b1ca5c165763076841a01a",
+        "sha256_in_prefix": "b02686f10e9cceac9e99fa06f61a9dbc3469f7a399b1ca5c165763076841a01a",
+        "size_in_bytes": 1722
+      },
+      {
+        "_path": "site-packages/streamlit/error_util.py",
+        "path_type": "hardlink",
+        "sha256": "52983c88d1e1e35fa22e877f3a06bf59de1507031c8eb423c471d286ca7789bc",
+        "sha256_in_prefix": "52983c88d1e1e35fa22e877f3a06bf59de1507031c8eb423c471d286ca7789bc",
+        "size_in_bytes": 2440
+      },
+      {
+        "_path": "site-packages/streamlit/errors.py",
+        "path_type": "hardlink",
+        "sha256": "d813159b58e7e83938c2e692ee81ff1c7a4ebe4fb31c44e4efaef2aeaa25482c",
+        "sha256_in_prefix": "d813159b58e7e83938c2e692ee81ff1c7a4ebe4fb31c44e4efaef2aeaa25482c",
+        "size_in_bytes": 3056
+      },
+      {
+        "_path": "site-packages/streamlit/file_util.py",
+        "path_type": "hardlink",
+        "sha256": "c21c10516e3589828777b1a929c43328928045f3ab2427bd50be47ff1d363601",
+        "sha256_in_prefix": "c21c10516e3589828777b1a929c43328928045f3ab2427bd50be47ff1d363601",
+        "size_in_bytes": 5848
+      },
+      {
+        "_path": "site-packages/streamlit/folder_black_list.py",
+        "path_type": "hardlink",
+        "sha256": "0b4074b3b0834c38cf01bbc641660210790ae14238e9fc2fdd858daa60093c73",
+        "sha256_in_prefix": "0b4074b3b0834c38cf01bbc641660210790ae14238e9fc2fdd858daa60093c73",
+        "size_in_bytes": 2321
+      },
+      {
+        "_path": "site-packages/streamlit/forward_msg_cache.py",
+        "path_type": "hardlink",
+        "sha256": "a6e3723b8878d62b28cc6d8c94ba3745d8a70e15b1c1385de291ef278d86da37",
+        "sha256_in_prefix": "a6e3723b8878d62b28cc6d8c94ba3745d8a70e15b1c1385de291ef278d86da37",
+        "size_in_bytes": 8191
+      },
+      {
+        "_path": "site-packages/streamlit/git_util.py",
+        "path_type": "hardlink",
+        "sha256": "5b7737d94766040162035a12a7d3f72f6137ad02a667926690e81a36856bb066",
+        "sha256_in_prefix": "5b7737d94766040162035a12a7d3f72f6137ad02a667926690e81a36856bb066",
+        "size_in_bytes": 4959
+      },
+      {
+        "_path": "site-packages/streamlit/hashing.py",
+        "path_type": "hardlink",
+        "sha256": "0dc3bf38fb29485a4afe75bc79d9eafa4d2eaf62f8ed30bbb9cac7dd93e521c6",
+        "sha256_in_prefix": "0dc3bf38fb29485a4afe75bc79d9eafa4d2eaf62f8ed30bbb9cac7dd93e521c6",
+        "size_in_bytes": 35238
+      },
+      {
+        "_path": "site-packages/streamlit/hello/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/hello/demos.py",
+        "path_type": "hardlink",
+        "sha256": "9f2db2e652a10674693cac4095c17ea886362e9606347f015297cc3b98f55cca",
+        "sha256_in_prefix": "9f2db2e652a10674693cac4095c17ea886362e9606347f015297cc3b98f55cca",
+        "size_in_bytes": 8782
+      },
+      {
+        "_path": "site-packages/streamlit/hello/hello.py",
+        "path_type": "hardlink",
+        "sha256": "bcc80e5925851cbead5f3fcbf3d363a4f0bf5cbbbb24fbf8d91153dbadbbe97f",
+        "sha256_in_prefix": "bcc80e5925851cbead5f3fcbf3d363a4f0bf5cbbbb24fbf8d91153dbadbbe97f",
+        "size_in_bytes": 2932
+      },
+      {
+        "_path": "site-packages/streamlit/js_number.py",
+        "path_type": "hardlink",
+        "sha256": "3b5006db915d440fde3a1c7f8e6bbd827658c5b8e9feb65c5a8a2d61c7e22b3e",
+        "sha256_in_prefix": "3b5006db915d440fde3a1c7f8e6bbd827658c5b8e9feb65c5a8a2d61c7e22b3e",
+        "size_in_bytes": 3756
+      },
+      {
+        "_path": "site-packages/streamlit/logger.py",
+        "path_type": "hardlink",
+        "sha256": "b32af774929884d4075a9de926612455d3414a1accb61b25ee836c481ec0e578",
+        "sha256_in_prefix": "b32af774929884d4075a9de926612455d3414a1accb61b25ee836c481ec0e578",
+        "size_in_bytes": 3801
+      },
+      {
+        "_path": "site-packages/streamlit/magic.py",
+        "path_type": "hardlink",
+        "sha256": "01bbfe11456f1747d3a4f93ea89907ce37aa2a029764b780747a4f12f38b2116",
+        "sha256_in_prefix": "01bbfe11456f1747d3a4f93ea89907ce37aa2a029764b780747a4f12f38b2116",
+        "size_in_bytes": 5563
+      },
+      {
+        "_path": "site-packages/streamlit/media_file_manager.py",
+        "path_type": "hardlink",
+        "sha256": "2f4fcac768f090a485a7453abb7c2f6d05bc5968b1281d9699c9edce658e4c5f",
+        "sha256_in_prefix": "2f4fcac768f090a485a7453abb7c2f6d05bc5968b1281d9699c9edce658e4c5f",
+        "size_in_bytes": 8249
+      },
+      {
+        "_path": "site-packages/streamlit/metrics.py",
+        "path_type": "hardlink",
+        "sha256": "0c5da4211f34e2208a615c147f6fd132ea64321aedb1948ab3364bb09bb90da8",
+        "sha256_in_prefix": "0c5da4211f34e2208a615c147f6fd132ea64321aedb1948ab3364bb09bb90da8",
+        "size_in_bytes": 2837
+      },
+      {
+        "_path": "site-packages/streamlit/metrics_util.py",
+        "path_type": "hardlink",
+        "sha256": "669d6c378653169780246fb86fff5c2314bc1cd5e4d7a7b5ecb353a929d79b2a",
+        "sha256_in_prefix": "669d6c378653169780246fb86fff5c2314bc1cd5e4d7a7b5ecb353a929d79b2a",
+        "size_in_bytes": 4939
+      },
+      {
+        "_path": "site-packages/streamlit/net_util.py",
+        "path_type": "hardlink",
+        "sha256": "3be01f7f5ad4096cd8ee2862c6dc5b1fae64b65018ecf3e9f7f9d9e20d662cf0",
+        "sha256_in_prefix": "3be01f7f5ad4096cd8ee2862c6dc5b1fae64b65018ecf3e9f7f9d9e20d662cf0",
+        "size_in_bytes": 2960
+      },
+      {
+        "_path": "site-packages/streamlit/policy.py",
+        "path_type": "hardlink",
+        "sha256": "debaeeb5ad21ff53eb6739c4925878082555f572f1755777c122f2d85e7d6977",
+        "sha256_in_prefix": "debaeeb5ad21ff53eb6739c4925878082555f572f1755777c122f2d85e7d6977",
+        "size_in_bytes": 2721
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Alert_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "050b52277b3963d38838441dbdff9e5a4e6fdaf48b2b3865346bb75702804baa",
+        "sha256_in_prefix": "050b52277b3963d38838441dbdff9e5a4e6fdaf48b2b3865346bb75702804baa",
+        "size_in_bytes": 3891
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ArrowNamedDataSet_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "a0efc37c58323584a740cd4b1f9082975dc0ab17777f1d79cf69d168e08b8b0d",
+        "sha256_in_prefix": "a0efc37c58323584a740cd4b1f9082975dc0ab17777f1d79cf69d168e08b8b0d",
+        "size_in_bytes": 3319
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ArrowVegaLiteChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d2f2fa611e020a45752e5e2d7a1c2dd9b4367daefa94963ce13491e5d09c4f7b",
+        "sha256_in_prefix": "d2f2fa611e020a45752e5e2d7a1c2dd9b4367daefa94963ce13491e5d09c4f7b",
+        "size_in_bytes": 4210
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Arrow_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "cf8247221c0f92f34e8fe5c9204f2c126f5ece1b842fddd6354ae415cbd8b4d3",
+        "sha256_in_prefix": "cf8247221c0f92f34e8fe5c9204f2c126f5ece1b842fddd6354ae415cbd8b4d3",
+        "size_in_bytes": 4953
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Audio_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "28772b24ff627db6bf517979be171eca827be92c91184d31c7187f4a009564dc",
+        "sha256_in_prefix": "28772b24ff627db6bf517979be171eca827be92c91184d31c7187f4a009564dc",
+        "size_in_bytes": 2472
+      },
+      {
+        "_path": "site-packages/streamlit/proto/BackMsg_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b5a7e57cb48553150e75a5d011ffc4ff4b5ab7588b8ed627137be5b1c46e9811",
+        "sha256_in_prefix": "b5a7e57cb48553150e75a5d011ffc4ff4b5ab7588b8ed627137be5b1c46e9811",
+        "size_in_bytes": 6669
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Balloons_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4b7d9131b59d1277d59ce5019c1cfaf1517e4ee12b77d39233e5105feb2c0c49",
+        "sha256_in_prefix": "4b7d9131b59d1277d59ce5019c1cfaf1517e4ee12b77d39233e5105feb2c0c49",
+        "size_in_bytes": 2030
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Block_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "bd7a7568a92e99f98e433b68c3955f385f072feb215f416cc28158369490779d",
+        "sha256_in_prefix": "bd7a7568a92e99f98e433b68c3955f385f072feb215f416cc28158369490779d",
+        "size_in_bytes": 12282
+      },
+      {
+        "_path": "site-packages/streamlit/proto/BokehChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "3b906b9fb384b0674d39151e745d6a233f8d3cc88be74f945d41a2f2ba46ba7a",
+        "sha256_in_prefix": "3b906b9fb384b0674d39151e745d6a233f8d3cc88be74f945d41a2f2ba46ba7a",
+        "size_in_bytes": 2504
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Button_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "e2875e10d0618ab74235baad59cc473be44356ba5d01d28a7e358c8218bb09e0",
+        "sha256_in_prefix": "e2875e10d0618ab74235baad59cc473be44356ba5d01d28a7e358c8218bb09e0",
+        "size_in_bytes": 4192
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Checkbox_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "579e6c2e2413ecef456ca8316c4533f0203413c134e29926c028ac8ddc928738",
+        "sha256_in_prefix": "579e6c2e2413ecef456ca8316c4533f0203413c134e29926c028ac8ddc928738",
+        "size_in_bytes": 4636
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ClientState_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "6835e4bf46d37ce38582190c8f77d9f46cff26959b762db147f441fa8eb32402",
+        "sha256_in_prefix": "6835e4bf46d37ce38582190c8f77d9f46cff26959b762db147f441fa8eb32402",
+        "size_in_bytes": 2856
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ColorPicker_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d0f5f2bc5b18cdf7f26c47ca600cd83073b0baada538db397ed7f2a9191bc9d4",
+        "sha256_in_prefix": "d0f5f2bc5b18cdf7f26c47ca600cd83073b0baada538db397ed7f2a9191bc9d4",
+        "size_in_bytes": 4723
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Common_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "812eb27d0b03a8b55f9b8e86480dc0303ce74f5ae634a5f79712031dd90cd94f",
+        "sha256_in_prefix": "812eb27d0b03a8b55f9b8e86480dc0303ce74f5ae634a5f79712031dd90cd94f",
+        "size_in_bytes": 8053
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Components_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "c49bd1b5ef1fc2dec0fa3ceafba994253e090a2499aefe380b783d5e17889976",
+        "sha256_in_prefix": "c49bd1b5ef1fc2dec0fa3ceafba994253e090a2499aefe380b783d5e17889976",
+        "size_in_bytes": 14786
+      },
+      {
+        "_path": "site-packages/streamlit/proto/DataFrame_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b36f3427f9182be03d837605e257dee3a640385edc02e33d2c8400eed1701c6b",
+        "sha256_in_prefix": "b36f3427f9182be03d837605e257dee3a640385edc02e33d2c8400eed1701c6b",
+        "size_in_bytes": 32183
+      },
+      {
+        "_path": "site-packages/streamlit/proto/DateInput_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0eb2908577c9ae39f9237ccddf241c28a35f479920730508d5966de5aae01465",
+        "sha256_in_prefix": "0eb2908577c9ae39f9237ccddf241c28a35f479920730508d5966de5aae01465",
+        "size_in_bytes": 5961
+      },
+      {
+        "_path": "site-packages/streamlit/proto/DeckGlJsonChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "05d5878943b90d48a2785eb1e55adee99b416f1b9498a34870d63f99a6540ec0",
+        "sha256_in_prefix": "05d5878943b90d48a2785eb1e55adee99b416f1b9498a34870d63f99a6540ec0",
+        "size_in_bytes": 3047
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Delta_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "e7f342469eb347b762d5d835b0ebf3435193dafe12b95e42decf253261f4a0ab",
+        "sha256_in_prefix": "e7f342469eb347b762d5d835b0ebf3435193dafe12b95e42decf253261f4a0ab",
+        "size_in_bytes": 5422
+      },
+      {
+        "_path": "site-packages/streamlit/proto/DocString_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "75647e3795323429c9455ab416396f4a52b11d906012c3f37e27848bcaa82c91",
+        "sha256_in_prefix": "75647e3795323429c9455ab416396f4a52b11d906012c3f37e27848bcaa82c91",
+        "size_in_bytes": 3801
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Element_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1df367fa8f6280d1539f6a557f74176cb08c23eaa6b686458c91bd050ffb4436",
+        "sha256_in_prefix": "1df367fa8f6280d1539f6a557f74176cb08c23eaa6b686458c91bd050ffb4436",
+        "size_in_bytes": 36161
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Empty_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "932413c6b12b4d7d15fe4d25c30da4f5475af5db2809b3806a845affb675fb76",
+        "sha256_in_prefix": "932413c6b12b4d7d15fe4d25c30da4f5475af5db2809b3806a845affb675fb76",
+        "size_in_bytes": 1513
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Exception_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "834d34f695c819a620ed60de615634f5f8e16bb1f14028ee9747aa86fdd88caf",
+        "sha256_in_prefix": "834d34f695c819a620ed60de615634f5f8e16bb1f14028ee9747aa86fdd88caf",
+        "size_in_bytes": 3819
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Favicon_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "f0a0fb12e916ab92681c35bb554ae37be8e11dcde320cb7ef715346532b0a677",
+        "sha256_in_prefix": "f0a0fb12e916ab92681c35bb554ae37be8e11dcde320cb7ef715346532b0a677",
+        "size_in_bytes": 1981
+      },
+      {
+        "_path": "site-packages/streamlit/proto/FileUploader_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4e324334a428335e3e50b7c2b5931d9267857efcd919c9d0df7ed5e8c3bd62e0",
+        "sha256_in_prefix": "4e324334a428335e3e50b7c2b5931d9267857efcd919c9d0df7ed5e8c3bd62e0",
+        "size_in_bytes": 4778
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ForwardMsg_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "dd08c373dca64db2ff2e63985d9507aaccbf1b453a73225609adede3272c4183",
+        "sha256_in_prefix": "dd08c373dca64db2ff2e63985d9507aaccbf1b453a73225609adede3272c4183",
+        "size_in_bytes": 17489
+      },
+      {
+        "_path": "site-packages/streamlit/proto/GitInfo_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "6b16d6ee82fe237f9086cb26303c8cf0e29436cc7fbcb05ad9274e22f3aef2a9",
+        "sha256_in_prefix": "6b16d6ee82fe237f9086cb26303c8cf0e29436cc7fbcb05ad9274e22f3aef2a9",
+        "size_in_bytes": 5420
+      },
+      {
+        "_path": "site-packages/streamlit/proto/GraphVizChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d46d6952d164e16020361b51c39b65f20094b774f9e6d4352bf3912ca485ed3b",
+        "sha256_in_prefix": "d46d6952d164e16020361b51c39b65f20094b774f9e6d4352bf3912ca485ed3b",
+        "size_in_bytes": 2589
+      },
+      {
+        "_path": "site-packages/streamlit/proto/IFrame_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b56985f7b8e97094e995128eaa82402008c99f8a71c43195096f311edcfa20bb",
+        "sha256_in_prefix": "b56985f7b8e97094e995128eaa82402008c99f8a71c43195096f311edcfa20bb",
+        "size_in_bytes": 4670
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Image_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "c94e3f7e94e6acb494b429af0575334bb7537df1d0b91fe36ea0db66813a49d1",
+        "sha256_in_prefix": "c94e3f7e94e6acb494b429af0575334bb7537df1d0b91fe36ea0db66813a49d1",
+        "size_in_bytes": 4546
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Json_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "475033e856b7a4595538d2a824c112ed7522b863555ad6192037b2e16e8d748d",
+        "sha256_in_prefix": "475033e856b7a4595538d2a824c112ed7522b863555ad6192037b2e16e8d748d",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Markdown_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "70a6f5e49b5af6f4e08068ed823a36ac52d70456ec22663d8ca3fd31b91a13f9",
+        "sha256_in_prefix": "70a6f5e49b5af6f4e08068ed823a36ac52d70456ec22663d8ca3fd31b91a13f9",
+        "size_in_bytes": 2883
+      },
+      {
+        "_path": "site-packages/streamlit/proto/MultiSelect_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "2f8d8db4715abfd57eb9c203a05709f9b144dfc1ec63423857313faa01bab990",
+        "sha256_in_prefix": "2f8d8db4715abfd57eb9c203a05709f9b144dfc1ec63423857313faa01bab990",
+        "size_in_bytes": 5131
+      },
+      {
+        "_path": "site-packages/streamlit/proto/NamedDataSet_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "ea738be36f161481e74101984698e9d296198215159e14e5c1407965d89f4d31",
+        "sha256_in_prefix": "ea738be36f161481e74101984698e9d296198215159e14e5c1407965d89f4d31",
+        "size_in_bytes": 3247
+      },
+      {
+        "_path": "site-packages/streamlit/proto/NewReport_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "f8891b92224807f5455881281de85043f3094695bb73c1fd025dc291d25207ee",
+        "sha256_in_prefix": "f8891b92224807f5455881281de85043f3094695bb73c1fd025dc291d25207ee",
+        "size_in_bytes": 22035
+      },
+      {
+        "_path": "site-packages/streamlit/proto/NumberInput_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "307a23fe9a1897e8d0375b18efa9f98fa614340fdc6dfbd0f0da94948dd76e06",
+        "sha256_in_prefix": "307a23fe9a1897e8d0375b18efa9f98fa614340fdc6dfbd0f0da94948dd76e06",
+        "size_in_bytes": 8873
+      },
+      {
+        "_path": "site-packages/streamlit/proto/PageConfig_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b278835f14974cb576234e34a50528baabbad992cc930a5623335902287f35f7",
+        "sha256_in_prefix": "b278835f14974cb576234e34a50528baabbad992cc930a5623335902287f35f7",
+        "size_in_bytes": 5563
+      },
+      {
+        "_path": "site-packages/streamlit/proto/PageInfo_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "fb61148daa081db7b425a0f566d2536d2c763f561d9d0f190f633320315db476",
+        "sha256_in_prefix": "fb61148daa081db7b425a0f566d2536d2c763f561d9d0f190f633320315db476",
+        "size_in_bytes": 2015
+      },
+      {
+        "_path": "site-packages/streamlit/proto/PlotlyChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "fcb603c75a22b81f94955ace2d95b220df8117528022cff4b7050ef4ea5c705a",
+        "sha256_in_prefix": "fcb603c75a22b81f94955ace2d95b220df8117528022cff4b7050ef4ea5c705a",
+        "size_in_bytes": 5267
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Progress_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d2e6cba3e03dc480de8478e7fc9b956d1b2a242d02586f9e63fdda4e01ecba9c",
+        "sha256_in_prefix": "d2e6cba3e03dc480de8478e7fc9b956d1b2a242d02586f9e63fdda4e01ecba9c",
+        "size_in_bytes": 1978
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Radio_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "8c46321ec49c745f5ee35245d79626252ced48ab2a5549154c160df508cd6278",
+        "sha256_in_prefix": "8c46321ec49c745f5ee35245d79626252ced48ab2a5549154c160df508cd6278",
+        "size_in_bytes": 4994
+      },
+      {
+        "_path": "site-packages/streamlit/proto/RootContainer_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "810a6afa05a1f862532ada9bbfde761e5fc27bab8d4f3eb6d1c2da1294d37b75",
+        "sha256_in_prefix": "810a6afa05a1f862532ada9bbfde761e5fc27bab8d4f3eb6d1c2da1294d37b75",
+        "size_in_bytes": 1797
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Selectbox_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4168af9fe280dcf6f359ab4e14ca918d9f00008effef6ec0bfe80ec0c18dc2cb",
+        "sha256_in_prefix": "4168af9fe280dcf6f359ab4e14ca918d9f00008effef6ec0bfe80ec0c18dc2cb",
+        "size_in_bytes": 5084
+      },
+      {
+        "_path": "site-packages/streamlit/proto/SessionEvent_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "41b4b28d556c450d69ea08f43d9be7923a849001982d038fe1412ff5edfaaf8a",
+        "sha256_in_prefix": "41b4b28d556c450d69ea08f43d9be7923a849001982d038fe1412ff5edfaaf8a",
+        "size_in_bytes": 4342
+      },
+      {
+        "_path": "site-packages/streamlit/proto/SessionState_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "06d689b532befc1e7095d26843c8d22ac572f4aa55a2a19df391ea9119642879",
+        "sha256_in_prefix": "06d689b532befc1e7095d26843c8d22ac572f4aa55a2a19df391ea9119642879",
+        "size_in_bytes": 2536
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Slider_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "23736fcad021d30df4ef5dbffe1d158cd5a3793ec9220a5ab2007d3b35ce6ada",
+        "sha256_in_prefix": "23736fcad021d30df4ef5dbffe1d158cd5a3793ec9220a5ab2007d3b35ce6ada",
+        "size_in_bytes": 8724
+      },
+      {
+        "_path": "site-packages/streamlit/proto/StaticManifest_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "5120f63ff2dba570eb5eda4f66b2dead08d287f10eb44c2b8030c2268f6bcca2",
+        "sha256_in_prefix": "5120f63ff2dba570eb5eda4f66b2dead08d287f10eb44c2b8030c2268f6bcca2",
+        "size_in_bytes": 6456
+      },
+      {
+        "_path": "site-packages/streamlit/proto/TextArea_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "df60169f8b4b54234eb9ee45191560bd84614a108529b6bf76f902b02d6bf220",
+        "sha256_in_prefix": "df60169f8b4b54234eb9ee45191560bd84614a108529b6bf76f902b02d6bf220",
+        "size_in_bytes": 5525
+      },
+      {
+        "_path": "site-packages/streamlit/proto/TextInput_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "92c9b26b2be14fd69663563eca274ef087a53e272735b6ca5acb56e1b659edaa",
+        "sha256_in_prefix": "92c9b26b2be14fd69663563eca274ef087a53e272735b6ca5acb56e1b659edaa",
+        "size_in_bytes": 6939
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Text_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1b8e847d46ecb0dad3b0b4718d8e8e13f54811ebcabaef0cc220f4bb4c59f65d",
+        "sha256_in_prefix": "1b8e847d46ecb0dad3b0b4718d8e8e13f54811ebcabaef0cc220f4bb4c59f65d",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "site-packages/streamlit/proto/TimeInput_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d78cba1b7081758a5a9ce5308d75229ba7fa925445f76e523a216753c49c7e1e",
+        "sha256_in_prefix": "d78cba1b7081758a5a9ce5308d75229ba7fa925445f76e523a216753c49c7e1e",
+        "size_in_bytes": 4677
+      },
+      {
+        "_path": "site-packages/streamlit/proto/VegaLiteChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4068370b4b26e0f15e1b0db498ac4e98ec7b51785a102177069956e60e96e609",
+        "sha256_in_prefix": "4068370b4b26e0f15e1b0db498ac4e98ec7b51785a102177069956e60e96e609",
+        "size_in_bytes": 4085
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Video_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0676a41c6d5f710ab36cf524e1782c0902b0b08279114812de6137acf9e4049f",
+        "sha256_in_prefix": "0676a41c6d5f710ab36cf524e1782c0902b0b08279114812de6137acf9e4049f",
+        "size_in_bytes": 3990
+      },
+      {
+        "_path": "site-packages/streamlit/proto/WidgetStates_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4267bd68a6f58d3f33e7813b74b449732f7c346c2411d14da9a30cd61e68a472",
+        "sha256_in_prefix": "4267bd68a6f58d3f33e7813b74b449732f7c346c2411d14da9a30cd61e68a472",
+        "size_in_bytes": 11750
+      },
+      {
+        "_path": "site-packages/streamlit/proto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1c54933c5e7c1a72798571d7911158887cb169a77e5b17b8ad62212af61f2b93",
+        "sha256_in_prefix": "1c54933c5e7c1a72798571d7911158887cb169a77e5b17b8ad62212af61f2b93",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/streamlit/report.py",
+        "path_type": "hardlink",
+        "sha256": "2953eb75e1b55f43da9a4e61f5d195dbbbe110535f0d86292060045c4f998bca",
+        "sha256_in_prefix": "2953eb75e1b55f43da9a4e61f5d195dbbbe110535f0d86292060045c4f998bca",
+        "size_in_bytes": 9050
+      },
+      {
+        "_path": "site-packages/streamlit/report_queue.py",
+        "path_type": "hardlink",
+        "sha256": "7ce41e733d0716bc5e88ac1c0616d1bf90a62ba6ab025fd814fe89f10418686d",
+        "sha256_in_prefix": "7ce41e733d0716bc5e88ac1c0616d1bf90a62ba6ab025fd814fe89f10418686d",
+        "size_in_bytes": 4961
+      },
+      {
+        "_path": "site-packages/streamlit/report_session.py",
+        "path_type": "hardlink",
+        "sha256": "aa92d4ef893b7ff83e61f74c201ae82c2f36d91ed5041b98d0d926c9f341f35d",
+        "sha256_in_prefix": "aa92d4ef893b7ff83e61f74c201ae82c2f36d91ed5041b98d0d926c9f341f35d",
+        "size_in_bytes": 26382
+      },
+      {
+        "_path": "site-packages/streamlit/report_thread.py",
+        "path_type": "hardlink",
+        "sha256": "6d96e0a7214bde44bd63c7f2efc7aeb6c583ce932864d530116a67c366cd4592",
+        "sha256_in_prefix": "6d96e0a7214bde44bd63c7f2efc7aeb6c583ce932864d530116a67c366cd4592",
+        "size_in_bytes": 8795
+      },
+      {
+        "_path": "site-packages/streamlit/script_request_queue.py",
+        "path_type": "hardlink",
+        "sha256": "3050c8b01008adff310808503f7dc4de2632d97804b58253c77da78a5e996cb2",
+        "sha256_in_prefix": "3050c8b01008adff310808503f7dc4de2632d97804b58253c77da78a5e996cb2",
+        "size_in_bytes": 5578
+      },
+      {
+        "_path": "site-packages/streamlit/script_runner.py",
+        "path_type": "hardlink",
+        "sha256": "13d67219753f550bd39d2c0f2587e21ccfd239290853c6da58c787f2a32e2e1c",
+        "sha256_in_prefix": "13d67219753f550bd39d2c0f2587e21ccfd239290853c6da58c787f2a32e2e1c",
+        "size_in_bytes": 16957
+      },
+      {
+        "_path": "site-packages/streamlit/secrets.py",
+        "path_type": "hardlink",
+        "sha256": "ff5e516e5acf34c16796277ab4fc54463bfec84cef3cb7b9e6f3e68afb85e003",
+        "sha256_in_prefix": "ff5e516e5acf34c16796277ab4fc54463bfec84cef3cb7b9e6f3e68afb85e003",
+        "size_in_bytes": 5673
+      },
+      {
+        "_path": "site-packages/streamlit/server/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/server/routes.py",
+        "path_type": "hardlink",
+        "sha256": "618860848d5783fa8dff8bd1d5c57f904b825e8ac8474f0e040d711535a68a98",
+        "sha256_in_prefix": "618860848d5783fa8dff8bd1d5c57f904b825e8ac8474f0e040d711535a68a98",
+        "size_in_bytes": 8822
+      },
+      {
+        "_path": "site-packages/streamlit/server/server.py",
+        "path_type": "hardlink",
+        "sha256": "cbc6f4ce83028ed2af86cba21cf00d4baf0ab52cae2fdfea6ad7d17d6f3d13f8",
+        "sha256_in_prefix": "cbc6f4ce83028ed2af86cba21cf00d4baf0ab52cae2fdfea6ad7d17d6f3d13f8",
+        "size_in_bytes": 24977
+      },
+      {
+        "_path": "site-packages/streamlit/server/server_util.py",
+        "path_type": "hardlink",
+        "sha256": "01b8b7c9029ccb95f0e80856dfb577a7f17092a17f43a497915e4b0f78a87d6e",
+        "sha256_in_prefix": "01b8b7c9029ccb95f0e80856dfb577a7f17092a17f43a497915e4b0f78a87d6e",
+        "size_in_bytes": 4698
+      },
+      {
+        "_path": "site-packages/streamlit/server/upload_file_request_handler.py",
+        "path_type": "hardlink",
+        "sha256": "01082de1ca52fe065231186f674cc8d131632821dd1460188c53687925de30c6",
+        "sha256_in_prefix": "01082de1ca52fe065231186f674cc8d131632821dd1460188c53687925de30c6",
+        "size_in_bytes": 6215
+      },
+      {
+        "_path": "site-packages/streamlit/source_util.py",
+        "path_type": "hardlink",
+        "sha256": "9efc4aa899a5c96e98b5046450b29dda153d6f089c986b35899c8fa6d433b6ee",
+        "sha256_in_prefix": "9efc4aa899a5c96e98b5046450b29dda153d6f089c986b35899c8fa6d433b6ee",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "site-packages/streamlit/state/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/state/session_state.py",
+        "path_type": "hardlink",
+        "sha256": "47c05ac1505627eb4a33a2a7383cc9822b7870860713664fad9ad2d0f4d75eb6",
+        "sha256_in_prefix": "47c05ac1505627eb4a33a2a7383cc9822b7870860713664fad9ad2d0f4d75eb6",
+        "size_in_bytes": 19608
+      },
+      {
+        "_path": "site-packages/streamlit/state/widgets.py",
+        "path_type": "hardlink",
+        "sha256": "20556dc1ac1822ae22b449978d7d5af3b71f9e80192de55ae31fc8fe987eeaf7",
+        "sha256_in_prefix": "20556dc1ac1822ae22b449978d7d5af3b71f9e80192de55ae31fc8fe987eeaf7",
+        "size_in_bytes": 9770
+      },
+      {
+        "_path": "site-packages/streamlit/static/asset-manifest.json",
+        "path_type": "hardlink",
+        "sha256": "5f654570f24e5ae4c232587ff35a8ac4acd751739f787499ee554dc64155f0d8",
+        "sha256_in_prefix": "5f654570f24e5ae4c232587ff35a8ac4acd751739f787499ee554dc64155f0d8",
+        "size_in_bytes": 5966
+      },
+      {
+        "_path": "site-packages/streamlit/static/assets/streamlit.css",
+        "path_type": "hardlink",
+        "sha256": "599088d43a85ea778e83217d804c98d83334522de30127dd3ee602da0c503d3a",
+        "sha256_in_prefix": "599088d43a85ea778e83217d804c98d83334522de30127dd3ee602da0c503d3a",
+        "size_in_bytes": 20637
+      },
+      {
+        "_path": "site-packages/streamlit/static/favicon.png",
+        "path_type": "hardlink",
+        "sha256": "89fe5c560c3b6b3c4a3af5791691a2c606bb24b9f6deb7e71dccb509d588d7e1",
+        "sha256_in_prefix": "89fe5c560c3b6b3c4a3af5791691a2c606bb24b9f6deb7e71dccb509d588d7e1",
+        "size_in_bytes": 1019
+      },
+      {
+        "_path": "site-packages/streamlit/static/index.html",
+        "path_type": "hardlink",
+        "sha256": "280a6612f4f3a45b8839336ea6895f34edc589605d61dbf23bef817feecd3437",
+        "sha256_in_prefix": "280a6612f4f3a45b8839336ea6895f34edc589605d61dbf23bef817feecd3437",
+        "size_in_bytes": 4918
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/css/6.099fba4a.chunk.css",
+        "path_type": "hardlink",
+        "sha256": "88eae9cf88cb132f73d102752c9b492fe950778f7c62a8fe5d597eded0098610",
+        "sha256_in_prefix": "88eae9cf88cb132f73d102752c9b492fe950778f7c62a8fe5d597eded0098610",
+        "size_in_bytes": 23458
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/css/7.41c38bce.chunk.css",
+        "path_type": "hardlink",
+        "sha256": "35cbae2011774dec1fafa94d0c7901155aed02598f186642cf52ceb6d47f659d",
+        "sha256_in_prefix": "35cbae2011774dec1fafa94d0c7901155aed02598f186642cf52ceb6d47f659d",
+        "size_in_bytes": 34155
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/css/main.96896fe2.chunk.css",
+        "path_type": "hardlink",
+        "sha256": "6cc05dc1f372df4d5682550c741360a203e85bedbe852c1e663f22b44658a9ee",
+        "sha256_in_prefix": "6cc05dc1f372df4d5682550c741360a203e85bedbe852c1e663f22b44658a9ee",
+        "size_in_bytes": 3345
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/0.43cfaf97.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "565660438d1f79e280d1b76ffbf7d000ace4511db88f80727b2f00e9d552285f",
+        "sha256_in_prefix": "565660438d1f79e280d1b76ffbf7d000ace4511db88f80727b2f00e9d552285f",
+        "size_in_bytes": 19616
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/1.9ac4ac20.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "812e84b6cbf631cb521f3be2db3e4354ab9e3f62f1d194a39dc2629dfbbf6cb8",
+        "sha256_in_prefix": "812e84b6cbf631cb521f3be2db3e4354ab9e3f62f1d194a39dc2629dfbbf6cb8",
+        "size_in_bytes": 1093099
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/1.9ac4ac20.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "90bbc8b56f1361e4095acd074ac1ec7aa7e2f6a7cd26ee393c604f64a59b18ce",
+        "sha256_in_prefix": "90bbc8b56f1361e4095acd074ac1ec7aa7e2f6a7cd26ee393c604f64a59b18ce",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/10.e7b9ec46.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "f2e9c342bd8b3b830914de029acab483c104b95863b4d1387728d13af24dedd9",
+        "sha256_in_prefix": "f2e9c342bd8b3b830914de029acab483c104b95863b4d1387728d13af24dedd9",
+        "size_in_bytes": 2386447
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/11.4b228120.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "f8c95aae2f71bcc72f50915921b35ad44d68573cac64d601fa5e92ae28439a24",
+        "sha256_in_prefix": "f8c95aae2f71bcc72f50915921b35ad44d68573cac64d601fa5e92ae28439a24",
+        "size_in_bytes": 4809
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/12.548b3499.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "0f88547727220c250179979ec9df377ea97ea3e1b9dcdba9892fadf83e909e31",
+        "sha256_in_prefix": "0f88547727220c250179979ec9df377ea97ea3e1b9dcdba9892fadf83e909e31",
+        "size_in_bytes": 7491
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/12.548b3499.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/13.a83f2b1a.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "fbb11ede3fc10531036776bf5974df423bc17831d76ddf27aa03acf37765c0c4",
+        "sha256_in_prefix": "fbb11ede3fc10531036776bf5974df423bc17831d76ddf27aa03acf37765c0c4",
+        "size_in_bytes": 28968
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/14.23fd153a.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "3f83b6ad65e45274691e12d3d2d6fe8bf9f7dcdf3cdd41f310ac9b45efae3588",
+        "sha256_in_prefix": "3f83b6ad65e45274691e12d3d2d6fe8bf9f7dcdf3cdd41f310ac9b45efae3588",
+        "size_in_bytes": 65778
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/14.23fd153a.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/15.7ecd76b9.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "a0ec1b829184dfb38718284a899c854cf8766f4753b006301570e22f5120bb76",
+        "sha256_in_prefix": "a0ec1b829184dfb38718284a899c854cf8766f4753b006301570e22f5120bb76",
+        "size_in_bytes": 1303
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/15.7ecd76b9.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/16.fe599da9.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "77670c6d1d2300aa0ba9a4f13ebd3ae1fd7c7a8d9acd3c1410b86aacdd986dea",
+        "sha256_in_prefix": "77670c6d1d2300aa0ba9a4f13ebd3ae1fd7c7a8d9acd3c1410b86aacdd986dea",
+        "size_in_bytes": 14602
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/16.fe599da9.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/17.f67674d2.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "4b92efda7852057247260a1c8a4d31ee867a8278c28e4f5d27a9b286e490358d",
+        "sha256_in_prefix": "4b92efda7852057247260a1c8a4d31ee867a8278c28e4f5d27a9b286e490358d",
+        "size_in_bytes": 86180
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/18.2727a480.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "d451f9dd42f0f77de220fefcf206a9c64f71c258cf6e351d6e8423bb14769200",
+        "sha256_in_prefix": "d451f9dd42f0f77de220fefcf206a9c64f71c258cf6e351d6e8423bb14769200",
+        "size_in_bytes": 7907
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/19.f8940475.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "686baa47aa4dc785aeb5e36f6fa8815824ddb9df80d4da3d6ba12e710fe0490a",
+        "sha256_in_prefix": "686baa47aa4dc785aeb5e36f6fa8815824ddb9df80d4da3d6ba12e710fe0490a",
+        "size_in_bytes": 3491463
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/19.f8940475.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "32dc3f4b8a800b55e275825864631a549881570f71acfed60457fc5137e1e89d",
+        "sha256_in_prefix": "32dc3f4b8a800b55e275825864631a549881570f71acfed60457fc5137e1e89d",
+        "size_in_bytes": 1580
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/2.b62f8fde.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "d9531df14251bc578d0c222ecf82168af77c88e8f123b3df9ecffcea2412b856",
+        "sha256_in_prefix": "d9531df14251bc578d0c222ecf82168af77c88e8f123b3df9ecffcea2412b856",
+        "size_in_bytes": 78468
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/20.7c636273.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "2a33f3730aa0578deef1e6fd3bfc141d0d7cbbf3173e8196984d517df3262780",
+        "sha256_in_prefix": "2a33f3730aa0578deef1e6fd3bfc141d0d7cbbf3173e8196984d517df3262780",
+        "size_in_bytes": 8078
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/20.7c636273.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/21.727ff15e.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "1a8c4df29a680ba6d59968dccfcd5d1e75b39ca1be6917ecbbfab34d7214a473",
+        "sha256_in_prefix": "1a8c4df29a680ba6d59968dccfcd5d1e75b39ca1be6917ecbbfab34d7214a473",
+        "size_in_bytes": 7380
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/21.727ff15e.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/22.409b16c8.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "11bbd11e8991c31311abbd414f059ec14e029e0bd9ed7f3d50399ed86b1020d8",
+        "sha256_in_prefix": "11bbd11e8991c31311abbd414f059ec14e029e0bd9ed7f3d50399ed86b1020d8",
+        "size_in_bytes": 1668
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/22.409b16c8.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/23.48af0a8a.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "1a6f6f87bcacd4734fc089918c1a440945d80246386429482df2f30c88ecfe5b",
+        "sha256_in_prefix": "1a6f6f87bcacd4734fc089918c1a440945d80246386429482df2f30c88ecfe5b",
+        "size_in_bytes": 8165
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/24.f001956b.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "f733061772384fc501f6f7b7f7eb1db715724f3e3ecbffa18669b88a0de9e486",
+        "sha256_in_prefix": "f733061772384fc501f6f7b7f7eb1db715724f3e3ecbffa18669b88a0de9e486",
+        "size_in_bytes": 28276
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/25.c39f8283.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "07a1ae37916f19ae533d49ba43869faf5e5fb11c687583ca82a2bf2c0a241848",
+        "sha256_in_prefix": "07a1ae37916f19ae533d49ba43869faf5e5fb11c687583ca82a2bf2c0a241848",
+        "size_in_bytes": 60436
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/26.f61d1698.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "91049495e1ef33ba53ebb768bd604848f009f4e67755f13bee9ea2b21ce1f80b",
+        "sha256_in_prefix": "91049495e1ef33ba53ebb768bd604848f009f4e67755f13bee9ea2b21ce1f80b",
+        "size_in_bytes": 6320
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/26.f61d1698.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/27.add8f3dd.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "519213777d1a74aa7fbf506747c94e88d37621fed089a27372b9a6aa3d9542a4",
+        "sha256_in_prefix": "519213777d1a74aa7fbf506747c94e88d37621fed089a27372b9a6aa3d9542a4",
+        "size_in_bytes": 570
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/27.add8f3dd.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/28.5d111ce1.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "48548c12ba7890b729bc1270c29528f28d2ccdce5a25f5cd11aa5e1548f4fccc",
+        "sha256_in_prefix": "48548c12ba7890b729bc1270c29528f28d2ccdce5a25f5cd11aa5e1548f4fccc",
+        "size_in_bytes": 1136
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/28.5d111ce1.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/29.f050d40b.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "94d91337c523d7990d30ce2e273e082e8069c83a9de5f0653bf20f3a523a7d8e",
+        "sha256_in_prefix": "94d91337c523d7990d30ce2e273e082e8069c83a9de5f0653bf20f3a523a7d8e",
+        "size_in_bytes": 630
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/29.f050d40b.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/3.d9d357d0.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "6cdb9b780d99c38cef869f7568ccc3266d1a2e44b6d2a1763b34cc30b0746332",
+        "sha256_in_prefix": "6cdb9b780d99c38cef869f7568ccc3266d1a2e44b6d2a1763b34cc30b0746332",
+        "size_in_bytes": 20924
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/3.d9d357d0.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "8d0f1e937c389e1eb581f0c4c4c9497c6a6a144c6a98bfbe490705e40b350147",
+        "sha256_in_prefix": "8d0f1e937c389e1eb581f0c4c4c9497c6a6a144c6a98bfbe490705e40b350147",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/30.e0e37323.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "06830fce4aab6d6be24dac873f966baa695f34c0232dc64d4460fd92eb1026f6",
+        "sha256_in_prefix": "06830fce4aab6d6be24dac873f966baa695f34c0232dc64d4460fd92eb1026f6",
+        "size_in_bytes": 1364
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/30.e0e37323.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/31.d2c8ea0e.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "08e6c89e8e416fd3cb41b9b4ea2f9790b65fafd6e126b7ff26e7cc1207886faf",
+        "sha256_in_prefix": "08e6c89e8e416fd3cb41b9b4ea2f9790b65fafd6e126b7ff26e7cc1207886faf",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/31.d2c8ea0e.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/32.cba865ea.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "b00e51da0b295f02d04226594c5a6bbf53a0b81f2adcd4fcb7827732320fc8c7",
+        "sha256_in_prefix": "b00e51da0b295f02d04226594c5a6bbf53a0b81f2adcd4fcb7827732320fc8c7",
+        "size_in_bytes": 6402
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/32.cba865ea.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/33.8e808b64.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "274ff75f4b57f446fe10da20a7ad29e1fdd1c629a3c9f110f2d92b2aca678f03",
+        "sha256_in_prefix": "274ff75f4b57f446fe10da20a7ad29e1fdd1c629a3c9f110f2d92b2aca678f03",
+        "size_in_bytes": 935
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/33.8e808b64.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/34.4f91131c.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "0fa54cdf3f65a7d2ea885c9285d818244a0a25230e5190c1307c3ae366153fb3",
+        "sha256_in_prefix": "0fa54cdf3f65a7d2ea885c9285d818244a0a25230e5190c1307c3ae366153fb3",
+        "size_in_bytes": 620
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/34.4f91131c.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/35.91e0b731.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "3ba8c0ddbe39614c364c9dbbf2b7320f36935f99b549a82632dad18318243f63",
+        "sha256_in_prefix": "3ba8c0ddbe39614c364c9dbbf2b7320f36935f99b549a82632dad18318243f63",
+        "size_in_bytes": 15810
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/36.0dff06e9.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "b446cdb9fc1c15af54515b3026537dc6a2a7a1fe01af5c99a5a1754a89285fa1",
+        "sha256_in_prefix": "b446cdb9fc1c15af54515b3026537dc6a2a7a1fe01af5c99a5a1754a89285fa1",
+        "size_in_bytes": 1893
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/37.1c54f7c6.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "1fe8b1f59d7f6a2d590f6aaf87a1e3bdd4fe65ef2a78820b007e55bca90820c7",
+        "sha256_in_prefix": "1fe8b1f59d7f6a2d590f6aaf87a1e3bdd4fe65ef2a78820b007e55bca90820c7",
+        "size_in_bytes": 3380
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/38.c4662576.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "11e40c4b1cc3abf76f20725d55c4adc11b0cf70f340359ba97c834af53d817af",
+        "sha256_in_prefix": "11e40c4b1cc3abf76f20725d55c4adc11b0cf70f340359ba97c834af53d817af",
+        "size_in_bytes": 17943
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/39.3105eabb.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "01895d816fb78fd352b97f61a5eff1b1f2af802ac198d9992e4cb2e8c655abfd",
+        "sha256_in_prefix": "01895d816fb78fd352b97f61a5eff1b1f2af802ac198d9992e4cb2e8c655abfd",
+        "size_in_bytes": 1917
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/40.ae4d837a.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "ded53258de241df45e09d8d9b9be23de5b36a8cdab474fd9aee3ae28c4741a1b",
+        "sha256_in_prefix": "ded53258de241df45e09d8d9b9be23de5b36a8cdab474fd9aee3ae28c4741a1b",
+        "size_in_bytes": 5535
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/41.f1656a2e.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "da4feb2ed7132254c95deda39fdf29374a7f00f6b5e15f1aec30ddcd2f78e162",
+        "sha256_in_prefix": "da4feb2ed7132254c95deda39fdf29374a7f00f6b5e15f1aec30ddcd2f78e162",
+        "size_in_bytes": 2488
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/6.bf207d16.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "6b1c86e5c59e10e240236266ccc00f63f8e930aeaf6a4d8079da41cab4cca9d8",
+        "sha256_in_prefix": "6b1c86e5c59e10e240236266ccc00f63f8e930aeaf6a4d8079da41cab4cca9d8",
+        "size_in_bytes": 4498229
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/6.bf207d16.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "d27bca004c89cd881788ce0c3caacf638be09e5956862e77aa17f871157977f0",
+        "sha256_in_prefix": "d27bca004c89cd881788ce0c3caacf638be09e5956862e77aa17f871157977f0",
+        "size_in_bytes": 6411
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/7.2911d042.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "d9e3f4bb296a550227a3eec426a3849d4a057a591fa78d26b4329a9d0947367d",
+        "sha256_in_prefix": "d9e3f4bb296a550227a3eec426a3849d4a057a591fa78d26b4329a9d0947367d",
+        "size_in_bytes": 2808795
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/7.2911d042.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "7133d45d3daa693fd50bda50d074aeda43c2db7d561a432d8efd6179117e9a26",
+        "sha256_in_prefix": "7133d45d3daa693fd50bda50d074aeda43c2db7d561a432d8efd6179117e9a26",
+        "size_in_bytes": 1865
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/8.3b7c5d32.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "40d12ec4b3375b69ac608db120cf4a3f7109b42c98baa328d4bbcca004aa5076",
+        "sha256_in_prefix": "40d12ec4b3375b69ac608db120cf4a3f7109b42c98baa328d4bbcca004aa5076",
+        "size_in_bytes": 1312274
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/8.3b7c5d32.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "2908b346f07ced68de2bedcdf30a1bfd8ed7bdb166b62da45f4c8626842c6395",
+        "sha256_in_prefix": "2908b346f07ced68de2bedcdf30a1bfd8ed7bdb166b62da45f4c8626842c6395",
+        "size_in_bytes": 2985
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/9.27f7429c.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "735e17c683be0887d27e8aa68014b81923a984dc8c836b71d7f10f6145bed773",
+        "sha256_in_prefix": "735e17c683be0887d27e8aa68014b81923a984dc8c836b71d7f10f6145bed773",
+        "size_in_bytes": 136809
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/main.0a886398.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "4be7814716faffc6678ac6143c5e28cc4d5a0689ab04e60e85ae2bef04f1a833",
+        "sha256_in_prefix": "4be7814716faffc6678ac6143c5e28cc4d5a0689ab04e60e85ae2bef04f1a833",
+        "size_in_bytes": 517386
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/main.0a886398.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "c89deb5cc5ae3a79fa105137c9fadf50d1d33bb30cecda81b79e78268f1577d2",
+        "sha256_in_prefix": "c89deb5cc5ae3a79fa105137c9fadf50d1d33bb30cecda81b79e78268f1577d2",
+        "size_in_bytes": 1231
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/runtime-main.40cac32e.js",
+        "path_type": "hardlink",
+        "sha256": "99046b12159f6c554e51d782a0a1208791475ed68ea92b23f20a1197bc424ec3",
+        "sha256_in_prefix": "99046b12159f6c554e51d782a0a1208791475ed68ea92b23f20a1197bc424ec3",
+        "size_in_bytes": 4250
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexMono-Regular.bee53c8c.ttf",
+        "path_type": "hardlink",
+        "sha256": "4ce3632e13a3635b6a39e4149bb2674e883c565cc2ff1b2cecd3b654a0c16e50",
+        "sha256_in_prefix": "4ce3632e13a3635b6a39e4149bb2674e883c565cc2ff1b2cecd3b654a0c16e50",
+        "size_in_bytes": 113376
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Bold.5a0eb98b.ttf",
+        "path_type": "hardlink",
+        "sha256": "24d977a0e98448c959f059f8d4efb7efed22f92e980305b1b67e5c20514bbdd0",
+        "sha256_in_prefix": "24d977a0e98448c959f059f8d4efb7efed22f92e980305b1b67e5c20514bbdd0",
+        "size_in_bytes": 153236
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-BoldItalic.d5548132.ttf",
+        "path_type": "hardlink",
+        "sha256": "dc34709d967a38c4b84f4d58654dc77d8dd504e27019e5bb6596ee64c969b220",
+        "sha256_in_prefix": "dc34709d967a38c4b84f4d58654dc77d8dd504e27019e5bb6596ee64c969b220",
+        "size_in_bytes": 161500
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Italic.5c9d4db4.ttf",
+        "path_type": "hardlink",
+        "sha256": "d4fd35680193722744227376951c45f8d4ebb724650c08f9aff871ff8c0d5904",
+        "sha256_in_prefix": "d4fd35680193722744227376951c45f8d4ebb724650c08f9aff871ff8c0d5904",
+        "size_in_bytes": 161892
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Light.0a619f93.ttf",
+        "path_type": "hardlink",
+        "sha256": "1158b4b383a7a3d7d274637e8a11f6f5aa51b6590e463734f15064c30e548f26",
+        "sha256_in_prefix": "1158b4b383a7a3d7d274637e8a11f6f5aa51b6590e463734f15064c30e548f26",
+        "size_in_bytes": 154764
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-LightItalic.3a1f5a16.ttf",
+        "path_type": "hardlink",
+        "sha256": "d03ce13c36d313261308a28ca489ec3e889daec4d41983f7d6a0c9529a750c7e",
+        "sha256_in_prefix": "d03ce13c36d313261308a28ca489ec3e889daec4d41983f7d6a0c9529a750c7e",
+        "size_in_bytes": 163008
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Medium.c401b936.ttf",
+        "path_type": "hardlink",
+        "sha256": "2d0fd4ee5de785daaf9f5e7a9f526dae89cc94cd7bd95840df82f8a70360b5bd",
+        "sha256_in_prefix": "2d0fd4ee5de785daaf9f5e7a9f526dae89cc94cd7bd95840df82f8a70360b5bd",
+        "size_in_bytes": 154188
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-MediumItalic.3046879d.ttf",
+        "path_type": "hardlink",
+        "sha256": "3b346692ea1de5965a0f403f477016070359ef7afd9c6c16159af723eba23755",
+        "sha256_in_prefix": "3b346692ea1de5965a0f403f477016070359ef7afd9c6c16159af723eba23755",
+        "size_in_bytes": 161764
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Regular.71a4981f.ttf",
+        "path_type": "hardlink",
+        "sha256": "58b1d57da4ff3b6790059a579fbb29abe247b938ca1369f8ee2231ce76f0a44e",
+        "sha256_in_prefix": "58b1d57da4ff3b6790059a579fbb29abe247b938ca1369f8ee2231ce76f0a44e",
+        "size_in_bytes": 153368
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Bold.58c7f8d5.ttf",
+        "path_type": "hardlink",
+        "sha256": "01eb23c92ed75a6c9f1ba4311913e843f09917486e82a54011fac83758052f9b",
+        "sha256_in_prefix": "01eb23c92ed75a6c9f1ba4311913e843f09917486e82a54011fac83758052f9b",
+        "size_in_bytes": 161076
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-BoldItalic.346afa5a.ttf",
+        "path_type": "hardlink",
+        "sha256": "7722e76c7ed130695de26f4d7912f6ce33dac51a2a4c525da35c2398fddb08fc",
+        "sha256_in_prefix": "7722e76c7ed130695de26f4d7912f6ce33dac51a2a4c525da35c2398fddb08fc",
+        "size_in_bytes": 170008
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Italic.bc84e537.ttf",
+        "path_type": "hardlink",
+        "sha256": "ce38d556f3ac78e839bc6c6aeb633d94fbe03e54056548372d79a98d8e980699",
+        "sha256_in_prefix": "ce38d556f3ac78e839bc6c6aeb633d94fbe03e54056548372d79a98d8e980699",
+        "size_in_bytes": 170104
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Light.2e84bbf0.ttf",
+        "path_type": "hardlink",
+        "sha256": "720269bb3cc9458ca92fd6a6d329f2041c3a06104221102408660dac8fadffc9",
+        "sha256_in_prefix": "720269bb3cc9458ca92fd6a6d329f2041c3a06104221102408660dac8fadffc9",
+        "size_in_bytes": 160064
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-LightItalic.1979fd74.ttf",
+        "path_type": "hardlink",
+        "sha256": "ac16d1d1565bf96a3dc2843b68676382d6648b589550993cbeda9c1e10f9f2c4",
+        "sha256_in_prefix": "ac16d1d1565bf96a3dc2843b68676382d6648b589550993cbeda9c1e10f9f2c4",
+        "size_in_bytes": 168484
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Medium.283fca3d.ttf",
+        "path_type": "hardlink",
+        "sha256": "44cd9a95f016de92bd3832ef7698cc8c431bcbe5246ebdfd12c524630ae20c0c",
+        "sha256_in_prefix": "44cd9a95f016de92bd3832ef7698cc8c431bcbe5246ebdfd12c524630ae20c0c",
+        "size_in_bytes": 161344
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-MediumItalic.fe93e7da.ttf",
+        "path_type": "hardlink",
+        "sha256": "f296fbe1ecf15ff9f778c7bdbe13928b173783814d38f6fb9c92b5fc8dfc869c",
+        "sha256_in_prefix": "f296fbe1ecf15ff9f778c7bdbe13928b173783814d38f6fb9c92b5fc8dfc869c",
+        "size_in_bytes": 170232
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Regular.9e4f976f.ttf",
+        "path_type": "hardlink",
+        "sha256": "5604150aba3825da8219c5a7fbd18e72beaee8576cf9372accc78d9185db5e06",
+        "sha256_in_prefix": "5604150aba3825da8219c5a7fbd18e72beaee8576cf9372accc78d9185db5e06",
+        "size_in_bytes": 160352
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.b1489df1.woff",
+        "path_type": "hardlink",
+        "sha256": "ce1ebce55c88871c7a6059c3a51fd6ede5531335dc9856ab2790694aa67224a4",
+        "sha256_in_prefix": "ce1ebce55c88871c7a6059c3a51fd6ede5531335dc9856ab2790694aa67224a4",
+        "size_in_bytes": 38868
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.d4531cf7.woff2",
+        "path_type": "hardlink",
+        "sha256": "7a347422f8c437c7408502bc34144a3a994fca5eee52d3691905e0eaaece7f78",
+        "sha256_in_prefix": "7a347422f8c437c7408502bc34144a3a994fca5eee52d3691905e0eaaece7f78",
+        "size_in_bytes": 32944
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.f80d9eaf.ttf",
+        "path_type": "hardlink",
+        "sha256": "89d3c5f7f55deba5741efd2189a0a8132824035ff9ad869800759412adfc8682",
+        "sha256_in_prefix": "89d3c5f7f55deba5741efd2189a0a8132824035ff9ad869800759412adfc8682",
+        "size_in_bytes": 70972
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.0c96bc8f.ttf",
+        "path_type": "hardlink",
+        "sha256": "b86eaec3180a15a294294cff6c6689d86a4ab9baba37d868ecaddb66613ec723",
+        "sha256_in_prefix": "b86eaec3180a15a294294cff6c6689d86a4ab9baba37d868ecaddb66613ec723",
+        "size_in_bytes": 19316
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.7ce7636b.woff",
+        "path_type": "hardlink",
+        "sha256": "08c8229182fd845d3edb17810b3bf84fc919119bafd5a527c1433597afd4cc29",
+        "sha256_in_prefix": "08c8229182fd845d3edb17810b3bf84fc919119bafd5a527c1433597afd4cc29",
+        "size_in_bytes": 11696
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.f046a374.woff2",
+        "path_type": "hardlink",
+        "sha256": "23225cffdca86a65f1d045768b764d46adf6f6673c69ad470561759d3bc08075",
+        "sha256_in_prefix": "23225cffdca86a65f1d045768b764d46adf6f6673c69ad470561759d3bc08075",
+        "size_in_bytes": 10448
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.35f3c951.ttf",
+        "path_type": "hardlink",
+        "sha256": "1568ca1aa82f7b3749dfdb3fa9fae47ecdad3e48268469a15e2ce6f4bed10ab4",
+        "sha256_in_prefix": "1568ca1aa82f7b3749dfdb3fa9fae47ecdad3e48268469a15e2ce6f4bed10ab4",
+        "size_in_bytes": 18684
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.4519ba4c.woff2",
+        "path_type": "hardlink",
+        "sha256": "cf6fe3404b917a1e51998741f0fec72fdd04fce82ccb20459c0c8fae46a76b1a",
+        "sha256_in_prefix": "cf6fe3404b917a1e51998741f0fec72fdd04fce82ccb20459c0c8fae46a76b1a",
+        "size_in_bytes": 10240
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.4a559f36.woff",
+        "path_type": "hardlink",
+        "sha256": "fc3b9d6af6452606e1e7978a139f5bdaa0480ee8c890ecea9267cd89ee701b6f",
+        "sha256_in_prefix": "fc3b9d6af6452606e1e7978a139f5bdaa0480ee8c890ecea9267cd89ee701b6f",
+        "size_in_bytes": 11460
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.069514d4.ttf",
+        "path_type": "hardlink",
+        "sha256": "9968ac3c9756403afc0c0f168509edd39e6b7ddca3a3e78e890da3718a5dafd7",
+        "sha256_in_prefix": "9968ac3c9756403afc0c0f168509edd39e6b7ddca3a3e78e890da3718a5dafd7",
+        "size_in_bytes": 35660
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.2ea3916b.woff",
+        "path_type": "hardlink",
+        "sha256": "ce8f6b8d0541e703bf270236cd2f22f94af0a3f3cd34853f7d2ab0944b4ed3a2",
+        "sha256_in_prefix": "ce8f6b8d0541e703bf270236cd2f22f94af0a3f3cd34853f7d2ab0944b4ed3a2",
+        "size_in_bytes": 22632
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.5b8749ee.woff2",
+        "path_type": "hardlink",
+        "sha256": "e725b0b32ec6a3419677db6eee07cfd94952301fcce882c06563d8ee58518628",
+        "sha256_in_prefix": "e725b0b32ec6a3419677db6eee07cfd94952301fcce882c06563d8ee58518628",
+        "size_in_bytes": 20360
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.0d90113d.woff",
+        "path_type": "hardlink",
+        "sha256": "9d47d38ef92b81d2dfabee95b0d69fda25cc2cbaace7270749c3f99f3f51cbba",
+        "sha256_in_prefix": "9d47d38ef92b81d2dfabee95b0d69fda25cc2cbaace7270749c3f99f3f51cbba",
+        "size_in_bytes": 22088
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.2c629b06.woff2",
+        "path_type": "hardlink",
+        "sha256": "410f03b5cca26e017d80ea39f93ab00d890d436e4752ad7ac9dec79e7ece56a8",
+        "sha256_in_prefix": "410f03b5cca26e017d80ea39f93ab00d890d436e4752ad7ac9dec79e7ece56a8",
+        "size_in_bytes": 19784
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.96556db6.ttf",
+        "path_type": "hardlink",
+        "sha256": "8dfd4f60ba0a35f62c7503f019e96d54ba5f509cd20453d66ea0bb89b898234b",
+        "sha256_in_prefix": "8dfd4f60ba0a35f62c7503f019e96d54ba5f509cd20453d66ea0bb89b898234b",
+        "size_in_bytes": 34352
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Bold.07e762d0.ttf",
+        "path_type": "hardlink",
+        "sha256": "9ce6c56369cf0928715d56b6c4357b46a73ac0957101ad2fdc23ea95fdd0c5d8",
+        "sha256_in_prefix": "9ce6c56369cf0928715d56b6c4357b46a73ac0957101ad2fdc23ea95fdd0c5d8",
+        "size_in_bytes": 60784
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Bold.20b90c20.woff2",
+        "path_type": "hardlink",
+        "sha256": "27df6e52f4329466744ed51e19b55f445729c2e37a741d762e4b65f74db9377c",
+        "sha256_in_prefix": "27df6e52f4329466744ed51e19b55f445729c2e37a741d762e4b65f74db9377c",
+        "size_in_bytes": 30244
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Bold.a9cdbc85.woff",
+        "path_type": "hardlink",
+        "sha256": "c2db7b8ce51021c292c6e2cd03bc11a4be96507345f62dd415787701c6afa940",
+        "sha256_in_prefix": "c2db7b8ce51021c292c6e2cd03bc11a4be96507345f62dd415787701c6afa940",
+        "size_in_bytes": 35464
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.7649d52f.woff",
+        "path_type": "hardlink",
+        "sha256": "84b2dc26d6a4ace6f25e9f39e7d8fdd9b64e97feede8ff6b9666b376d7582286",
+        "sha256_in_prefix": "84b2dc26d6a4ace6f25e9f39e7d8fdd9b64e97feede8ff6b9666b376d7582286",
+        "size_in_bytes": 25352
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.b345de5b.woff2",
+        "path_type": "hardlink",
+        "sha256": "f7e1c5a142292312a5a3ccd24829f34f578fa8d2bbcb800dab647f732f143fa0",
+        "sha256_in_prefix": "f7e1c5a142292312a5a3ccd24829f34f578fa8d2bbcb800dab647f732f143fa0",
+        "size_in_bytes": 21944
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.bc8d96e9.ttf",
+        "path_type": "hardlink",
+        "sha256": "e06c469ed45a5db87889a655571b58aeee6bbbcf58a26cf3317fa1d62e3ac8d7",
+        "sha256_in_prefix": "e06c469ed45a5db87889a655571b58aeee6bbbcf58a26cf3317fa1d62e3ac8d7",
+        "size_in_bytes": 44496
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Italic.44a32ae6.ttf",
+        "path_type": "hardlink",
+        "sha256": "59ad22b91c4999b840d1266db8bf231aa22533543fb7ee26ecbd8d93aa770aad",
+        "sha256_in_prefix": "59ad22b91c4999b840d1266db8bf231aa22533543fb7ee26ecbd8d93aa770aad",
+        "size_in_bytes": 47640
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Italic.ab751a9e.woff2",
+        "path_type": "hardlink",
+        "sha256": "8caa4c487459a39c68ba316370865cdc0fb6284f1295b173454663e56bb8a33a",
+        "sha256_in_prefix": "8caa4c487459a39c68ba316370865cdc0fb6284f1295b173454663e56bb8a33a",
+        "size_in_bytes": 22748
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Italic.e3954fe9.woff",
+        "path_type": "hardlink",
+        "sha256": "e5279ba4cd2439be39d995a70d0c6520cb2febc2423bca381e57d82035de0f12",
+        "sha256_in_prefix": "e5279ba4cd2439be39d995a70d0c6520cb2febc2423bca381e57d82035de0f12",
+        "size_in_bytes": 26228
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Regular.13b3f852.woff2",
+        "path_type": "hardlink",
+        "sha256": "cce8f2e22e44c4ce931cd1432d2a241061f8601f0e5d865eb6e52629932c96f0",
+        "sha256_in_prefix": "cce8f2e22e44c4ce931cd1432d2a241061f8601f0e5d865eb6e52629932c96f0",
+        "size_in_bytes": 32464
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Regular.9e75cd60.woff",
+        "path_type": "hardlink",
+        "sha256": "f1d8b6477855998675dacbf85c275b369b209f2221190594d17077e86842c8b0",
+        "sha256_in_prefix": "f1d8b6477855998675dacbf85c275b369b209f2221190594d17077e86842c8b0",
+        "size_in_bytes": 38112
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Regular.af7fc7b3.ttf",
+        "path_type": "hardlink",
+        "sha256": "ef1f105a5ac8d98ab0ddbc015bdda3041f3f499a08e3ea5fa1389b77a1b25293",
+        "sha256_in_prefix": "ef1f105a5ac8d98ab0ddbc015bdda3041f3f499a08e3ea5fa1389b77a1b25293",
+        "size_in_bytes": 69520
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.4d6241be.ttf",
+        "path_type": "hardlink",
+        "sha256": "180a9e8c89d5b4cb8a2e755d5e3dc10ddb466e6608e70436213f3ceea176dbf9",
+        "sha256_in_prefix": "180a9e8c89d5b4cb8a2e755d5e3dc10ddb466e6608e70436213f3ceea176dbf9",
+        "size_in_bytes": 39308
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.94810ff6.woff",
+        "path_type": "hardlink",
+        "sha256": "301943e01b59a2e5844d3b8500d4e508fb1cc77ea92a04cb29c9cafed52f4d1b",
+        "sha256_in_prefix": "301943e01b59a2e5844d3b8500d4e508fb1cc77ea92a04cb29c9cafed52f4d1b",
+        "size_in_bytes": 22324
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.d5d35e84.woff2",
+        "path_type": "hardlink",
+        "sha256": "06ef074ba5e7dc66c5d6d2c37ec42db7c28688288278bc776beac4cd6fb217da",
+        "sha256_in_prefix": "06ef074ba5e7dc66c5d6d2c37ec42db7c28688288278bc776beac4cd6fb217da",
+        "size_in_bytes": 19720
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-Italic.11278d36.woff",
+        "path_type": "hardlink",
+        "sha256": "d9de33083224dacb133b8ef90c2fe59af169e292b6d04ca360112b4857d924b5",
+        "sha256_in_prefix": "d9de33083224dacb133b8ef90c2fe59af169e292b6d04ca360112b4857d924b5",
+        "size_in_bytes": 22844
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-Italic.cae7ea26.ttf",
+        "path_type": "hardlink",
+        "sha256": "af6e4c3730217aa8aab4d8c737682068d6bef3b251daee6f48664d9b3e55379c",
+        "sha256_in_prefix": "af6e4c3730217aa8aab4d8c737682068d6bef3b251daee6f48664d9b3e55379c",
+        "size_in_bytes": 40992
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-Italic.ffda8803.woff2",
+        "path_type": "hardlink",
+        "sha256": "fac6e4a3e3de30b2f9cb1d4bed073d1182db1c5f12a770eab7c14060ef35d908",
+        "sha256_in_prefix": "fac6e4a3e3de30b2f9cb1d4bed073d1182db1c5f12a770eab7c14060ef35d908",
+        "size_in_bytes": 20096
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.2946bdb5.woff",
+        "path_type": "hardlink",
+        "sha256": "2a956ec96f93519a122e6ef127483ef722d5e00c6954152cc7a123ada595b859",
+        "sha256_in_prefix": "2a956ec96f93519a122e6ef127483ef722d5e00c6954152cc7a123ada595b859",
+        "size_in_bytes": 18516
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.5a20a475.woff2",
+        "path_type": "hardlink",
+        "sha256": "1abcf0714d431568bc7d49e63277f0e2dbd03140e0a722da6d363d6f8e967905",
+        "sha256_in_prefix": "1abcf0714d431568bc7d49e63277f0e2dbd03140e0a722da6d363d6f8e967905",
+        "size_in_bytes": 15732
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.f0ad0abc.ttf",
+        "path_type": "hardlink",
+        "sha256": "f6391f206311d28dc70c76f868a295fda56b1f7c66c2331f5ed53d4945152506",
+        "sha256_in_prefix": "f6391f206311d28dc70c76f868a295fda56b1f7c66c2331f5ed53d4945152506",
+        "size_in_bytes": 33688
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.c7feacd5.ttf",
+        "path_type": "hardlink",
+        "sha256": "6f8182b8fd0b31a430239c0674b0a56ae70a2c90b5f499e9661a675fcf24378d",
+        "sha256_in_prefix": "6f8182b8fd0b31a430239c0674b0a56ae70a2c90b5f499e9661a675fcf24378d",
+        "size_in_bytes": 30960
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.c834ba6d.woff",
+        "path_type": "hardlink",
+        "sha256": "77ae21bfbd88d8122e994aff68fdca34b2f232b42cd74adf78b996512adb33f1",
+        "sha256_in_prefix": "77ae21bfbd88d8122e994aff68fdca34b2f232b42cd74adf78b996512adb33f1",
+        "size_in_bytes": 17572
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.e5fc2aef.woff2",
+        "path_type": "hardlink",
+        "sha256": "76f0a3166b09e05b384e5a01de0d0aafcc8bd2f31414f3c6e4d5b39a18be0aab",
+        "sha256_in_prefix": "76f0a3166b09e05b384e5a01de0d0aafcc8bd2f31414f3c6e4d5b39a18be0aab",
+        "size_in_bytes": 15024
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.5af9e1cf.ttf",
+        "path_type": "hardlink",
+        "sha256": "5fabdc722cd155c489a8a522014e4a4019d8798e7092d13cd6850453ffa78f7f",
+        "sha256_in_prefix": "5fabdc722cd155c489a8a522014e4a4019d8798e7092d13cd6850453ffa78f7f",
+        "size_in_bytes": 29812
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.5bf28900.woff2",
+        "path_type": "hardlink",
+        "sha256": "988111e812f5a65112f25e9a200d8898c32fa5caa808e6f5501b74c38931a3f5",
+        "sha256_in_prefix": "988111e812f5a65112f25e9a200d8898c32fa5caa808e6f5501b74c38931a3f5",
+        "size_in_bytes": 13708
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.a4fd0563.woff",
+        "path_type": "hardlink",
+        "sha256": "b87c6eade55690b5cee6e66b2f0885593b3f411d4fe900dee548a74e78fc2cb6",
+        "sha256_in_prefix": "b87c6eade55690b5cee6e66b2f0885593b3f411d4fe900dee548a74e78fc2cb6",
+        "size_in_bytes": 16228
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Script-Regular.a1c15978.woff2",
+        "path_type": "hardlink",
+        "sha256": "fa14a71d90b86354eb2c91595b2a118e90d1b94ee4daafcd2fd9e857c6b83ddc",
+        "sha256_in_prefix": "fa14a71d90b86354eb2c91595b2a118e90d1b94ee4daafcd2fd9e857c6b83ddc",
+        "size_in_bytes": 12064
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Script-Regular.cd3b0634.woff",
+        "path_type": "hardlink",
+        "sha256": "41b2ef81df7103de00d47743ab7a3fe61105a8c21f1b5f55e3fec8f2cda2b94f",
+        "sha256_in_prefix": "41b2ef81df7103de00d47743ab7a3fe61105a8c21f1b5f55e3fec8f2cda2b94f",
+        "size_in_bytes": 13428
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Script-Regular.dd0db7ae.ttf",
+        "path_type": "hardlink",
+        "sha256": "e442ce8239b36ad629c757737c2a34a5876cc20607cbb165bfb5a91cfbe25ef3",
+        "sha256_in_prefix": "e442ce8239b36ad629c757737c2a34a5876cc20607cbb165bfb5a91cfbe25ef3",
+        "size_in_bytes": 24620
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.1876361f.woff2",
+        "path_type": "hardlink",
+        "sha256": "44c04e130b4333b2438052e890e5ebd877e6f6e104ca0659219bacc4b9190830",
+        "sha256_in_prefix": "44c04e130b4333b2438052e890e5ebd877e6f6e104ca0659219bacc4b9190830",
+        "size_in_bytes": 5592
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.bbd9552c.ttf",
+        "path_type": "hardlink",
+        "sha256": "6ff83fa3bb76941759777a3d7cf5e19155635191b960728f585c593d6f3f193c",
+        "sha256_in_prefix": "6ff83fa3bb76941759777a3d7cf5e19155635191b960728f585c593d6f3f193c",
+        "size_in_bytes": 12916
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.c4ae0d25.woff",
+        "path_type": "hardlink",
+        "sha256": "0152f420481d302f4de3954d98f83404155f1bc6ab90c209d7a926a06e4c8a4d",
+        "sha256_in_prefix": "0152f420481d302f4de3954d98f83404155f1bc6ab90c209d7a926a06e4c8a4d",
+        "size_in_bytes": 6696
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.635e9324.woff",
+        "path_type": "hardlink",
+        "sha256": "fa1eb01f2e704954cabee6977518b533eb9304e1994ce1095aa34b05221cf57d",
+        "sha256_in_prefix": "fa1eb01f2e704954cabee6977518b533eb9304e1994ce1095aa34b05221cf57d",
+        "size_in_bytes": 6436
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.d1e8ff17.ttf",
+        "path_type": "hardlink",
+        "sha256": "216cd1b1aa23fe169e41fecf6c4a61e7338bb2d95adc604a111fa7df04c9f2aa",
+        "sha256_in_prefix": "216cd1b1aa23fe169e41fecf6c4a61e7338bb2d95adc604a111fa7df04c9f2aa",
+        "size_in_bytes": 12172
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.f516b73c.woff2",
+        "path_type": "hardlink",
+        "sha256": "b8b354441879f3e367ca6a71baa3356ceac86852815328d8e4b9ee562256560e",
+        "sha256_in_prefix": "b8b354441879f3e367ca6a71baa3356ceac86852815328d8e4b9ee562256560e",
+        "size_in_bytes": 5392
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.1ef7adae.woff2",
+        "path_type": "hardlink",
+        "sha256": "16a5bb85a7418b0e593563578e524c212de0ec87f7e6fd9739452bd42522f4ce",
+        "sha256_in_prefix": "16a5bb85a7418b0e593563578e524c212de0ec87f7e6fd9739452bd42522f4ce",
+        "size_in_bytes": 3728
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.5d632274.ttf",
+        "path_type": "hardlink",
+        "sha256": "00fd6016cebc419cac7143d9c8f6a3279cc6e33009d17c513d64227ac41d44fb",
+        "sha256_in_prefix": "00fd6016cebc419cac7143d9c8f6a3279cc6e33009d17c513d64227ac41d44fb",
+        "size_in_bytes": 8120
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.f32a9fde.woff",
+        "path_type": "hardlink",
+        "sha256": "ea931a5ffb9f81710277c89ee1902e95e49c77490f937e481e254d68f7209a3a",
+        "sha256_in_prefix": "ea931a5ffb9f81710277c89ee1902e95e49c77490f937e481e254d68f7209a3a",
+        "size_in_bytes": 4568
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.1d132596.ttf",
+        "path_type": "hardlink",
+        "sha256": "1ffe0db6dbffbd0460ca68aebc97653dd333a43cda13270518e4516a1ebe3c76",
+        "sha256_in_prefix": "1ffe0db6dbffbd0460ca68aebc97653dd333a43cda13270518e4516a1ebe3c76",
+        "size_in_bytes": 11016
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.4f012d6a.woff2",
+        "path_type": "hardlink",
+        "sha256": "c4e523160e699945d3697e2f4dc7fcc611aed41d3003d3fc955461a48994bcba",
+        "sha256_in_prefix": "c4e523160e699945d3697e2f4dc7fcc611aed41d3003d3fc955461a48994bcba",
+        "size_in_bytes": 5028
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.f668d566.woff",
+        "path_type": "hardlink",
+        "sha256": "581b07f16ac528a7d6e68146fb2b799bd03f77d18bda7ac928a75e250a871760",
+        "sha256_in_prefix": "581b07f16ac528a7d6e68146fb2b799bd03f77d18bda7ac928a75e250a871760",
+        "size_in_bytes": 6184
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.4f31d033.woff2",
+        "path_type": "hardlink",
+        "sha256": "e2505fc5a117cbc9826d1fe0dee3befc324d898b384baa789ac366d3f6022f73",
+        "sha256_in_prefix": "e2505fc5a117cbc9826d1fe0dee3befc324d898b384baa789ac366d3f6022f73",
+        "size_in_bytes": 17272
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.b1d1af1a.ttf",
+        "path_type": "hardlink",
+        "sha256": "46799c96df52b710ce843ffa66c2a82fd3e2d6c380a02ff66eb83dc6f6851802",
+        "sha256_in_prefix": "46799c96df52b710ce843ffa66c2a82fd3e2d6c380a02ff66eb83dc6f6851802",
+        "size_in_bytes": 35924
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.d3c8e68f.woff",
+        "path_type": "hardlink",
+        "sha256": "b205e1762a82f0a31f70058cac23dce8c4cc56fb3f0d3178e050df459363f974",
+        "sha256_in_prefix": "b205e1762a82f0a31f70058cac23dce8c4cc56fb3f0d3178e050df459363f974",
+        "size_in_bytes": 20260
+      },
+      {
+        "_path": "site-packages/streamlit/static/vendor/viz/viz-1.8.0.min.js",
+        "path_type": "hardlink",
+        "sha256": "2314a46490b0ad642edd674db932fbf6066e3f274a263e46296510925006dedc",
+        "sha256_in_prefix": "2314a46490b0ad642edd674db932fbf6066e3f274a263e46296510925006dedc",
+        "size_in_bytes": 7055772
+      },
+      {
+        "_path": "site-packages/streamlit/static/vendor/viz/viz.js-LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "b9a0b3fcb35b2b675f3a199c31eb19edd1dec3aa08687be4fb0d317e865e35cd",
+        "sha256_in_prefix": "b9a0b3fcb35b2b675f3a199c31eb19edd1dec3aa08687be4fb0d317e865e35cd",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "site-packages/streamlit/storage/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/storage/abstract_storage.py",
+        "path_type": "hardlink",
+        "sha256": "95a4f6fb4f37a467d410773d6682bd5d3efca4c662c0bcbc4dd74fce6cdc0618",
+        "sha256_in_prefix": "95a4f6fb4f37a467d410773d6682bd5d3efca4c662c0bcbc4dd74fce6cdc0618",
+        "size_in_bytes": 5767
+      },
+      {
+        "_path": "site-packages/streamlit/storage/file_storage.py",
+        "path_type": "hardlink",
+        "sha256": "fa429200979dc50a8c3180e9c592d72476ac0068a7c34b37454844340ee3774a",
+        "sha256_in_prefix": "fa429200979dc50a8c3180e9c592d72476ac0068a7c34b37454844340ee3774a",
+        "size_in_bytes": 2587
+      },
+      {
+        "_path": "site-packages/streamlit/storage/s3_storage.py",
+        "path_type": "hardlink",
+        "sha256": "ae2c55cbb5af20332e77299ee50a153ec9b486f68e15c8f9f14beb06f2561bb0",
+        "sha256_in_prefix": "ae2c55cbb5af20332e77299ee50a153ec9b486f68e15c8f9f14beb06f2561bb0",
+        "size_in_bytes": 7460
+      },
+      {
+        "_path": "site-packages/streamlit/string_util.py",
+        "path_type": "hardlink",
+        "sha256": "f002388cf2b4e41ef09d70760148a3316fd7bec926f3f1d5917d7b8ebf4c5102",
+        "sha256_in_prefix": "f002388cf2b4e41ef09d70760148a3316fd7bec926f3f1d5917d7b8ebf4c5102",
+        "size_in_bytes": 1623
+      },
+      {
+        "_path": "site-packages/streamlit/temporary_directory.py",
+        "path_type": "hardlink",
+        "sha256": "a707e50603438a88684611eb2af2dd1646b89eb5d33361a270e7af1268136abc",
+        "sha256_in_prefix": "a707e50603438a88684611eb2af2dd1646b89eb5d33361a270e7af1268136abc",
+        "size_in_bytes": 1566
+      },
+      {
+        "_path": "site-packages/streamlit/type_util.py",
+        "path_type": "hardlink",
+        "sha256": "d5b18dccd92111a20b86effa2cfa2c4f79031e68a7509d66bded16e5ecd6a14c",
+        "sha256_in_prefix": "d5b18dccd92111a20b86effa2cfa2c4f79031e68a7509d66bded16e5ecd6a14c",
+        "size_in_bytes": 9674
+      },
+      {
+        "_path": "site-packages/streamlit/uploaded_file_manager.py",
+        "path_type": "hardlink",
+        "sha256": "d93234bee6b174af992b7eef5e7dc91b9611d917c02da0b588d29d4eb80ef047",
+        "sha256_in_prefix": "d93234bee6b174af992b7eef5e7dc91b9611d917c02da0b588d29d4eb80ef047",
+        "size_in_bytes": 10196
+      },
+      {
+        "_path": "site-packages/streamlit/url_util.py",
+        "path_type": "hardlink",
+        "sha256": "a62967f70a3cee1dad8e024e9828cb63ea8af0226e70166582bc6ac46c9f7d1b",
+        "sha256_in_prefix": "a62967f70a3cee1dad8e024e9828cb63ea8af0226e70166582bc6ac46c9f7d1b",
+        "size_in_bytes": 2259
+      },
+      {
+        "_path": "site-packages/streamlit/util.py",
+        "path_type": "hardlink",
+        "sha256": "b1d969fbf351c244d42d64d28cb96318dd1c85657daf468c01f7cf86da493f1e",
+        "sha256_in_prefix": "b1d969fbf351c244d42d64d28cb96318dd1c85657daf468c01f7cf86da493f1e",
+        "size_in_bytes": 3946
+      },
+      {
+        "_path": "site-packages/streamlit/version.py",
+        "path_type": "hardlink",
+        "sha256": "33cc9147e48d52739727163948e755b1c5d4e96068a9766f3cf4a601e345da63",
+        "sha256_in_prefix": "33cc9147e48d52739727163948e755b1c5d4e96068a9766f3cf4a601e345da63",
+        "size_in_bytes": 3182
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/event_based_file_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "3f06e7e0ba158504aa17da3c4ec81ed95ec98b1daa6f8dbfc6833fb4f1d6d1f8",
+        "sha256_in_prefix": "3f06e7e0ba158504aa17da3c4ec81ed95ec98b1daa6f8dbfc6833fb4f1d6d1f8",
+        "size_in_bytes": 12054
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/file_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "5225b45b0926cd7cfc82563bb4f772a8df04e9c230de8cb985f538ae8aa1721f",
+        "sha256_in_prefix": "5225b45b0926cd7cfc82563bb4f772a8df04e9c230de8cb985f538ae8aa1721f",
+        "size_in_bytes": 4435
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/local_sources_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "dd63913754c3e7d46a45b013077369da920ab30833d464e322bd45b07c619738",
+        "sha256_in_prefix": "dd63913754c3e7d46a45b013077369da920ab30833d464e322bd45b07c619738",
+        "size_in_bytes": 6922
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/polling_file_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "6d7e9f1eba150e5e97cd1e68cf7f81c5ee3ae7ace1c9d898e57063d1c1a22298",
+        "sha256_in_prefix": "6d7e9f1eba150e5e97cd1e68cf7f81c5ee3ae7ace1c9d898e57063d1c1a22298",
+        "size_in_bytes": 3177
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/util.py",
+        "path_type": "hardlink",
+        "sha256": "9cfe65abe80615c8b8a9581708bc8854ac958dcb9fbd5e9cd8f5284814660eff",
+        "sha256_in_prefix": "9cfe65abe80615c8b8a9581708bc8854ac958dcb9fbd5e9cd8f5284814660eff",
+        "size_in_bytes": 2254
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/beta_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/bootstrap.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/caching.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/case_converters.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/cli.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/code_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/commands/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/commands/__pycache__/page_config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/components/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/components/v1/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/components/v1/__pycache__/component_arrow.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/components/v1/__pycache__/components.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/config_option.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/config_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/credentials.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/cursor.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/delta_generator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/development.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/alert.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/arrow.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/arrow_altair.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/arrow_vega_lite.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/balloons.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/bokeh_chart.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/button.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/checkbox.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/color_picker.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/dataframe_selector.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/deck_gl_json_chart.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/doc_string.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/empty.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/exception.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/file_uploader.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/form.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/graphviz_chart.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/iframe.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/json.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/layouts.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/legacy_altair.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/legacy_data_frame.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/legacy_vega_lite.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/lib/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/lib/__pycache__/dicttools.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/map.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/markdown.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/media.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/multiselect.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/number_input.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/plotly_chart.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/progress.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/pyplot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/radio.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/select_slider.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/selectbox.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/slider.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/text.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/text_widgets.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/time_widgets.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/elements/__pycache__/write.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/env_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/error_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/errors.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/file_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/folder_black_list.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/forward_msg_cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/git_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/hashing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/hello/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/hello/__pycache__/demos.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/hello/__pycache__/hello.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/js_number.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/logger.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/magic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/media_file_manager.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/metrics.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/metrics_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/net_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/policy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Alert_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/ArrowNamedDataSet_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/ArrowVegaLiteChart_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Arrow_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Audio_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/BackMsg_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Balloons_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Block_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/BokehChart_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Button_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Checkbox_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/ClientState_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/ColorPicker_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Common_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Components_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/DataFrame_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/DateInput_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/DeckGlJsonChart_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Delta_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/DocString_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Element_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Empty_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Exception_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Favicon_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/FileUploader_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/ForwardMsg_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/GitInfo_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/GraphVizChart_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/IFrame_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Image_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Json_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Markdown_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/MultiSelect_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/NamedDataSet_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/NewReport_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/NumberInput_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/PageConfig_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/PageInfo_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/PlotlyChart_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Progress_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Radio_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/RootContainer_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Selectbox_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/SessionEvent_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/SessionState_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Slider_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/StaticManifest_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/TextArea_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/TextInput_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Text_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/TimeInput_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/VegaLiteChart_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/Video_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/WidgetStates_pb2.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/proto/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/report.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/report_queue.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/report_session.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/report_thread.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/script_request_queue.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/script_runner.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/secrets.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/server/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/server/__pycache__/routes.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/server/__pycache__/server.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/server/__pycache__/server_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/server/__pycache__/upload_file_request_handler.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/source_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/state/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/state/__pycache__/session_state.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/state/__pycache__/widgets.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/storage/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/storage/__pycache__/abstract_storage.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/storage/__pycache__/file_storage.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/storage/__pycache__/s3_storage.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/string_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/temporary_directory.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/type_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/uploaded_file_manager.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/url_util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/__pycache__/version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/watcher/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/watcher/__pycache__/event_based_file_watcher.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/watcher/__pycache__/file_watcher.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/watcher/__pycache__/local_sources_watcher.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/watcher/__pycache__/polling_file_watcher.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/streamlit/watcher/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/streamlit-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/streamlit.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "streamlit",
+  "sha256": "3ecf6f57a8fea0ad03765d77a5033da4ff3d30539bd33e8092bf8a70e9967c68",
+  "size": 6595258,
+  "subdir": "noarch",
+  "timestamp": 1627438013312,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/streamlit-0.85.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.85.1"
+}

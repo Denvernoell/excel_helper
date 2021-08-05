@@ -1,0 +1,62 @@
+{
+  "build": "hcb41399_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\libutf8proc-2.6.1-hcb41399_0",
+  "features": "",
+  "files": [
+    "Library/bin/utf8proc.dll",
+    "Library/include/utf8proc.h",
+    "Library/lib/utf8proc.lib",
+    ".nonadmin"
+  ],
+  "fn": "libutf8proc-2.6.1-hcb41399_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\libutf8proc-2.6.1-hcb41399_0",
+    "type": 1
+  },
+  "md5": "0654c895b9b80e7254bdd0e956f92f7f",
+  "name": "libutf8proc",
+  "package_tarball_full_path": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\libutf8proc-2.6.1-hcb41399_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/utf8proc.dll",
+        "path_type": "hardlink",
+        "sha256": "e1f350ff3ea4d829e9e15efc5396edc464a627cac5bba8945572d75fb876d5cd",
+        "sha256_in_prefix": "e1f350ff3ea4d829e9e15efc5396edc464a627cac5bba8945572d75fb876d5cd",
+        "size_in_bytes": 339968
+      },
+      {
+        "_path": "Library/include/utf8proc.h",
+        "path_type": "hardlink",
+        "sha256": "01958a0a4c23c17aeb20a9a297df61b8541dd87aa90d04007e2742fd8eed3269",
+        "sha256_in_prefix": "01958a0a4c23c17aeb20a9a297df61b8541dd87aa90d04007e2742fd8eed3269",
+        "size_in_bytes": 31001
+      },
+      {
+        "_path": "Library/lib/utf8proc.lib",
+        "path_type": "hardlink",
+        "sha256": "75f66997f40bfa93582eed7681a49b97f09328a1702595a54162d81957b66053",
+        "sha256_in_prefix": "75f66997f40bfa93582eed7681a49b97f09328a1702595a54162d81957b66053",
+        "size_in_bytes": 8086
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "09e6dd43df936a9bafe29f888aa0f02c175a88e8a7a28764773507d07d330052",
+  "size": 100028,
+  "subdir": "win-64",
+  "timestamp": 1608109258551,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libutf8proc-2.6.1-hcb41399_0.tar.bz2",
+  "version": "2.6.1"
+}

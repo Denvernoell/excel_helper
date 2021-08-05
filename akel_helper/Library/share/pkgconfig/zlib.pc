@@ -1,0 +1,13 @@
+prefix=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library
+exec_prefix=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library
+libdir=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/lib
+sharedlibdir=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/lib
+includedir=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

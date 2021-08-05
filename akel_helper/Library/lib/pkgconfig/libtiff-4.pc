@@ -1,0 +1,11 @@
+prefix=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library
+exec_prefix=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library
+libdir=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/lib
+includedir=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 
+Libs: -LP:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/lib -ltiff
+Libs.private: 
+Cflags: -IP:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/include

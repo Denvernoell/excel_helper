@@ -1,0 +1,120 @@
+{
+  "build": "py39hb82d6ee_1004",
+  "build_number": 1004,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\mistune-0.8.4-py39hb82d6ee_1004",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/mistune.cpython-39.pyc",
+    "Lib/site-packages/mistune-0.8.4.dist-info/INSTALLER",
+    "Lib/site-packages/mistune-0.8.4.dist-info/LICENSE",
+    "Lib/site-packages/mistune-0.8.4.dist-info/METADATA",
+    "Lib/site-packages/mistune-0.8.4.dist-info/RECORD",
+    "Lib/site-packages/mistune-0.8.4.dist-info/REQUESTED",
+    "Lib/site-packages/mistune-0.8.4.dist-info/WHEEL",
+    "Lib/site-packages/mistune-0.8.4.dist-info/direct_url.json",
+    "Lib/site-packages/mistune-0.8.4.dist-info/top_level.txt",
+    "Lib/site-packages/mistune.py",
+    ".nonadmin"
+  ],
+  "fn": "mistune-0.8.4-py39hb82d6ee_1004.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\mistune-0.8.4-py39hb82d6ee_1004",
+    "type": 1
+  },
+  "md5": "7d7d0c829acc19cee1c9729824132bd2",
+  "name": "mistune",
+  "package_tarball_full_path": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\mistune-0.8.4-py39hb82d6ee_1004.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/__pycache__/mistune.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "59943f7be1c4295a0b7488a217e10520b6b35ab81e60b8dccf9b56b0d8cfd4eb",
+        "sha256_in_prefix": "59943f7be1c4295a0b7488a217e10520b6b35ab81e60b8dccf9b56b0d8cfd4eb",
+        "size_in_bytes": 34011
+      },
+      {
+        "_path": "Lib/site-packages/mistune-0.8.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/mistune-0.8.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0c5259c3dd0a7c46f4835221645f62a0638c9b9faa02af08676e8069e1ff964b",
+        "sha256_in_prefix": "0c5259c3dd0a7c46f4835221645f62a0638c9b9faa02af08676e8069e1ff964b",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "Lib/site-packages/mistune-0.8.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "42b27c600747ed35e8adafda321dc62c8aa35eafef8e65b8ebf9dfee47bb6e0d",
+        "sha256_in_prefix": "42b27c600747ed35e8adafda321dc62c8aa35eafef8e65b8ebf9dfee47bb6e0d",
+        "size_in_bytes": 8451
+      },
+      {
+        "_path": "Lib/site-packages/mistune-0.8.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e2b9295826d66d9ee51f83ccefffcea7bc19a78ef602faea0bc7d2bebe9efd46",
+        "sha256_in_prefix": "e2b9295826d66d9ee51f83ccefffcea7bc19a78ef602faea0bc7d2bebe9efd46",
+        "size_in_bytes": 769
+      },
+      {
+        "_path": "Lib/site-packages/mistune-0.8.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/mistune-0.8.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "sha256_in_prefix": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "Lib/site-packages/mistune-0.8.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a306a1256967d7d25754ef976ed324a8ef18e067416a8c031ed8a29d63daacf6",
+        "sha256_in_prefix": "a306a1256967d7d25754ef976ed324a8ef18e067416a8c031ed8a29d63daacf6",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "Lib/site-packages/mistune-0.8.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b6325333ae6401dc0a009da603bebdb670c661895f47ca6a46ca1b2a35447dc8",
+        "sha256_in_prefix": "b6325333ae6401dc0a009da603bebdb670c661895f47ca6a46ca1b2a35447dc8",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "Lib/site-packages/mistune.py",
+        "path_type": "hardlink",
+        "sha256": "bc783737ee6f2be689d6a77dabd603bfe514fd54df9fb2273902600383da804c",
+        "sha256_in_prefix": "bc783737ee6f2be689d6a77dabd603bfe514fd54df9fb2273902600383da804c",
+        "size_in_bytes": 36516
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5a24bf9de70b420bc502896f2e2c0fc779b1bcd01d5f1440079b9afb6a4cb281",
+  "size": 55581,
+  "subdir": "win-64",
+  "timestamp": 1624941697906,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/mistune-0.8.4-py39hb82d6ee_1004.tar.bz2",
+  "version": "0.8.4"
+}

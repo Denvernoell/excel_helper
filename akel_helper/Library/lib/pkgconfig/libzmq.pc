@@ -1,0 +1,12 @@
+prefix=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library
+exec_prefix=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library
+libdir=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/lib
+includedir=P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 

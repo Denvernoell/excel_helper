@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "P:/Support/Admin/Timesheets/Denver Noell_MISC/work_scripts/Akel_helper/akel_helper\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}

@@ -1,0 +1,102 @@
+{
+  "build": "h0e60522_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\re2-2021.06.01-h0e60522_0",
+  "features": "",
+  "files": [
+    "Library/bin/re2.dll",
+    "Library/include/re2/filtered_re2.h",
+    "Library/include/re2/re2.h",
+    "Library/include/re2/set.h",
+    "Library/include/re2/stringpiece.h",
+    "Library/lib/cmake/re2/re2Config-release.cmake",
+    "Library/lib/cmake/re2/re2Config.cmake",
+    "Library/lib/re2.lib",
+    ".nonadmin"
+  ],
+  "fn": "re2-2021.06.01-h0e60522_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\re2-2021.06.01-h0e60522_0",
+    "type": 1
+  },
+  "md5": "80ea1c52c946b967aed650322a0589c7",
+  "name": "re2",
+  "package_tarball_full_path": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\re2-2021.06.01-h0e60522_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/re2.dll",
+        "path_type": "hardlink",
+        "sha256": "e925ee6b6d455c3e77276c9af649dc8ed95244ddb64116f05831079b4c5c66ed",
+        "sha256_in_prefix": "e925ee6b6d455c3e77276c9af649dc8ed95244ddb64116f05831079b4c5c66ed",
+        "size_in_bytes": 1227264
+      },
+      {
+        "_path": "Library/include/re2/filtered_re2.h",
+        "path_type": "hardlink",
+        "sha256": "ffd01873f4e412adc1d638088f545f11a0a954d96e773ebfe5fb1fc49db29491",
+        "sha256_in_prefix": "ffd01873f4e412adc1d638088f545f11a0a954d96e773ebfe5fb1fc49db29491",
+        "size_in_bytes": 4247
+      },
+      {
+        "_path": "Library/include/re2/re2.h",
+        "path_type": "hardlink",
+        "sha256": "f361f2b40ad7af1d2173a13acdb12aa399b3162dae6a40f8ae3009698a6bdb2a",
+        "sha256_in_prefix": "f361f2b40ad7af1d2173a13acdb12aa399b3162dae6a40f8ae3009698a6bdb2a",
+        "size_in_bytes": 39571
+      },
+      {
+        "_path": "Library/include/re2/set.h",
+        "path_type": "hardlink",
+        "sha256": "7439551c49fb2c6d97f4779c988404aceaee0cac3a1f10f32af54d59a8360767",
+        "sha256_in_prefix": "7439551c49fb2c6d97f4779c988404aceaee0cac3a1f10f32af54d59a8360767",
+        "size_in_bytes": 2483
+      },
+      {
+        "_path": "Library/include/re2/stringpiece.h",
+        "path_type": "hardlink",
+        "sha256": "12e966d14179b6093ef44d84a962deaebd9d71bdd2fdae204d18936327ac0da2",
+        "sha256_in_prefix": "12e966d14179b6093ef44d84a962deaebd9d71bdd2fdae204d18936327ac0da2",
+        "size_in_bytes": 6336
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2Config-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "248e18653fdbdbb9a5a958235a526eed2d4583b2cfaa3610d2d836e8c2bebcc8",
+        "sha256_in_prefix": "248e18653fdbdbb9a5a958235a526eed2d4583b2cfaa3610d2d836e8c2bebcc8",
+        "size_in_bytes": 852
+      },
+      {
+        "_path": "Library/lib/cmake/re2/re2Config.cmake",
+        "path_type": "hardlink",
+        "sha256": "f5367fccd4ad129d4ffe5270c7eadfb8919cdf1e6ba5834f17c90590e0331542",
+        "sha256_in_prefix": "f5367fccd4ad129d4ffe5270c7eadfb8919cdf1e6ba5834f17c90590e0331542",
+        "size_in_bytes": 3324
+      },
+      {
+        "_path": "Library/lib/re2.lib",
+        "path_type": "hardlink",
+        "sha256": "d179a9a15dc0a11faefc8edab3d2402b32b0ea1b8b36cb4140bb5c0d6e36e11f",
+        "sha256_in_prefix": "d179a9a15dc0a11faefc8edab3d2402b32b0ea1b8b36cb4140bb5c0d6e36e11f",
+        "size_in_bytes": 4226710
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2b01b498cd7108d704387efe4e3ebee75273074a7c56ae11038840c771491514",
+  "size": 478577,
+  "subdir": "win-64",
+  "timestamp": 1622558174182,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/re2-2021.06.01-h0e60522_0.tar.bz2",
+  "version": "2021.06.01"
+}

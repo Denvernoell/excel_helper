@@ -1,0 +1,124 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\zipp-3.5.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/Misc/NEWS.d/next/Library/2021-05-14-16-06-02.bpo-44095.v_pLwY.rst",
+    "Lib/site-packages/zipp-3.5.0.dist-info/INSTALLER",
+    "Lib/site-packages/zipp-3.5.0.dist-info/LICENSE",
+    "Lib/site-packages/zipp-3.5.0.dist-info/METADATA",
+    "Lib/site-packages/zipp-3.5.0.dist-info/RECORD",
+    "Lib/site-packages/zipp-3.5.0.dist-info/REQUESTED",
+    "Lib/site-packages/zipp-3.5.0.dist-info/WHEEL",
+    "Lib/site-packages/zipp-3.5.0.dist-info/direct_url.json",
+    "Lib/site-packages/zipp-3.5.0.dist-info/top_level.txt",
+    "Lib/site-packages/zipp.py",
+    ".nonadmin",
+    "Lib/site-packages/__pycache__/zipp.cpython-39.pyc"
+  ],
+  "fn": "zipp-3.5.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\zipp-3.5.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "f9dd05a5ed6b81c91f097e3739107a74",
+  "name": "zipp",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\zipp-3.5.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/Misc/NEWS.d/next/Library/2021-05-14-16-06-02.bpo-44095.v_pLwY.rst",
+        "path_type": "hardlink",
+        "sha256": "f86d1bc25efeb6f059220d0417cfdc8e6e79860ca1e0fb75380e42f2655c99c3",
+        "sha256_in_prefix": "f86d1bc25efeb6f059220d0417cfdc8e6e79860ca1e0fb75380e42f2655c99c3",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "site-packages/zipp-3.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/zipp-3.5.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "sha256_in_prefix": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "site-packages/zipp-3.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "71513390fd81b90fb8afeee6e1cbd06735246bfb9aaa1343c8b22ed4754582cb",
+        "sha256_in_prefix": "71513390fd81b90fb8afeee6e1cbd06735246bfb9aaa1343c8b22ed4754582cb",
+        "size_in_bytes": 2297
+      },
+      {
+        "_path": "site-packages/zipp-3.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b2f443a30522449a4197a12ddd6b222757d594683ce52a156536c34df1e050a9",
+        "sha256_in_prefix": "b2f443a30522449a4197a12ddd6b222757d594683ce52a156536c34df1e050a9",
+        "size_in_bytes": 861
+      },
+      {
+        "_path": "site-packages/zipp-3.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/zipp-3.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/zipp-3.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "b469c352917e0231429fa0b45dee15ba99052b5dfb66be1767f3a78729993235",
+        "sha256_in_prefix": "b469c352917e0231429fa0b45dee15ba99052b5dfb66be1767f3a78729993235",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/zipp-3.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "930f13506d8f3c0a72804381aae9f4150df51f9beef008f17c3c65ab0015cc07",
+        "sha256_in_prefix": "930f13506d8f3c0a72804381aae9f4150df51f9beef008f17c3c65ab0015cc07",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/zipp.py",
+        "path_type": "hardlink",
+        "sha256": "539b06f3daab8f79b984cf598a446fd3b5bbccef241299f98922be35b39a853f",
+        "sha256_in_prefix": "539b06f3daab8f79b984cf598a446fd3b5bbccef241299f98922be35b39a853f",
+        "size_in_bytes": 8404
+      },
+      {
+        "_path": "Lib/site-packages/__pycache__/zipp.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b3c3aae29d650cc5068aa936ac2c8cbba8fe4ccc9eb802137f6f8a74cbdbe382",
+  "size": 12070,
+  "subdir": "noarch",
+  "timestamp": 1625284533277,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/zipp-3.5.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "3.5.0"
+}

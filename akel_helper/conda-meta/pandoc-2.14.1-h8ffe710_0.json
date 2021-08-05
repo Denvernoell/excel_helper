@@ -1,0 +1,43 @@
+{
+  "build": "h8ffe710_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\pandoc-2.14.1-h8ffe710_0",
+  "features": "",
+  "files": [
+    "Library/bin/pandoc.exe",
+    ".nonadmin"
+  ],
+  "fn": "pandoc-2.14.1-h8ffe710_0.tar.bz2",
+  "license": "GPL-2.0",
+  "license_family": "GPL",
+  "link": {
+    "source": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\pandoc-2.14.1-h8ffe710_0",
+    "type": 1
+  },
+  "md5": "36db03a62f4f96ef4f1f262b0945b8db",
+  "name": "pandoc",
+  "package_tarball_full_path": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\pandoc-2.14.1-h8ffe710_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/pandoc.exe",
+        "path_type": "hardlink",
+        "sha256": "6d585ac2b369bd7772ce0d656956eb25f2d46db88bdbb4b271ad36997fb84b43",
+        "sha256_in_prefix": "6d585ac2b369bd7772ce0d656956eb25f2d46db88bdbb4b271ad36997fb84b43",
+        "size_in_bytes": 107820032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "321acb908ac35ec044c4647c21af21b51c30539ff0aaa3ca43c32c6a637b1569",
+  "size": 17960384,
+  "subdir": "win-64",
+  "timestamp": 1626810808886,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pandoc-2.14.1-h8ffe710_0.tar.bz2",
+  "version": "2.14.1"
+}

@@ -1,0 +1,1007 @@
+{
+  "build": "py39hcbf5309_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "python_abi 3.9.* *_cp39",
+    "pywin32"
+  ],
+  "extracted_package_dir": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\xlwings-0.24.6-py39hcbf5309_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/xlwings-0.24.6.dist-info/INSTALLER",
+    "Lib/site-packages/xlwings-0.24.6.dist-info/LICENSE.txt",
+    "Lib/site-packages/xlwings-0.24.6.dist-info/LICENSE_PRO.txt",
+    "Lib/site-packages/xlwings-0.24.6.dist-info/METADATA",
+    "Lib/site-packages/xlwings-0.24.6.dist-info/RECORD",
+    "Lib/site-packages/xlwings-0.24.6.dist-info/REQUESTED",
+    "Lib/site-packages/xlwings-0.24.6.dist-info/WHEEL",
+    "Lib/site-packages/xlwings-0.24.6.dist-info/direct_url.json",
+    "Lib/site-packages/xlwings-0.24.6.dist-info/entry_points.txt",
+    "Lib/site-packages/xlwings-0.24.6.dist-info/top_level.txt",
+    "Lib/site-packages/xlwings/Dictionary.cls",
+    "Lib/site-packages/xlwings/__init__.py",
+    "Lib/site-packages/xlwings/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/_xlmac.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/_xlwindows.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/cli.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/constants.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/expansion.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/mac_dict.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/main.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/server.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/udfs.cpython-39.pyc",
+    "Lib/site-packages/xlwings/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/xlwings/_xlmac.py",
+    "Lib/site-packages/xlwings/_xlwindows.py",
+    "Lib/site-packages/xlwings/addin/xlwings.xlam",
+    "Lib/site-packages/xlwings/addin/xlwings_unprotected.xlam",
+    "Lib/site-packages/xlwings/cli.py",
+    "Lib/site-packages/xlwings/constants.py",
+    "Lib/site-packages/xlwings/conversion/__init__.py",
+    "Lib/site-packages/xlwings/conversion/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwings/conversion/__pycache__/framework.cpython-39.pyc",
+    "Lib/site-packages/xlwings/conversion/__pycache__/numpy_conv.cpython-39.pyc",
+    "Lib/site-packages/xlwings/conversion/__pycache__/pandas_conv.cpython-39.pyc",
+    "Lib/site-packages/xlwings/conversion/__pycache__/standard.cpython-39.pyc",
+    "Lib/site-packages/xlwings/conversion/framework.py",
+    "Lib/site-packages/xlwings/conversion/numpy_conv.py",
+    "Lib/site-packages/xlwings/conversion/pandas_conv.py",
+    "Lib/site-packages/xlwings/conversion/standard.py",
+    "Lib/site-packages/xlwings/expansion.py",
+    "Lib/site-packages/xlwings/ext/__init__.py",
+    "Lib/site-packages/xlwings/ext/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwings/ext/__pycache__/sql.cpython-39.pyc",
+    "Lib/site-packages/xlwings/ext/sql.py",
+    "Lib/site-packages/xlwings/mac_dict.py",
+    "Lib/site-packages/xlwings/main.py",
+    "Lib/site-packages/xlwings/mistune/__init__.py",
+    "Lib/site-packages/xlwings/mistune/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/__pycache__/block_parser.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/__pycache__/inline_parser.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/__pycache__/markdown.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/__pycache__/renderers.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/__pycache__/scanner.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/block_parser.py",
+    "Lib/site-packages/xlwings/mistune/directives/__init__.py",
+    "Lib/site-packages/xlwings/mistune/directives/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/directives/__pycache__/admonition.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/directives/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/directives/__pycache__/include.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/directives/__pycache__/toc.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/directives/admonition.py",
+    "Lib/site-packages/xlwings/mistune/directives/base.py",
+    "Lib/site-packages/xlwings/mistune/directives/include.py",
+    "Lib/site-packages/xlwings/mistune/directives/toc.py",
+    "Lib/site-packages/xlwings/mistune/inline_parser.py",
+    "Lib/site-packages/xlwings/mistune/markdown.py",
+    "Lib/site-packages/xlwings/mistune/plugins/__init__.py",
+    "Lib/site-packages/xlwings/mistune/plugins/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/plugins/__pycache__/def_list.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/plugins/__pycache__/extra.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/plugins/__pycache__/footnotes.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/plugins/__pycache__/table.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/plugins/__pycache__/task_lists.cpython-39.pyc",
+    "Lib/site-packages/xlwings/mistune/plugins/def_list.py",
+    "Lib/site-packages/xlwings/mistune/plugins/extra.py",
+    "Lib/site-packages/xlwings/mistune/plugins/footnotes.py",
+    "Lib/site-packages/xlwings/mistune/plugins/table.py",
+    "Lib/site-packages/xlwings/mistune/plugins/task_lists.py",
+    "Lib/site-packages/xlwings/mistune/renderers.py",
+    "Lib/site-packages/xlwings/mistune/scanner.py",
+    "Lib/site-packages/xlwings/pro/__init__.py",
+    "Lib/site-packages/xlwings/pro/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/__pycache__/embedded_code.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/__pycache__/module_permissions.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/__pycache__/tables.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/embedded_code.py",
+    "Lib/site-packages/xlwings/pro/module_permissions.py",
+    "Lib/site-packages/xlwings/pro/reports/__init__.py",
+    "Lib/site-packages/xlwings/pro/reports/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/reports/__pycache__/filters.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/reports/__pycache__/image.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/reports/__pycache__/main.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/reports/__pycache__/markdown.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/reports/__pycache__/pdf.cpython-39.pyc",
+    "Lib/site-packages/xlwings/pro/reports/filters.py",
+    "Lib/site-packages/xlwings/pro/reports/image.py",
+    "Lib/site-packages/xlwings/pro/reports/main.py",
+    "Lib/site-packages/xlwings/pro/reports/markdown.py",
+    "Lib/site-packages/xlwings/pro/reports/pdf.py",
+    "Lib/site-packages/xlwings/pro/tables.py",
+    "Lib/site-packages/xlwings/pro/utils.py",
+    "Lib/site-packages/xlwings/quickstart.xlsm",
+    "Lib/site-packages/xlwings/quickstart_addin.xlam",
+    "Lib/site-packages/xlwings/quickstart_addin_ribbon.xlam",
+    "Lib/site-packages/xlwings/quickstart_standalone.xlsm",
+    "Lib/site-packages/xlwings/rest/__init__.py",
+    "Lib/site-packages/xlwings/rest/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/xlwings/rest/__pycache__/api.cpython-39.pyc",
+    "Lib/site-packages/xlwings/rest/__pycache__/serializers.cpython-39.pyc",
+    "Lib/site-packages/xlwings/rest/api.py",
+    "Lib/site-packages/xlwings/rest/serializers.py",
+    "Lib/site-packages/xlwings/server.py",
+    "Lib/site-packages/xlwings/udfs.py",
+    "Lib/site-packages/xlwings/utils.py",
+    "Lib/site-packages/xlwings/xlwings.applescript",
+    "Lib/site-packages/xlwings/xlwings.bas",
+    "Scripts/xlwings-script.py",
+    "Scripts/xlwings.exe",
+    "xlwings32-0.24.6.dll",
+    "xlwings64-0.24.6.dll",
+    ".nonadmin"
+  ],
+  "fn": "xlwings-0.24.6-py39hcbf5309_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\xlwings-0.24.6-py39hcbf5309_0",
+    "type": 1
+  },
+  "md5": "2ac124f08eb65a9b4d32a3509b87f1ea",
+  "name": "xlwings",
+  "package_tarball_full_path": "C:\\Users\\dnoell\\Anaconda3\\pkgs\\xlwings-0.24.6-py39hcbf5309_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "5ec7484b0bc1f804e209968f91c3f628bd8d2dd322f6d4d5cfdf175a34b2f2a0",
+        "sha256_in_prefix": "5ec7484b0bc1f804e209968f91c3f628bd8d2dd322f6d4d5cfdf175a34b2f2a0",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/LICENSE_PRO.txt",
+        "path_type": "hardlink",
+        "sha256": "b251616c3d5fabe73ca0ae2c8ba8f1c263c783cc265effc569124b25fee9f7fd",
+        "sha256_in_prefix": "b251616c3d5fabe73ca0ae2c8ba8f1c263c783cc265effc569124b25fee9f7fd",
+        "size_in_bytes": 20710
+      },
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f560d3e2280584b0f6467eb7f419e520d94dc31406f900dc13c4b51e3da4b15f",
+        "sha256_in_prefix": "f560d3e2280584b0f6467eb7f419e520d94dc31406f900dc13c4b51e3da4b15f",
+        "size_in_bytes": 3634
+      },
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "671eed83ee7611a57d367966e52887ac495bec650b9e80a153ada7e171e355d1",
+        "sha256_in_prefix": "671eed83ee7611a57d367966e52887ac495bec650b9e80a153ada7e171e355d1",
+        "size_in_bytes": 8765
+      },
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ae958ae84b1abe6e786ae3fffa4080e64cffa762cfe96555259ef8fc78a81e9c",
+        "sha256_in_prefix": "ae958ae84b1abe6e786ae3fffa4080e64cffa762cfe96555259ef8fc78a81e9c",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f6d26102016f548f5d510b6e80b68113e7ff1bbd31514060fab29512a3e02d75",
+        "sha256_in_prefix": "f6d26102016f548f5d510b6e80b68113e7ff1bbd31514060fab29512a3e02d75",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "Lib/site-packages/xlwings-0.24.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f393c1d834181036e79a12865bdb81b295906500e3233216a9dc38c8ba7bf00b",
+        "sha256_in_prefix": "f393c1d834181036e79a12865bdb81b295906500e3233216a9dc38c8ba7bf00b",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/Dictionary.cls",
+        "path_type": "hardlink",
+        "sha256": "30e6deb07650b8a7d290f9efeeb55148c2fefc2b7f2a31ef34160034fede6712",
+        "sha256_in_prefix": "30e6deb07650b8a7d290f9efeeb55148c2fefc2b7f2a31ef34160034fede6712",
+        "size_in_bytes": 15567
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b39b9870f461015aff063ee17fdf47de19979ad8b914535519b9cd75edf4498",
+        "sha256_in_prefix": "3b39b9870f461015aff063ee17fdf47de19979ad8b914535519b9cd75edf4498",
+        "size_in_bytes": 2170
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d05e6b2f16590aea2b4d3608eaf6d646e8d8e8b35407d963369f38ef3d5e53a5",
+        "sha256_in_prefix": "d05e6b2f16590aea2b4d3608eaf6d646e8d8e8b35407d963369f38ef3d5e53a5",
+        "size_in_bytes": 2498
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/_xlmac.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9d11d0a652eb32cdf2844724080ca8a395e8f8f164cb1cef594bd6c411a3bf30",
+        "sha256_in_prefix": "9d11d0a652eb32cdf2844724080ca8a395e8f8f164cb1cef594bd6c411a3bf30",
+        "size_in_bytes": 61057
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/_xlwindows.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c520f34c2510672d2683e5ba801dcb4531bcac73bc90bf311b7c96f0b6f55231",
+        "sha256_in_prefix": "c520f34c2510672d2683e5ba801dcb4531bcac73bc90bf311b7c96f0b6f55231",
+        "size_in_bytes": 61641
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/cli.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "91d86d5df8aa1b63bfdd6769f7ec7a42762938915c37d96ead33f89746902a94",
+        "sha256_in_prefix": "91d86d5df8aa1b63bfdd6769f7ec7a42762938915c37d96ead33f89746902a94",
+        "size_in_bytes": 18712
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/constants.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aae880abd094de209f355f496af4981f11d954edae0681a65d6154fd34c7c70b",
+        "sha256_in_prefix": "aae880abd094de209f355f496af4981f11d954edae0681a65d6154fd34c7c70b",
+        "size_in_bytes": 101274
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/expansion.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "fad23083755e82ebad3267dccb664a8967d3ce16819b20b981c62e2e6ccb517c",
+        "sha256_in_prefix": "fad23083755e82ebad3267dccb664a8967d3ce16819b20b981c62e2e6ccb517c",
+        "size_in_bytes": 2449
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/mac_dict.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "93e01236d932f81e5ffae7e1aa8ff96a13f7c3b539bcfc6e28385d822c7a64cf",
+        "sha256_in_prefix": "93e01236d932f81e5ffae7e1aa8ff96a13f7c3b539bcfc6e28385d822c7a64cf",
+        "size_in_bytes": 173724
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/main.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "74c8a4cfd947ad2b836c87ec4d6d7464aa5ec0bd3ad1e41ba19c7a174adcc322",
+        "sha256_in_prefix": "74c8a4cfd947ad2b836c87ec4d6d7464aa5ec0bd3ad1e41ba19c7a174adcc322",
+        "size_in_bytes": 130020
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/server.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "116128cf420a9384f4e0f00724d5c32ba4001dc7dfd6e044a46fab69d5b29d3a",
+        "sha256_in_prefix": "116128cf420a9384f4e0f00724d5c32ba4001dc7dfd6e044a46fab69d5b29d3a",
+        "size_in_bytes": 11276
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/udfs.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c44ba967671c9b578d0defedf9cf7b5cba7ad27944e66070d0087f3f9b6c97aa",
+        "sha256_in_prefix": "c44ba967671c9b578d0defedf9cf7b5cba7ad27944e66070d0087f3f9b6c97aa",
+        "size_in_bytes": 19881
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "970991ac7bc4abbc19f2272f7e50ec80fb74dc987299bff1aebd7c39ef93ce37",
+        "sha256_in_prefix": "970991ac7bc4abbc19f2272f7e50ec80fb74dc987299bff1aebd7c39ef93ce37",
+        "size_in_bytes": 10326
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/_xlmac.py",
+        "path_type": "hardlink",
+        "sha256": "b3f7b40d8f639a8f8a94b70346d3415671c076bbe84ae16dc68babe30d7c2ef9",
+        "sha256_in_prefix": "b3f7b40d8f639a8f8a94b70346d3415671c076bbe84ae16dc68babe30d7c2ef9",
+        "size_in_bytes": 58600
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/_xlwindows.py",
+        "path_type": "hardlink",
+        "sha256": "164f09e9b8f9ee8a0a06c15f662df108f8178aec70161d7beb4502e82f56c6c6",
+        "sha256_in_prefix": "164f09e9b8f9ee8a0a06c15f662df108f8178aec70161d7beb4502e82f56c6c6",
+        "size_in_bytes": 61711
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/addin/xlwings.xlam",
+        "path_type": "hardlink",
+        "sha256": "41b0e9d59d8bca2432aef16b42b9439ff7e2141b73f683ef59257e28eada6e28",
+        "sha256_in_prefix": "41b0e9d59d8bca2432aef16b42b9439ff7e2141b73f683ef59257e28eada6e28",
+        "size_in_bytes": 56908
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/addin/xlwings_unprotected.xlam",
+        "path_type": "hardlink",
+        "sha256": "026321c57f5c64bfd3aa21f50bd1e5c7e83c967608a05129835e8ba9091746da",
+        "sha256_in_prefix": "026321c57f5c64bfd3aa21f50bd1e5c7e83c967608a05129835e8ba9091746da",
+        "size_in_bytes": 60285
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/cli.py",
+        "path_type": "hardlink",
+        "sha256": "b839f4a355ac8f235ac7ea81dff7e5ac1598e2aedfead6dd994369ad351d1cf7",
+        "sha256_in_prefix": "b839f4a355ac8f235ac7ea81dff7e5ac1598e2aedfead6dd994369ad351d1cf7",
+        "size_in_bytes": 27080
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/constants.py",
+        "path_type": "hardlink",
+        "sha256": "4ef6b66d1077a5cb372389e299d2c29061be50d8e4b420cfa95cb44168deb281",
+        "sha256_in_prefix": "4ef6b66d1077a5cb372389e299d2c29061be50d8e4b420cfa95cb44168deb281",
+        "size_in_bytes": 131978
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "132e48d6e536bc29d9bbf5bb10c6dbc86195c8127f324a8d343d3d88f010b97d",
+        "sha256_in_prefix": "132e48d6e536bc29d9bbf5bb10c6dbc86195c8127f324a8d343d3d88f010b97d",
+        "size_in_bytes": 2016
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fe17a143833331235d45b57df942cf6a64ae2800e040bf070b42d4fd3c07848",
+        "sha256_in_prefix": "8fe17a143833331235d45b57df942cf6a64ae2800e040bf070b42d4fd3c07848",
+        "size_in_bytes": 1847
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/__pycache__/framework.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "94c907d10ee3b252a01a6e3e7b42d110a6265ae0e55a0bd0169994edec62d58c",
+        "sha256_in_prefix": "94c907d10ee3b252a01a6e3e7b42d110a6265ae0e55a0bd0169994edec62d58c",
+        "size_in_bytes": 5517
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/__pycache__/numpy_conv.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3bf16709dd953064d679e8abf4fd72463905b9a58e278faa40651d828d47b68b",
+        "sha256_in_prefix": "3bf16709dd953064d679e8abf4fd72463905b9a58e278faa40651d828d47b68b",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/__pycache__/pandas_conv.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "140acc585569db224e30fe3299c475af12766322313efe855d3296cdc45e72f2",
+        "sha256_in_prefix": "140acc585569db224e30fe3299c475af12766322313efe855d3296cdc45e72f2",
+        "size_in_bytes": 4277
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/__pycache__/standard.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2bd204e8c25a1e94c0d392f728aa8b21d7de94ef1d662167e8b03bc2ab1058f0",
+        "sha256_in_prefix": "2bd204e8c25a1e94c0d392f728aa8b21d7de94ef1d662167e8b03bc2ab1058f0",
+        "size_in_bytes": 10626
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/framework.py",
+        "path_type": "hardlink",
+        "sha256": "a95c5d18b1ba3b545563d9942970710d250ad1c293ece0a595beca1935d7cdc0",
+        "sha256_in_prefix": "a95c5d18b1ba3b545563d9942970710d250ad1c293ece0a595beca1935d7cdc0",
+        "size_in_bytes": 4003
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/numpy_conv.py",
+        "path_type": "hardlink",
+        "sha256": "ea43728504221df20ed05e4c21a0bfd9d5d9f3627b1418f04d194ead0abf0d46",
+        "sha256_in_prefix": "ea43728504221df20ed05e4c21a0bfd9d5d9f3627b1418f04d194ead0abf0d46",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/pandas_conv.py",
+        "path_type": "hardlink",
+        "sha256": "357848b93f027dceb753faf70b7aa8414305f42aabd945a95afda540d1081472",
+        "sha256_in_prefix": "357848b93f027dceb753faf70b7aa8414305f42aabd945a95afda540d1081472",
+        "size_in_bytes": 6360
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/conversion/standard.py",
+        "path_type": "hardlink",
+        "sha256": "ad31598cd3239601ea9e12ab0de01157fd05bfc7c3968f48d796cfc96061bc96",
+        "sha256_in_prefix": "ad31598cd3239601ea9e12ab0de01157fd05bfc7c3968f48d796cfc96061bc96",
+        "size_in_bytes": 8582
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/expansion.py",
+        "path_type": "hardlink",
+        "sha256": "514afafe30e756684da56de5f4b7701e673134e1be9191f5343b98ff6374b293",
+        "sha256_in_prefix": "514afafe30e756684da56de5f4b7701e673134e1be9191f5343b98ff6374b293",
+        "size_in_bytes": 2251
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/ext/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6a6eac5423be3090e5464fbdad24cd6541261c52272b9c5b75398b0ed1dd8f35",
+        "sha256_in_prefix": "6a6eac5423be3090e5464fbdad24cd6541261c52272b9c5b75398b0ed1dd8f35",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/ext/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a41f1ce69d2e2a57e7c69810fa4fc835233da291f2ed8bfeb7701e635d55f1b",
+        "sha256_in_prefix": "7a41f1ce69d2e2a57e7c69810fa4fc835233da291f2ed8bfeb7701e635d55f1b",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/ext/__pycache__/sql.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "bf4be36cb5f052b1b9747901b9e099911aff5921af8d236a9c21b4b5f0ffb556",
+        "sha256_in_prefix": "bf4be36cb5f052b1b9747901b9e099911aff5921af8d236a9c21b4b5f0ffb556",
+        "size_in_bytes": 2364
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/ext/sql.py",
+        "path_type": "hardlink",
+        "sha256": "690e6ea98900486969a4e746e65e603f7a83bcdd981d24a57dc70bc133d501c0",
+        "sha256_in_prefix": "690e6ea98900486969a4e746e65e603f7a83bcdd981d24a57dc70bc133d501c0",
+        "size_in_bytes": 1835
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mac_dict.py",
+        "path_type": "hardlink",
+        "sha256": "6e77b334d338f6beea135c9515ed95130b2b765cfbe73186592c8ba9af60825c",
+        "sha256_in_prefix": "6e77b334d338f6beea135c9515ed95130b2b765cfbe73186592c8ba9af60825c",
+        "size_in_bytes": 239961
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/main.py",
+        "path_type": "hardlink",
+        "sha256": "abfe9aa9f9eaf48c0fdfb209d943438b55db2d032cc504d988c9aceb81429ea4",
+        "sha256_in_prefix": "abfe9aa9f9eaf48c0fdfb209d943438b55db2d032cc504d988c9aceb81429ea4",
+        "size_in_bytes": 129249
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1b9e1fe94d4cf8055a63bf7312083dd32323cd24533085373f75d836ef467822",
+        "sha256_in_prefix": "1b9e1fe94d4cf8055a63bf7312083dd32323cd24533085373f75d836ef467822",
+        "size_in_bytes": 1860
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c4993e2d016a6ba8797fc7ba205be752fb79f2b2e8f83664c1750b13fac63abb",
+        "sha256_in_prefix": "c4993e2d016a6ba8797fc7ba205be752fb79f2b2e8f83664c1750b13fac63abb",
+        "size_in_bytes": 1746
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/__pycache__/block_parser.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad7767ef029e30c50786bff1db0c1cc329dbd789f6504a1ae96352cffaffdff9",
+        "sha256_in_prefix": "ad7767ef029e30c50786bff1db0c1cc329dbd789f6504a1ae96352cffaffdff9",
+        "size_in_bytes": 10142
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/__pycache__/inline_parser.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "d5324cc103dd22cad233ff189fe2519c7ab92b58d3bd3f7528a2e1c7381839f0",
+        "sha256_in_prefix": "d5324cc103dd22cad233ff189fe2519c7ab92b58d3bd3f7528a2e1c7381839f0",
+        "size_in_bytes": 6142
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/__pycache__/markdown.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a28b4a3fef8aba60fb261339cc732f95b1cc107760e78a6ae560af8ce2508610",
+        "sha256_in_prefix": "a28b4a3fef8aba60fb261339cc732f95b1cc107760e78a6ae560af8ce2508610",
+        "size_in_bytes": 2596
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/__pycache__/renderers.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9434d0929c15a484c829ed9918e5862f4d7fdff965bb357247b84ffb0ae44c72",
+        "sha256_in_prefix": "9434d0929c15a484c829ed9918e5862f4d7fdff965bb357247b84ffb0ae44c72",
+        "size_in_bytes": 8306
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/__pycache__/scanner.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "9569beb96c72846078638d5267dade2ce6ebd491898a65a5791e063a7a40fe87",
+        "sha256_in_prefix": "9569beb96c72846078638d5267dade2ce6ebd491898a65a5791e063a7a40fe87",
+        "size_in_bytes": 4768
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/block_parser.py",
+        "path_type": "hardlink",
+        "sha256": "a910e68ae00d0bdd97aaad3ba377376d0ee4ab40a9afeeb19e1c68eba934cb81",
+        "sha256_in_prefix": "a910e68ae00d0bdd97aaad3ba377376d0ee4ab40a9afeeb19e1c68eba934cb81",
+        "size_in_bytes": 11419
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "95341c2cea41627e71c297da76787947820affa3e17a96ab5feefd233feecbad",
+        "sha256_in_prefix": "95341c2cea41627e71c297da76787947820affa3e17a96ab5feefd233feecbad",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6d9c34a989b0fae6820dd18941e9686648e4dd4f6f964c02c765253a88dab77",
+        "sha256_in_prefix": "a6d9c34a989b0fae6820dd18941e9686648e4dd4f6f964c02c765253a88dab77",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/__pycache__/admonition.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c9dd45e1ffeb9d39c1c854e4ada29e7faf16ae2cb0b51ca3d2a9ddb94ad92252",
+        "sha256_in_prefix": "c9dd45e1ffeb9d39c1c854e4ada29e7faf16ae2cb0b51ca3d2a9ddb94ad92252",
+        "size_in_bytes": 1694
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/__pycache__/base.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c058f9b0fa15deb9a55b11dd58ac86007a7d93161fb2cb8d63a376765939f9dd",
+        "sha256_in_prefix": "c058f9b0fa15deb9a55b11dd58ac86007a7d93161fb2cb8d63a376765939f9dd",
+        "size_in_bytes": 3300
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/__pycache__/include.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "08e2855cc211c1f9489681592c6374990ade919f3240c01f94b23c3dd0843755",
+        "sha256_in_prefix": "08e2855cc211c1f9489681592c6374990ade919f3240c01f94b23c3dd0843755",
+        "size_in_bytes": 2014
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/__pycache__/toc.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3063bcdff9637bbbf92049074fbfe5b3de16e57e0303186b8131e644b655e6d4",
+        "sha256_in_prefix": "3063bcdff9637bbbf92049074fbfe5b3de16e57e0303186b8131e644b655e6d4",
+        "size_in_bytes": 5969
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/admonition.py",
+        "path_type": "hardlink",
+        "sha256": "0064c99593914dbd82eff324885ce009f6de6a437c60020a4ddcfedf66bc7de6",
+        "sha256_in_prefix": "0064c99593914dbd82eff324885ce009f6de6a437c60020a4ddcfedf66bc7de6",
+        "size_in_bytes": 1627
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/base.py",
+        "path_type": "hardlink",
+        "sha256": "7cc06bfc0678cff34c64a4f76e731dd0c8ef90ac5d238c948e4b2f1e0846c104",
+        "sha256_in_prefix": "7cc06bfc0678cff34c64a4f76e731dd0c8ef90ac5d238c948e4b2f1e0846c104",
+        "size_in_bytes": 2594
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/include.py",
+        "path_type": "hardlink",
+        "sha256": "e91788277aa696a90bcd07763dbdb5369f36ce390b2f81448196703294cfef65",
+        "sha256_in_prefix": "e91788277aa696a90bcd07763dbdb5369f36ce390b2f81448196703294cfef65",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/directives/toc.py",
+        "path_type": "hardlink",
+        "sha256": "0a6bf6125843c112c76fc126f3e335211bcb434fede66027a824e40e49e8f4b0",
+        "sha256_in_prefix": "0a6bf6125843c112c76fc126f3e335211bcb434fede66027a824e40e49e8f4b0",
+        "size_in_bytes": 6147
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/inline_parser.py",
+        "path_type": "hardlink",
+        "sha256": "a044f822e388331f19d28d38e04e4959d046807e486ca7e4b300c25df66823ea",
+        "sha256_in_prefix": "a044f822e388331f19d28d38e04e4959d046807e486ca7e4b300c25df66823ea",
+        "size_in_bytes": 6680
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/markdown.py",
+        "path_type": "hardlink",
+        "sha256": "b4ba685aa9233ddbec554bfc756ed0c271518bdb9721d74db9ce1e343ecb9845",
+        "sha256_in_prefix": "b4ba685aa9233ddbec554bfc756ed0c271518bdb9721d74db9ce1e343ecb9845",
+        "size_in_bytes": 2439
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "850933ebda88b61489c59397014602e003162e30a54c458da3397ca8acb39441",
+        "sha256_in_prefix": "850933ebda88b61489c59397014602e003162e30a54c458da3397ca8acb39441",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f74101a7f77930b322228ded562e2bb7f5e63b5db1cd69889a3257842d3ba3e8",
+        "sha256_in_prefix": "f74101a7f77930b322228ded562e2bb7f5e63b5db1cd69889a3257842d3ba3e8",
+        "size_in_bytes": 536
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/__pycache__/def_list.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "b11205184072a3a02c38dc0e6de4ebd50e8d3d8597cdba0ec798d85853dc024a",
+        "sha256_in_prefix": "b11205184072a3a02c38dc0e6de4ebd50e8d3d8597cdba0ec798d85853dc024a",
+        "size_in_bytes": 1761
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/__pycache__/extra.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "39540778319d79b322bbf88f8a245ec42a4304b38066f8eefef24951d119f876",
+        "sha256_in_prefix": "39540778319d79b322bbf88f8a245ec42a4304b38066f8eefef24951d119f876",
+        "size_in_bytes": 1420
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/__pycache__/footnotes.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "f6a31fc95f7534c6830b24cc0dbca5e9319542c9df0fa48872db87b3e02f2432",
+        "sha256_in_prefix": "f6a31fc95f7534c6830b24cc0dbca5e9319542c9df0fa48872db87b3e02f2432",
+        "size_in_bytes": 3800
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/__pycache__/table.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "89c6fce7c8905bf04e8704f811432d71450000326ac267442a18d54d78734320",
+        "sha256_in_prefix": "89c6fce7c8905bf04e8704f811432d71450000326ac267442a18d54d78734320",
+        "size_in_bytes": 3815
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/__pycache__/task_lists.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa7acf45e65cb8be0f31bbc67448b6dc48d135752ade6baf14ec36d3a3bd1852",
+        "sha256_in_prefix": "aa7acf45e65cb8be0f31bbc67448b6dc48d135752ade6baf14ec36d3a3bd1852",
+        "size_in_bytes": 1705
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/def_list.py",
+        "path_type": "hardlink",
+        "sha256": "3c5cb2e38c36e3e7f24cd0d8e6ee4d1664052e0ff594421ddde0da502bc677dc",
+        "sha256_in_prefix": "3c5cb2e38c36e3e7f24cd0d8e6ee4d1664052e0ff594421ddde0da502bc677dc",
+        "size_in_bytes": 1707
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/extra.py",
+        "path_type": "hardlink",
+        "sha256": "caa4c090b0618278efa3768cb38b8b1e0e9c487fbc4ed15ceaed2ec27294b1a7",
+        "sha256_in_prefix": "caa4c090b0618278efa3768cb38b8b1e0e9c487fbc4ed15ceaed2ec27294b1a7",
+        "size_in_bytes": 1284
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/footnotes.py",
+        "path_type": "hardlink",
+        "sha256": "e3f721504e43c919acc5a27a8053fc03c8c5b05c4a16043c383354cf7a4b5376",
+        "sha256_in_prefix": "e3f721504e43c919acc5a27a8053fc03c8c5b05c4a16043c383354cf7a4b5376",
+        "size_in_bytes": 4312
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/table.py",
+        "path_type": "hardlink",
+        "sha256": "c729da7e78156a9716d326b0b8204c52541b0e33f9f62c90227bc3738308a4c9",
+        "sha256_in_prefix": "c729da7e78156a9716d326b0b8204c52541b0e33f9f62c90227bc3738308a4c9",
+        "size_in_bytes": 4380
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/plugins/task_lists.py",
+        "path_type": "hardlink",
+        "sha256": "cd35419da9fc2191018e028f1879344a96b3a7e3a1a5312b18c3226036bbddae",
+        "sha256_in_prefix": "cd35419da9fc2191018e028f1879344a96b3a7e3a1a5312b18c3226036bbddae",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/renderers.py",
+        "path_type": "hardlink",
+        "sha256": "c8804351df17ba411385bcc87755185b11c6921e88c44ba31fb22aa4eee9e233",
+        "sha256_in_prefix": "c8804351df17ba411385bcc87755185b11c6921e88c44ba31fb22aa4eee9e233",
+        "size_in_bytes": 6218
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/mistune/scanner.py",
+        "path_type": "hardlink",
+        "sha256": "64073a3d29bd4913bc22a976b41d81112a1d9abafafef895e09b084854b6f74b",
+        "sha256_in_prefix": "64073a3d29bd4913bc22a976b41d81112a1d9abafafef895e09b084854b6f74b",
+        "size_in_bytes": 4442
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aa315765f17d4840c35955b89fa54a79798f96abb96ce824d6b79ca0aa995205",
+        "sha256_in_prefix": "aa315765f17d4840c35955b89fa54a79798f96abb96ce824d6b79ca0aa995205",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "cb03a500b20d3ef401c2632a25ffeb7bf8e157b262fc83bb6395b22700b6f3f4",
+        "sha256_in_prefix": "cb03a500b20d3ef401c2632a25ffeb7bf8e157b262fc83bb6395b22700b6f3f4",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/__pycache__/embedded_code.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "50c40162c565911b4964e76435d681e5fa134eb0c8bcb814bdf41d0f1deb3bf6",
+        "sha256_in_prefix": "50c40162c565911b4964e76435d681e5fa134eb0c8bcb814bdf41d0f1deb3bf6",
+        "size_in_bytes": 1803
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/__pycache__/module_permissions.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "edcc37591b2e7496e6af1f1b6eaee9c816789d6a40b70fbd797c42bd4934b344",
+        "sha256_in_prefix": "edcc37591b2e7496e6af1f1b6eaee9c816789d6a40b70fbd797c42bd4934b344",
+        "size_in_bytes": 2546
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/__pycache__/tables.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "371c88c7ca4a4a086cabf378fc56211d48bd211351403fbf5e5e835766d7fe21",
+        "sha256_in_prefix": "371c88c7ca4a4a086cabf378fc56211d48bd211351403fbf5e5e835766d7fe21",
+        "size_in_bytes": 1479
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/__pycache__/utils.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "3647b512b74495ad58e28b5e043b307c658ade2ba2509b05b6b50d3aa0173178",
+        "sha256_in_prefix": "3647b512b74495ad58e28b5e043b307c658ade2ba2509b05b6b50d3aa0173178",
+        "size_in_bytes": 3027
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/embedded_code.py",
+        "path_type": "hardlink",
+        "sha256": "6dc875422eae736ed2714e1ea20c91607e46107234f3bb77f5e72ef6e47afb79",
+        "sha256_in_prefix": "6dc875422eae736ed2714e1ea20c91607e46107234f3bb77f5e72ef6e47afb79",
+        "size_in_bytes": 1928
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/module_permissions.py",
+        "path_type": "hardlink",
+        "sha256": "6f1c6aab1198e10e4b6e5090baa7ab81ba749560166fbfcec0c93e0e0432e069",
+        "sha256_in_prefix": "6f1c6aab1198e10e4b6e5090baa7ab81ba749560166fbfcec0c93e0e0432e069",
+        "size_in_bytes": 3512
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ca488577ab4fbc646a186f0c91a1c6f25063efa7f3620eeffa8508154e1aa31b",
+        "sha256_in_prefix": "ca488577ab4fbc646a186f0c91a1c6f25063efa7f3620eeffa8508154e1aa31b",
+        "size_in_bytes": 402
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "129ae8b08195e7fe4185740f650a0cf8e8fd176943bb5bcefc9da936149aeff6",
+        "sha256_in_prefix": "129ae8b08195e7fe4185740f650a0cf8e8fd176943bb5bcefc9da936149aeff6",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/__pycache__/filters.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "202635a574461fa70d1b9ccca41c50e5028a98131684f5a5d441a7f383c038c5",
+        "sha256_in_prefix": "202635a574461fa70d1b9ccca41c50e5028a98131684f5a5d441a7f383c038c5",
+        "size_in_bytes": 5964
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/__pycache__/image.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "c045afbea2d215cf8a1ea5be9d9e228916be9d38bfecad3f0b904d16ace8cb30",
+        "sha256_in_prefix": "c045afbea2d215cf8a1ea5be9d9e228916be9d38bfecad3f0b904d16ace8cb30",
+        "size_in_bytes": 707
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/__pycache__/main.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ba3b03e22b0b95ff7792ae33d1801745e3eb375dacd9ac6e78b0a025749b687",
+        "sha256_in_prefix": "2ba3b03e22b0b95ff7792ae33d1801745e3eb375dacd9ac6e78b0a025749b687",
+        "size_in_bytes": 8730
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/__pycache__/markdown.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "04b264428d874e2216d1a8dd55cb6689e6245b083dc0f47e1b0297b3e9056482",
+        "sha256_in_prefix": "04b264428d874e2216d1a8dd55cb6689e6245b083dc0f47e1b0297b3e9056482",
+        "size_in_bytes": 7758
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/__pycache__/pdf.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d6013edbb1ed134e44a1a5a38ffdd3781b894147e1c24b31559bc5d58133bf9",
+        "sha256_in_prefix": "7d6013edbb1ed134e44a1a5a38ffdd3781b894147e1c24b31559bc5d58133bf9",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/filters.py",
+        "path_type": "hardlink",
+        "sha256": "a0e1b6cb7ac304e6a47b1ec0a1ca302c57c33d90b41fa93fe6bcb2018cea35f3",
+        "sha256_in_prefix": "a0e1b6cb7ac304e6a47b1ec0a1ca302c57c33d90b41fa93fe6bcb2018cea35f3",
+        "size_in_bytes": 5666
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/image.py",
+        "path_type": "hardlink",
+        "sha256": "225295a11f1bbd3fc1286a8f3df05a14bd31662c75c0fbc3f8a10bb6cacfc303",
+        "sha256_in_prefix": "225295a11f1bbd3fc1286a8f3df05a14bd31662c75c0fbc3f8a10bb6cacfc303",
+        "size_in_bytes": 367
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/main.py",
+        "path_type": "hardlink",
+        "sha256": "34242c6f323ffe605226ceb1953ff22bda5d1dd1195786ac44904d93065d18f1",
+        "sha256_in_prefix": "34242c6f323ffe605226ceb1953ff22bda5d1dd1195786ac44904d93065d18f1",
+        "size_in_bytes": 15319
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/markdown.py",
+        "path_type": "hardlink",
+        "sha256": "ae71cf797d77deab4f4650a02698a40ed36e88676a19965ac090f50035de512c",
+        "sha256_in_prefix": "ae71cf797d77deab4f4650a02698a40ed36e88676a19965ac090f50035de512c",
+        "size_in_bytes": 7675
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/reports/pdf.py",
+        "path_type": "hardlink",
+        "sha256": "31eb860a504b364599582319e86a456d7c89632f4e936642f0b2bda2e7910397",
+        "sha256_in_prefix": "31eb860a504b364599582319e86a456d7c89632f4e936642f0b2bda2e7910397",
+        "size_in_bytes": 1423
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/tables.py",
+        "path_type": "hardlink",
+        "sha256": "8cd9e93f69ac87ee41e2fa299ef2a935a7a0748cb51f232cd5f08427c860545d",
+        "sha256_in_prefix": "8cd9e93f69ac87ee41e2fa299ef2a935a7a0748cb51f232cd5f08427c860545d",
+        "size_in_bytes": 2019
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/pro/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e53134817c8a9cfc3a7b660c714928b6d854729dfe99c0904fca586f785ffaa1",
+        "sha256_in_prefix": "e53134817c8a9cfc3a7b660c714928b6d854729dfe99c0904fca586f785ffaa1",
+        "size_in_bytes": 3783
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/quickstart.xlsm",
+        "path_type": "hardlink",
+        "sha256": "4147338b0c152ba47b3747fefae6009f34735552e22d11762b8e98d9777e16ce",
+        "sha256_in_prefix": "4147338b0c152ba47b3747fefae6009f34735552e22d11762b8e98d9777e16ce",
+        "size_in_bytes": 13912
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/quickstart_addin.xlam",
+        "path_type": "hardlink",
+        "sha256": "eacd11348f52e668a15f60d28830ba2dfe8eb699c9aff93d4d9f04a13c3d336b",
+        "sha256_in_prefix": "eacd11348f52e668a15f60d28830ba2dfe8eb699c9aff93d4d9f04a13c3d336b",
+        "size_in_bytes": 39829
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/quickstart_addin_ribbon.xlam",
+        "path_type": "hardlink",
+        "sha256": "7d3b3f3cf25ede9b30f6f9f80aa87fa5a293caf34ae581b5eb7d033abb71236b",
+        "sha256_in_prefix": "7d3b3f3cf25ede9b30f6f9f80aa87fa5a293caf34ae581b5eb7d033abb71236b",
+        "size_in_bytes": 40352
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/quickstart_standalone.xlsm",
+        "path_type": "hardlink",
+        "sha256": "2289afab149cf23f8ad608df53ebc9eadefd8cf83759cf9475fb3df8646e7b5d",
+        "sha256_in_prefix": "2289afab149cf23f8ad608df53ebc9eadefd8cf83759cf9475fb3df8646e7b5d",
+        "size_in_bytes": 41239
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/rest/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2c31e1f1862b4a80e5214cf9840f988543c44e9b7a71915c69103010629f7ce4",
+        "sha256_in_prefix": "2c31e1f1862b4a80e5214cf9840f988543c44e9b7a71915c69103010629f7ce4",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/rest/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "72846e038636e1e1b60793217c81ea8f2eb01e934d34146352eea87e7085748e",
+        "sha256_in_prefix": "72846e038636e1e1b60793217c81ea8f2eb01e934d34146352eea87e7085748e",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/rest/__pycache__/api.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f8a3940595288ed72b6754c61164629a131d6ef43e68b6a387fa189ac8fb160",
+        "sha256_in_prefix": "4f8a3940595288ed72b6754c61164629a131d6ef43e68b6a387fa189ac8fb160",
+        "size_in_bytes": 11586
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/rest/__pycache__/serializers.cpython-39.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2b59fd3bdc2b666b4a66d16364311768569cdd95bfd28592bf5a341a4ca23a7",
+        "sha256_in_prefix": "a2b59fd3bdc2b666b4a66d16364311768569cdd95bfd28592bf5a341a4ca23a7",
+        "size_in_bytes": 2975
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/rest/api.py",
+        "path_type": "hardlink",
+        "sha256": "d84318ecbc0feea476ba0d19965b0c1ca3948119ad712cf936e63df3e521d28e",
+        "sha256_in_prefix": "d84318ecbc0feea476ba0d19965b0c1ca3948119ad712cf936e63df3e521d28e",
+        "size_in_bytes": 12417
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/rest/serializers.py",
+        "path_type": "hardlink",
+        "sha256": "978e9685c9e7ec16e0dd585d629e9699d53142074bf53f8abcde8f2bde226064",
+        "sha256_in_prefix": "978e9685c9e7ec16e0dd585d629e9699d53142074bf53f8abcde8f2bde226064",
+        "size_in_bytes": 2831
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/server.py",
+        "path_type": "hardlink",
+        "sha256": "ed81d3e94b857f97c961d4e7cbde0a284c268e8009c8b4603cd25674eb84364f",
+        "sha256_in_prefix": "ed81d3e94b857f97c961d4e7cbde0a284c268e8009c8b4603cd25674eb84364f",
+        "size_in_bytes": 10474
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/udfs.py",
+        "path_type": "hardlink",
+        "sha256": "4fec7ca724ff97e8bc0168b4f99ec376d73453778b3b1f510cf9ee7ced5ae2ad",
+        "sha256_in_prefix": "4fec7ca724ff97e8bc0168b4f99ec376d73453778b3b1f510cf9ee7ced5ae2ad",
+        "size_in_bytes": 27002
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/utils.py",
+        "path_type": "hardlink",
+        "sha256": "b8aba7b31a334a60d1c77c866e09e546b4fe88737df2076d0e45a3d580950bc7",
+        "sha256_in_prefix": "b8aba7b31a334a60d1c77c866e09e546b4fe88737df2076d0e45a3d580950bc7",
+        "size_in_bytes": 9200
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/xlwings.applescript",
+        "path_type": "hardlink",
+        "sha256": "41e550e90cb87020c4625a69d7423b00bd9676e945d5a9bb1ba99bfc2cf829b4",
+        "sha256_in_prefix": "41e550e90cb87020c4625a69d7423b00bd9676e945d5a9bb1ba99bfc2cf829b4",
+        "size_in_bytes": 1276
+      },
+      {
+        "_path": "Lib/site-packages/xlwings/xlwings.bas",
+        "path_type": "hardlink",
+        "sha256": "a0ca9d7d70ffbcfea631ce34da83c44adcea74866f30cc224d76d3f09f5cf703",
+        "sha256_in_prefix": "a0ca9d7d70ffbcfea631ce34da83c44adcea74866f30cc224d76d3f09f5cf703",
+        "size_in_bytes": 45233
+      },
+      {
+        "_path": "Scripts/xlwings-script.py",
+        "path_type": "hardlink",
+        "sha256": "70be533fe4c250e53780073750bbb49813b8bf6cb1597e32e9d8f8fd9098d56f",
+        "sha256_in_prefix": "70be533fe4c250e53780073750bbb49813b8bf6cb1597e32e9d8f8fd9098d56f",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "Scripts/xlwings.exe",
+        "path_type": "hardlink",
+        "sha256": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "sha256_in_prefix": "5ea569f2b5bc9c273351641a1a3c52821ce2a9370bc8202f0247c793ebd8a618",
+        "size_in_bytes": 41984
+      },
+      {
+        "_path": "xlwings32-0.24.6.dll",
+        "path_type": "hardlink",
+        "sha256": "f6f39f729dc67bd2135f8c404ef7e3e185f9fbe3717285238743f956c4eff8f8",
+        "sha256_in_prefix": "f6f39f729dc67bd2135f8c404ef7e3e185f9fbe3717285238743f956c4eff8f8",
+        "size_in_bytes": 297472
+      },
+      {
+        "_path": "xlwings64-0.24.6.dll",
+        "path_type": "hardlink",
+        "sha256": "7ace32af73fdea68981b8dd5b35c9c8e74be64dec0cc01427d2026df826d597e",
+        "sha256_in_prefix": "7ace32af73fdea68981b8dd5b35c9c8e74be64dec0cc01427d2026df826d597e",
+        "size_in_bytes": 371200
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "xlwings",
+  "sha256": "094935d6d65e5a2a840dadbec28a3f7de3cf42a86662ace7c067b24b757790d7",
+  "size": 1019599,
+  "subdir": "win-64",
+  "timestamp": 1627752178335,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/xlwings-0.24.6-py39hcbf5309_0.tar.bz2",
+  "version": "0.24.6"
+}

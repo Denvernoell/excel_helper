@@ -1,0 +1,183 @@
+==> 2021-08-03 13:12:05 <==
+# cmd: C:\Users\dnoell\Anaconda3\Scripts\conda-script.py create --name akel_helper
+# conda version: 4.8.3
+==> 2021-08-03 16:52:54 <==
+# cmd: C:\Users\dnoell\Anaconda3\Scripts\conda-script.py install -c conda-forge streamlit
+# conda version: 4.8.3
++conda-forge/noarch::altair-4.1.0-py_1
++conda-forge/noarch::argh-0.26.2-pyh9f0ad1d_1002
++conda-forge/noarch::astor-0.8.1-pyh9f0ad1d_0
++conda-forge/noarch::async_generator-1.10-py_0
++conda-forge/noarch::attrs-21.2.0-pyhd8ed1ab_0
++conda-forge/noarch::backcall-0.2.0-pyh9f0ad1d_0
++conda-forge/noarch::backports-1.0-py_2
++conda-forge/noarch::backports.functools_lru_cache-1.6.4-pyhd8ed1ab_0
++conda-forge/noarch::base58-2.1.0-pyhd8ed1ab_0
++conda-forge/noarch::bleach-4.0.0-pyhd8ed1ab_0
++conda-forge/noarch::blinker-1.4-py_1
++conda-forge/noarch::boto3-1.18.12-pyhd8ed1ab_0
++conda-forge/noarch::botocore-1.21.12-pyhd8ed1ab_0
++conda-forge/noarch::cachetools-4.2.2-pyhd8ed1ab_0
++conda-forge/noarch::charset-normalizer-2.0.0-pyhd8ed1ab_0
++conda-forge/noarch::click-7.1.2-pyh9f0ad1d_0
++conda-forge/noarch::colorama-0.4.4-pyh9f0ad1d_0
++conda-forge/noarch::decorator-5.0.9-pyhd8ed1ab_0
++conda-forge/noarch::defusedxml-0.7.1-pyhd8ed1ab_0
++conda-forge/noarch::entrypoints-0.3-pyhd8ed1ab_1003
++conda-forge/noarch::gitdb-4.0.7-pyhd8ed1ab_0
++conda-forge/noarch::gitpython-3.1.18-pyhd8ed1ab_0
++conda-forge/noarch::idna-3.1-pyhd3deb0d_0
++conda-forge/noarch::ipython_genutils-0.2.0-py_1
++conda-forge/noarch::ipywidgets-7.6.3-pyhd3deb0d_0
++conda-forge/noarch::jinja2-3.0.1-pyhd8ed1ab_0
++conda-forge/noarch::jmespath-0.10.0-pyh9f0ad1d_0
++conda-forge/noarch::jsonschema-3.2.0-pyhd8ed1ab_3
++conda-forge/noarch::jupyter_client-6.1.12-pyhd8ed1ab_0
++conda-forge/noarch::jupyterlab_pygments-0.1.2-pyh9f0ad1d_0
++conda-forge/noarch::jupyterlab_widgets-1.0.0-pyhd8ed1ab_1
++conda-forge/noarch::matplotlib-inline-0.1.2-pyhd8ed1ab_2
++conda-forge/noarch::nbclient-0.5.3-pyhd8ed1ab_0
++conda-forge/noarch::nbformat-5.1.3-pyhd8ed1ab_0
++conda-forge/noarch::nest-asyncio-1.5.1-pyhd8ed1ab_0
++conda-forge/noarch::notebook-6.4.0-pyha770c72_0
++conda-forge/noarch::olefile-0.46-pyh9f0ad1d_1
++conda-forge/noarch::packaging-21.0-pyhd8ed1ab_0
++conda-forge/noarch::pandocfilters-1.4.2-py_1
++conda-forge/noarch::parquet-cpp-1.5.1-2
++conda-forge/noarch::parso-0.8.2-pyhd8ed1ab_0
++conda-forge/noarch::pickleshare-0.7.5-py_1003
++conda-forge/noarch::pip-21.2.2-pyhd8ed1ab_0
++conda-forge/noarch::prometheus_client-0.11.0-pyhd8ed1ab_0
++conda-forge/noarch::prompt-toolkit-3.0.19-pyha770c72_0
++conda-forge/noarch::pycparser-2.20-pyh9f0ad1d_2
++conda-forge/noarch::pydeck-0.6.2-pyh44b312d_0
++conda-forge/noarch::pygments-2.9.0-pyhd8ed1ab_0
++conda-forge/noarch::pyopenssl-20.0.1-pyhd8ed1ab_0
++conda-forge/noarch::pyparsing-2.4.7-pyh9f0ad1d_0
++conda-forge/noarch::python-dateutil-2.8.2-pyhd8ed1ab_0
++conda-forge/noarch::pytz-2021.1-pyhd8ed1ab_0
++conda-forge/noarch::requests-2.26.0-pyhd8ed1ab_0
++conda-forge/noarch::s3transfer-0.5.0-pyhd8ed1ab_0
++conda-forge/noarch::send2trash-1.7.1-pyhd8ed1ab_0
++conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
++conda-forge/noarch::smmap-3.0.5-pyh44b312d_0
++conda-forge/noarch::streamlit-0.85.1-pyhd8ed1ab_0
++conda-forge/noarch::testpath-0.5.0-pyhd8ed1ab_0
++conda-forge/noarch::toml-0.10.2-pyhd8ed1ab_0
++conda-forge/noarch::toolz-0.11.1-py_0
++conda-forge/noarch::traitlets-5.0.5-py_0
++conda-forge/noarch::typing_extensions-3.10.0.0-pyha770c72_0
++conda-forge/noarch::tzdata-2021a-he74cb21_1
++conda-forge/noarch::tzlocal-2.1-pyh9f0ad1d_0
++conda-forge/noarch::urllib3-1.26.6-pyhd8ed1ab_0
++conda-forge/noarch::validators-0.18.2-pyhd3deb0d_0
++conda-forge/noarch::wcwidth-0.2.5-pyh9f0ad1d_2
++conda-forge/noarch::webencodings-0.5.1-py_1
++conda-forge/noarch::wheel-0.36.2-pyhd3deb0d_0
++conda-forge/noarch::zipp-3.5.0-pyhd8ed1ab_0
++conda-forge/win-64::abseil-cpp-20210324.2-h0e60522_0
++conda-forge/win-64::argon2-cffi-20.1.0-py39hb82d6ee_2
++conda-forge/win-64::arrow-cpp-5.0.0-py39hc57d9c8_1_cpu
++conda-forge/win-64::aws-c-cal-0.5.11-he19cf47_0
++conda-forge/win-64::aws-c-common-0.6.2-h8ffe710_0
++conda-forge/win-64::aws-c-event-stream-0.2.7-h70e1b0c_13
++conda-forge/win-64::aws-c-io-0.10.5-h2fe331c_0
++conda-forge/win-64::aws-checksums-0.1.11-h1e232aa_7
++conda-forge/win-64::aws-sdk-cpp-1.8.186-hb0612c5_3
++conda-forge/win-64::brotlipy-0.7.0-py39hb82d6ee_1001
++conda-forge/win-64::bzip2-1.0.8-h8ffe710_4
++conda-forge/win-64::c-ares-1.17.1-h8ffe710_1
++conda-forge/win-64::ca-certificates-2021.5.30-h5b45459_0
++conda-forge/win-64::certifi-2021.5.30-py39hcbf5309_0
++conda-forge/win-64::cffi-1.14.6-py39h0878f49_0
++conda-forge/win-64::chardet-4.0.0-py39hcbf5309_1
++conda-forge/win-64::cryptography-3.4.7-py39hd8d06c1_0
++conda-forge/win-64::debugpy-1.4.1-py39h415ef7b_0
++conda-forge/win-64::freetype-2.10.4-h546665d_1
++conda-forge/win-64::gflags-2.2.2-ha925a31_1004
++conda-forge/win-64::glog-0.5.0-h4797de2_0
++conda-forge/win-64::grpc-cpp-1.39.0-h89837c7_1
++conda-forge/win-64::importlib-metadata-4.6.3-py39hcbf5309_0
++conda-forge/win-64::intel-openmp-2021.3.0-h57928b3_3372
++conda-forge/win-64::ipykernel-6.0.3-py39h832f523_0
++conda-forge/win-64::ipython-7.26.0-py39h832f523_0
++conda-forge/win-64::jbig-2.1-h8d14728_2003
++conda-forge/win-64::jedi-0.18.0-py39hcbf5309_2
++conda-forge/win-64::jpeg-9d-h8ffe710_0
++conda-forge/win-64::jupyter_core-4.7.1-py39hcbf5309_0
++conda-forge/win-64::krb5-1.19.2-hbae68bd_0
++conda-forge/win-64::lcms2-2.12-h2a16943_0
++conda-forge/win-64::lerc-2.2.1-h0e60522_0
++conda-forge/win-64::libblas-3.9.0-10_mkl
++conda-forge/win-64::libbrotlicommon-1.0.9-h8ffe710_5
++conda-forge/win-64::libbrotlidec-1.0.9-h8ffe710_5
++conda-forge/win-64::libbrotlienc-1.0.9-h8ffe710_5
++conda-forge/win-64::libcblas-3.9.0-10_mkl
++conda-forge/win-64::libcurl-7.78.0-h789b8ee_0
++conda-forge/win-64::libdeflate-1.7-h8ffe710_5
++conda-forge/win-64::liblapack-3.9.0-10_mkl
++conda-forge/win-64::libpng-1.6.37-h1d00b33_2
++conda-forge/win-64::libprotobuf-3.16.0-h7755175_0
++conda-forge/win-64::libsodium-1.0.18-h8d14728_1
++conda-forge/win-64::libssh2-1.9.0-h680486a_6
++conda-forge/win-64::libthrift-0.14.2-h636ae23_1
++conda-forge/win-64::libtiff-4.3.0-h0c97f57_1
++conda-forge/win-64::libutf8proc-2.6.1-hcb41399_0
++conda-forge/win-64::lz4-c-1.9.3-h8ffe710_1
++conda-forge/win-64::markupsafe-2.0.1-py39hb82d6ee_0
++conda-forge/win-64::mistune-0.8.4-py39hb82d6ee_1004
++conda-forge/win-64::mkl-2021.3.0-hb70f87d_564
++conda-forge/win-64::nbconvert-6.1.0-py39hcbf5309_0
++conda-forge/win-64::numpy-1.21.1-py39h6635163_0
++conda-forge/win-64::openjpeg-2.4.0-hb211442_1
++conda-forge/win-64::openssl-1.1.1k-h8ffe710_0
++conda-forge/win-64::pandas-1.2.5-py39h2e25243_0
++conda-forge/win-64::pandoc-2.14.1-h8ffe710_0
++conda-forge/win-64::pillow-8.3.1-py39h916092e_0
++conda-forge/win-64::protobuf-3.16.0-py39h415ef7b_0
++conda-forge/win-64::pyarrow-5.0.0-py39hf9247be_1_cpu
++conda-forge/win-64::pyrsistent-0.17.3-py39hb82d6ee_2
++conda-forge/win-64::pysocks-1.7.1-py39hcbf5309_3
++conda-forge/win-64::python-3.9.6-h7840368_1_cpython
++conda-forge/win-64::python_abi-3.9-2_cp39
++conda-forge/win-64::pywin32-300-py39hb82d6ee_0
++conda-forge/win-64::pywinpty-1.1.3-py39h99910a6_0
++conda-forge/win-64::pyyaml-5.4.1-py39hb82d6ee_0
++conda-forge/win-64::pyzmq-22.1.0-py39he46f08e_0
++conda-forge/win-64::re2-2021.06.01-h0e60522_0
++conda-forge/win-64::setuptools-49.6.0-py39hcbf5309_3
++conda-forge/win-64::snappy-1.1.8-ha925a31_3
++conda-forge/win-64::sqlite-3.36.0-h8ffe710_0
++conda-forge/win-64::tbb-2021.3.0-h2d74725_0
++conda-forge/win-64::terminado-0.10.1-py39hcbf5309_0
++conda-forge/win-64::tk-8.6.10-h8ffe710_1
++conda-forge/win-64::tornado-6.1-py39hb82d6ee_1
++conda-forge/win-64::ucrt-10.0.20348.0-h57928b3_0
++conda-forge/win-64::vc-14.2-hb210afc_5
++conda-forge/win-64::vs2015_runtime-14.29.30037-h902a5da_5
++conda-forge/win-64::watchdog-2.1.3-py39hcbf5309_0
++conda-forge/win-64::widgetsnbextension-3.5.1-py39hcbf5309_4
++conda-forge/win-64::win_inet_pton-1.1.0-py39hcbf5309_2
++conda-forge/win-64::wincertstore-0.2-py39hcbf5309_1006
++conda-forge/win-64::winpty-0.4.3-4
++conda-forge/win-64::xz-5.2.5-h62dcd97_1
++conda-forge/win-64::yaml-0.2.5-he774522_0
++conda-forge/win-64::zeromq-4.3.4-h0e60522_0
++conda-forge/win-64::zlib-1.2.11-h62dcd97_1010
++conda-forge/win-64::zstd-1.5.0-h6255e5f_0
+# update specs: ['streamlit']
+==> 2021-08-03 17:02:01 <==
+# cmd: C:\Users\dnoell\Anaconda3\Scripts\conda-script.py install -c conda-forge pyperclip
+# conda version: 4.8.3
++conda-forge/noarch::pyperclip-1.8.2-pyhd8ed1ab_2
+# update specs: ['pyperclip']
+==> 2021-08-05 08:19:11 <==
+# cmd: C:\Users\dnoell\Anaconda3\Scripts\conda-script.py install -c conda-forge xlwings
+# conda version: 4.8.3
++conda-forge/win-64::xlwings-0.24.6-py39hcbf5309_0
+# update specs: ['xlwings']
+==> 2021-08-05 08:23:26 <==
+# cmd: C:\Users\dnoell\Anaconda3\Scripts\conda-script.py install -c conda-forge pypdf2
+# conda version: 4.8.3
++conda-forge/noarch::pypdf2-1.26.0-py_2
+# update specs: ['pypdf2']
