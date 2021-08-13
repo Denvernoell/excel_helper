@@ -1,21 +1,6 @@
 from math import floor
 
 
-# def akel_rgb(color):
-#     """Returns color as RGB"""
-
-#     if color == "Yellow1":
-#         return(255, 255, 204)
-#     if color == "Orange1":
-#         return(253, 233, 217)
-#     if color == "Blue1":
-#         return(79, 129, 189)
-#     if color == "Red1":
-#         return(192, 80, 77)
-#     if color == "Grey1":
-#         return(217, 217, 217)
-#     if color == "Grey2":
-#         return(128, 128, 128)
 akel_colors = {
     "Yellow1": (255, 255, 204),
     "Orange1": (253, 233, 217),
@@ -23,8 +8,10 @@ akel_colors = {
     "Red1": (192, 80, 77),
     "Grey1": (217, 217, 217),
     "Grey2": (128, 128, 128),
+    "Grey3": (191, 191, 191),
     "DarkGreen": (0, 176, 80),
     "Purple": (112, 48, 160),
+    "Black": (0, 0, 0),
 }
 
 

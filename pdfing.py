@@ -1,9 +1,7 @@
-from PyPDF2 import PdfFileReader, PdfFileWriter
-from pathlib import Path
-import os
-import pyperclip
-import xlwings as xw
-wb = xw.books.active
+# from PyPDF2 import PdfFileReader, PdfFileWriter
+# from pathlib import Path
+# import os
+# import pyperclip
 
 
 def create_room(file_path):
@@ -30,6 +28,7 @@ def create_room(file_path):
 
 def reorder_pdf(file_path, order_list):
     """Takes file path and order list and reorders the pages in the file to match the order_list"""
+    from PyPDF2 import PdfFileReader, PdfFileWriter
 
     pdf_writer = PdfFileWriter()
 
@@ -49,8 +48,22 @@ def reorder_pdf(file_path, order_list):
 # reorder_pdf(".pdf", [3, 6, 9, 1, 4, 7, 2, 5, 8])
 
 
+def extract_pages(pdf_path, pages, pdf_name):
+    from PyPDF2 import PdfFileReader, PdfFileWriter
+    pdf_writer = PdfFileWriter()
+    pdf_reader = PdfFileReader(pdf_path)
+    for page in pages:
+        # -1  is to account for 0 indexing
+        pdf_writer.addPage(pdf_reader.getPage(page-1))
+        with open(f'{pdf_name}.pdf', 'wb') as fh:
+            pdf_writer.write(fh)
+
+
 def export_pdf(wb, quantity='current'):
     """Creates PDF of all dark green sheets in workbook"""
+    from PyPDF2 import PdfFileReader, PdfFileWriter
+    # import xlwings as xw
+    # wb = xw.books.active
     from datetime import datetime
     import colors
     sht = wb.sheets.active
@@ -103,3 +116,22 @@ def export_pdf(wb, quantity='current'):
     #     'current':
     # }
 # export_pdf(wb, quantity='current')
+
+
+def export_word():
+    from docx2pdf import convert
+    my_path = r"P:\PROJECTS\Yakima\20562 - 2020 Sewer-Storm System Master Plans\Meetings\210810 - Master Plan Workshop"
+    for f in os.listdir(my_path):
+        try:
+            os.mkdir(f"{my_path}\PDFs")
+        except:
+            pass
+
+        p = Path(my_path + "\\" + f)
+    # Documents
+        if p.suffix == ".docx":
+            word_path = p
+            pdf_path = f"{p.parent}\\PDFs\\{p.stem}.pdf"
+            # print(word_path)
+            # print(pdf_path)
+            convert(word_path, pdf_path)

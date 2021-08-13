@@ -4,49 +4,32 @@ import xlwings as xw
 from pathlib import Path
 
 # app = xw.App(visible=False, add_book=False)
+
+
 app = xw.apps.active
-# wb = xw.books.active
 wb = app.books.active
 sht = wb.sheets.active
 rng = wb.selection
-
+ps = sht.api.PageSetup
 
 file_path = Path(wb.fullname)
 folder_path = file_path.parent
+workbook_name = file_path.name
 
-# All
-# my_action = st.sidebar.radio(
-#     'Action', ['address', 'borders', 'colors', 'pdf', 'sizing'])
 
-# Partial
 my_action = st.sidebar.radio(
-    'Action', ['pdf', 'sizing'])
+    'Action', ['PDF', 'Sizing', 'Page Setup', 'Tables'])
 
 
 st.title('Akel Helper')
 st.subheader(my_action)
+st.markdown(f"""
+Workbook: {workbook_name}
+
+Sheet: {sht.name}
+""")
 # -------------------------- Addresses -------------------------------------
-if my_action == 'address':
-    # address_type = st.multiselect('address type', [
-    #                               'row absolute', 'column absolute', 'include sheetname', 'external'])
-
-    # # st.write(address_type)
-    # if st.button('Show address'):
-    #     # st.write(address_type)
-    #     row_absolute = 'row absolute' in address_type
-    #     column_absolute = 'column absolute' in address_type
-    #     include_sheetname = 'include sheetname' in address_type
-    #     external = 'external' in address_type
-
-    #     my_address = rng.get_address(row_absolute=row_absolute, column_absolute=column_absolute,
-    #                                  include_sheetname=include_sheetname, external=external)
-    #     pyperclip.copy(my_address)
-    #     st.write(my_address)
-
-    # address_type = st.multiselect('address type', [
-    #                               'row absolute', 'column absolute', 'include sheetname', 'external'])
-
-    # st.write(address_type)
+if my_action == 'Address':
     row_absolute = st.checkbox('row absolute')
     column_absolute = st.checkbox('column absolute')
     include_sheetname = st.checkbox('include sheetname')
@@ -66,23 +49,39 @@ if my_action == 'address':
 
 # -------------------------- Pdfing -------------------------------------
 
-if my_action == 'pdf':
+if my_action == 'PDF':
     import pdfing
 
-    pdf_types = ['current', 'chapter', 'all']
-    for t in pdf_types:
-        if st.button(t):
-            app.screen_updating = False
-            pdfing.export_pdf(wb, quantity=t)
-            app.screen_updating = True
+    c1, c2 = st.beta_columns(2)
+
+    with c1:
+        pdf_types = ['current', 'chapter', 'all']
+        for t in pdf_types:
+            if st.button(t):
+                app.screen_updating = False
+                pdfing.export_pdf(wb, quantity=t)
+                app.screen_updating = True
+                st.success(pyperclip.paste())
+    with c2:
+        # with st.beta_expander("Help"):
+        st.video('pdfing.webm')
+
+if my_action == 'Page Setup':
+
+    # Print settings
+    import print_settings
+
+    page_type = st.radio('Page Type', ['Table', 'Figure'])
+
+    orienation = st.radio('Orienation', ['Portrait', 'Landscape'])
+    size = st.radio('Page Size', ['Normal', 'Extended'])
+    width = st.number_input('Width', min_value=1)
+    height = st.number_input('Height', min_value=1)
+    if st.button('Set Page Size'):
+        print_settings.margins(ps, page_type)
+        print_settings.print_properties(ps, orienation, size, width, height)
 
 
-# -------------------------- Borders -------------------------------------
-
-if my_action == 'borders':
-    if st.button('Create border'):
-        import borders
-        borders.borderer(rng)
 # -------------------------- Colors -------------------------------------
 
 if my_action == 'colors':
@@ -92,7 +91,7 @@ if my_action == 'colors':
 
 # -------------------------- Sizing -------------------------------------
 
-if my_action == 'sizing':
+if my_action == 'Sizing':
     import sizing
 
     a, b = st.beta_columns(2)
@@ -110,7 +109,32 @@ if my_action == 'sizing':
     #     'Set Width': '.\\right-arrow-forward.png',
     # }
     # st.image('.\\right-arrow-forward.png')
-    for key, value in sizing_dict.items():
-        # st.beta_columns(len(sizing_dict))
-        if st.button(key):
-            value(rng)
+    c1, c2 = st.beta_columns(2)
+
+    with c1:
+        for key, value in sizing_dict.items():
+            # st.beta_columns(len(sizing_dict))
+            if st.button(key):
+                value(rng)
+    with c2:
+        st.video('Sizing.webm')
+
+# -------------------------- Tables -------------------------------------
+if my_action == 'Tables':
+    import tables
+    import borders
+
+    options_dict = {
+        'Highlighter': tables.table_highligher,
+        'Grey borders': tables.table_grey_lines,
+    }
+
+    c1, c2 = st.beta_columns(2)
+
+    with c1:
+        for key, value in options_dict.items():
+            # st.beta_columns(len(sizing_dict))
+            if st.button(key):
+                value(rng)
+    with c2:
+        st.video('Tables.webm')
